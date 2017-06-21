@@ -116,6 +116,7 @@
       <div class="row">
         <div class="col-sm-6 footerleft ">
           texto de prueba
+		  <span class="glyphicon glyphicon-superscript" aria-hidden="true"></span>
         </div>
       </div>
     </div>
