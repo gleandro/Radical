@@ -1,0 +1,66 @@
+body{
+  width: 1920px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F252F;
+  height: 398px;
+}
+
+footer div.container div.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_red{
+  color: #E2231A;
+}
+
+.text_white{
+  color: white;
+}
+
+div.item img{
+  height: 1000px;
+}
+
+div.item img.ver{
+  height: 30px;
+  width: 120px;
+}
+
+a img.flecha{
+  height: 50px;
+  width: 50px;
+  top: 50%;
+  display: inline-block;
+  position: absolute;
+}
+
+a.left{
+  text-align: right;
+  padding-right: 10%;
+}
+a.right{
+  text-align: left;
+  padding-left: 10%;
+}
+
+
+
+
+
+div span.top{
+  font-size: 50px;
+}
+
+div span.back{
+  font-size: 40px;
+}
+
+.carousel-caption{
+  padding-bottom: 380px;
+}
