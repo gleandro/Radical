@@ -91,32 +91,34 @@
     <script src="/radical/application/helpers/js/bootstrap.js"></script>
   </body>
 
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-sm-6 footerleft ">
-          <div class="logofooter"> Logo</div>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-          <p><i class="fa fa-map-pin"></i> 210, Aggarwal Tower, Rohini sec 9, New Delhi - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;110085, INDIA</p>
+  <footer style="background-color:#1F252F;height: 398px;display: flex;justify-content: center;align-items: center;">
+    <div class="container" >
+      <div class="row" style="display: flex;justify-content: center;align-items: center;">
 
+        <div class="col-md-3 col-sm-6">
+          <div style="color:red">Dirección:</div>
+          <span>Calle German Schreiber 276</span><br>
+          <span>San Isidro - Lima - Perú</span>
         </div>
-        <div class="col-md-4 col-sm-6 paddingtop-bottom">
-          <h6 class="heading7">GENERAL LINKS</h6>
-          <ul class="footer-ul">
-            <li><a href="#"> Career</a></li>
-          </ul>
+        <div class="col-md-2 col-sm-6 paddingtop-bottom">
+          <div style="color:red">Teléfono:</div>
+          <span>+51 | 4697684</span>
         </div>
-        <div class="col-md-4 col-sm-6 paddingtop-bottom">
-          <h6 class="heading7">LATEST POST</h6>
-          <div class="post">
-            <p>facebook crack the movie advertisment code:what it means for you <span>August 3,2015</span></p>
-          </div>
+        <div class="col-md-2 col-sm-6 paddingtop-bottom">
+          <div style="color:red">Mail</div>
+          <span>ingo@rfidperu.pe</span>
         </div>
+
       </div>
-      <div class="row">
-        <div class="col-sm-6 footerleft ">
-          texto de prueba
-		  <span class="glyphicon glyphicon-superscript" aria-hidden="true"></span>
+      <div class="row" style="display: flex;justify-content: center;align-items: center;">
+        <div class="col-md-1">
+          <img style="width:35%" src="/radical/application/helpers/iconos/footer/icono-de-face.png" alt="">
+          </div>
+          <div class="col-md-1">
+          <img style="width:35%" src="/radical/application/helpers/iconos/footer/twitter.png" alt="">
+          </div>
+          <div class="col-md-1">
+          <img style="width:35%" src="/radical/application/helpers/iconos/footer/yt.png" alt="">
         </div>
       </div>
     </div>
