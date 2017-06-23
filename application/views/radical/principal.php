@@ -17,6 +17,7 @@
         <li data-target="#carousel-example-generic" data-slide-to="4"></li>
         <li data-target="#carousel-example-generic" data-slide-to="5"></li>
         <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="7"></li>
       </ol>
 
       <!-- Wrapper for slides -->
@@ -24,7 +25,6 @@
         <div class="item active">
           <img src="/radical/application/helpers/images/carousel/home.jpg" alt="...">
           <div class="carousel-caption">
-            ...
           </div>
         </div>
         <div class="item">
@@ -95,13 +95,106 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    <div style="height: 277px; background-color:gray">
-
+    <div class="bloque">
+      <div class="row">
+        <div class="top">
+          <span class="barra" style="background-color:#E2231A"></span>
+          <span class="barra" style="background-color:#E53131"></span>
+          <span class="barra" style="background-color:#EA5C2D"></span>
+          <span class="barra" style="background-color:#F29224"></span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <span class="aviso">Soluciones a medida de cada&nbsp;</span><span class="text_red  aviso"> cliente</span>
+        </div>
+      </div>
+        <div class="row">
+          <div class="bot">
+            <span class="barra" style="background-color:#E2231A"></span>
+            <span class="barra" style="background-color:#E53131"></span>
+            <span class="barra" style="background-color:#EA5C2D"></span>
+            <span class="barra" style="background-color:#F29224"></span>
+          </div>
+        </div>
+    </div>
+    <div class="cuerpo" >
+      <img class="fondotop" src="/radical/application/helpers/images/cuerpo/adorno-superior.png" alt="">
+      <img class="fondobot" align="right" src="/radical/application/helpers/images/cuerpo/adorno-inferior.png" alt="">
+      <div class="linea">
+        <div >
+          <img src="/radical/application/helpers/images/cuerpo/1.png" alt="">
+          <div class="centro">
+            <span>CONTROL DE </span>
+            <span>ACTIVOS</span>
+          </div>
+        </div>
+        <div>
+          <img src="/radical/application/helpers/images/cuerpo/2.png" alt="">
+          <div class="centro">
+            <span>TRAZABILIDAD DE</span>
+            <span>CARGA</span>
+          </div>
+        </div>
+        <div>
+          <img src="/radical/application/helpers/images/cuerpo/3.png" alt="">
+          <div class="centro">
+            <span>CONTROL DE</span>
+            <span>RETAIL E INVENTARIOS</span>
+          </div>
+        </div>
+      </div>
+      <div class="linea">
+        <div>
+          <img src="/radical/application/helpers/images/cuerpo/4.png" alt="">
+          <div class="centro">
+            <span>SALUD Y</span>
+            <span>TRAZABILIDAD</span>
+          </div>
+        </div>
+        <div>
+          <img src="/radical/application/helpers/images/cuerpo/5.png" alt="">
+          <div class="centro">
+            <span>SOLUCIÓN</span>
+            <span>OIL & GAS</span>
+          </div>
+        </div>
+        <div>
+          <img src="/radical/application/helpers/images/cuerpo/6.png" alt="">
+          <div class="centro">
+            <span>CONTROL PEAJE</span>
+          </div>
+        </div>
+      </div>
+      <div class="linea">
+        <div>
+          <img src="/radical/application/helpers/images/cuerpo/7.png" alt="">
+          <div class="centro">
+            <span>CONTROL DE</span>
+            <span>MASCOTAS</span>
+          </div>
+        </div>
+        <div>
+          <img src="/radical/application/helpers/images/cuerpo/8.png" alt="">
+          <div class="centro">
+            <span>SEGURIDAD</span>
+            <span>PÚBLICA</span>
+          </div>
+        </div>
+        <div>
+          <img src="/radical/application/helpers/images/cuerpo/9.png" alt="">
+          <div class="centro">
+            <span>MANEJO DE</span>
+            <span>DESASTRES</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bloque">
     </div>
     <script src="/radical/application/helpers/js/jquery-1.11.1.js"></script>
     <script src="/radical/application/helpers/js/bootstrap.js"></script>
   </body>
-<<<<<<< HEAD
   <footer>
     <div class="container" >
       <div class="row footer">
@@ -118,39 +211,15 @@
           <div class="text_red">Mail</div>
           <span class="text_white">info@rfidperu.pe</span>
         </div>
-
       </div>
       <div class="row footer">
-=======
-
-  <footer style="background-color:#1F252F;height: 398px;display: flex;justify-content: center;align-items: center;">
-    <div class="container" >
-      <div class="row" style="display: flex;justify-content: center;align-items: center;">
-
-        <div class="col-md-3 col-sm-6">
-          <div style="color:red">Dirección:</div>
-          <span>Calle German Schreiber 276</span><br>
-          <span>San Isidro - Lima - Perú</span>
-        </div>
-        <div class="col-md-2 col-sm-6 paddingtop-bottom">
-          <div style="color:red">Teléfono:</div>
-          <span>+51 | 4697684</span>
-        </div>
-        <div class="col-md-2 col-sm-6 paddingtop-bottom">
-          <div style="color:red">Mail</div>
-          <span>ingo@rfidperu.pe</span>
-        </div>
-
-      </div>
-      <div class="row" style="display: flex;justify-content: center;align-items: center;">
->>>>>>> e478436bdadc8eaaab65909a76065ef5a53eab32
         <div class="col-md-1">
           <img style="width:35%" src="/radical/application/helpers/iconos/footer/icono-de-face.png" alt="">
-          </div>
-          <div class="col-md-1">
+        </div>
+        <div class="col-md-1">
           <img style="width:35%" src="/radical/application/helpers/iconos/footer/twitter.png" alt="">
-          </div>
-          <div class="col-md-1">
+        </div>
+        <div class="col-md-1">
           <img style="width:35%" src="/radical/application/helpers/iconos/footer/yt.png" alt="">
         </div>
       </div>
