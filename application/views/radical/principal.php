@@ -23,8 +23,9 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img src="/radical/application/helpers/images/carousel/home.jpg" alt="...">
+          <img src="/radical/application/helpers/images/carousel/home.png" alt="...">
           <div class="carousel-caption">
+            <img class="logo" src="/radical/application/helpers/images/carousel/LOGO-BLANCO.png" alt="">
           </div>
         </div>
         <div class="item">
@@ -190,7 +191,7 @@
         </div>
       </div>
     </div>
-    <div class="bloque">
+    <div style="background-color:gray;" class="bloque">
     </div>
     <script src="/radical/application/helpers/js/jquery-1.11.1.js"></script>
     <script src="/radical/application/helpers/js/bootstrap.js"></script>
@@ -207,20 +208,27 @@
           <div class="text_red">Teléfono:</div>
           <span class="text_white">+51 | 4697684</span>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-3">
           <div class="text_red">Mail</div>
           <span class="text_white">info@rfidperu.pe</span>
         </div>
       </div>
+      <br>
       <div class="row footer">
         <div class="col-md-1">
-          <img style="width:35%" src="/radical/application/helpers/iconos/footer/icono-de-face.png" alt="">
+          <a href="https://www.facebook.com">
+            <img src="/radical/application/helpers/iconos/footer/icono-de-face.png" alt="">
+          </a>
         </div>
         <div class="col-md-1">
-          <img style="width:35%" src="/radical/application/helpers/iconos/footer/twitter.png" alt="">
+          <a href="https://twitter.com">
+            <img src="/radical/application/helpers/iconos/footer/twitter.png" alt="">
+          </a>
         </div>
         <div class="col-md-1">
-          <img style="width:35%" src="/radical/application/helpers/iconos/footer/yt.png" alt="">
+          <a href="https://www.youtube.com/">
+            <img src="/radical/application/helpers/iconos/footer/yt.png" alt="">
+          </a>
         </div>
       </div>
     </div>
