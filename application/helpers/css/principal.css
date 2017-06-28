@@ -1,6 +1,6 @@
 @font-face {
   font-family:CenturyGothic;
-  src:url(/radical/application/helpers/fonts/CenturyGothic.ttf);
+  src:url(/application/helpers/fonts/CenturyGothic.ttf);
 }
 
 body{
@@ -36,11 +36,28 @@ div.footer div a img{
   color: white;
 }
 
+.text_white_detalle{
+  color: white;
+  font-size: 140%;
+}
+
+.text_red_bold{
+  color: #E2231A;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.text_white_bold{
+  color: white;
+  font-weight: bold;
+  font-size: 180%;
+}
+
 div.item img{
   max-height: 100%;
 }
 
-div.item img.ver{
+div.item div a img.ver{
   height: 30px;
   width: 120px;
 }
@@ -68,10 +85,12 @@ a.right{
 
 div span.top{
   font-size: 50px;
+  font-weight: bold;
 }
 
 div span.back{
   font-size: 40px;
+  font-weight: bold;
 }
 
 
@@ -87,6 +106,17 @@ div span.back{
   font-size: 50px;
   font-family: CenturyGothic;
   font-weight: bold;
+}
+
+.titulo{
+  font-size: 180%;
+  font-family: CenturyGothic;
+  font-weight: bold;
+  padding-bottom: 9%;
+}
+.detalle{
+  font-size: 160%;
+  padding-top: 5%;
 }
 
 .barra{
@@ -110,6 +140,47 @@ div.bloque div.row{
   width: 100%;
   height: 100%;
   position: relative;
+}
+
+.cuerpodetalle{
+  background-color: #FAFBFC;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.cuerpodetalle div.row div.red{
+  background-color: #E2231A;
+}
+
+.cuerpodetalle div.row div.black{
+  background-color: #1F252F;
+}
+
+.cuerpodetalle div.row div.center{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    max-height: 500px;
+}
+
+.cuerpodetalle div.row div.center div.row div.left{
+    text-align: left;
+    padding-top: 3%;
+}
+
+.cuerpodetalle div.row div img{
+  width: 18%;
+}
+
+.ceromargin{
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.ceropadding{
+  padding-right: 0;
+  padding-left: 0;
 }
 
 div.cuerpo div.linea{
@@ -161,4 +232,61 @@ div.cuerpo div img{
   float: right;
   bottom: 5px;
   right: 5px;
+}
+
+.fichero{
+  background-color: white;
+  width: 100%;
+  min-height: 700px;
+  position: relative;
+}
+
+div.fichero .fondotop{
+  position: absolute;
+  width: 50%;
+  height: 65%;
+  top: 0px;
+  right: 0px;
+}
+div.fichero .fondobot{
+  position: absolute;
+  width: 60%;
+  height: 85%;
+  bottom: 0px;
+  left: 0px;
+}
+
+div.fichero div.primero{
+  position: absolute;
+  top: 17%;
+  left: 29%;
+  max-width: 20%;
+}
+
+div.fichero div.segundo{
+  position: absolute;
+  top: 25%;
+  left: 41%;
+  max-width: 20%;
+}
+
+div.fichero div.tercero{
+  position: absolute;
+  top: 51.5%;
+  left: 49%;
+  max-width: 20%;
+}
+
+div.fichero div.cuarto{
+  position: absolute;
+  top: 63%;
+  left: 62%;
+  max-width: 20%;
+}
+
+
+div.fichero * img.imagen{
+  width: 30%;
+  height: 30%;
+  padding-bottom: 6%;
 }
