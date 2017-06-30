@@ -4,7 +4,7 @@
     <meta charset="utf-8">
       <link href="<?php echo base_url(); ?>/application/helpers/css/bootstrap.css" rel="stylesheet">
       <link href="<?php echo base_url(); ?>/application/helpers/css/principal.css" rel="stylesheet">
-      <title>Control de activos</title>
+      <title>Control de retornables</title>
   </head>
   <body>
     <header>
@@ -13,13 +13,26 @@
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/img3.png" alt="...">
+          <div class="row center" style="position:absolute;width:100%">
+            <div class="col-md-2">
+              <a href="<?php echo base_url();?>" style="text-decoration:none;color:white"><span class="subray" id="best">SOLUCIONES</span></a>
+            </div>
+            <div class="col-md-2">
+              <a href="<?php echo base_url();?>Radical/exitos" style="text-decoration:none;color:white"><span class="subray">CASOS DE ÉXITO</span></a>
+            </div>
+            <div class="col-md-2">
+              <a href="<?php echo base_url();?>Radical/nosotros" style="text-decoration:none;color:white"><span class="subray">NOSOTROS</span></a>
+            </div>
+            <div class="col-md-2">
+              <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:white"><span class="subray">CONTACTO</span></a>
+            </div>
+          </div>
+          <img src="<?php echo base_url(); ?>/application/helpers/images/control/retornable/control-retornable-imagen-superior.jpg" alt="...">
           <div class="carousel-caption">
             <span class="top">CONTROL DE </span><span class="text_red top">RETORNABLES</span><br>
             <span class="back">CON TECNOLOGÍA RFID</span><br>
           </div>
         </div>
-
       </div>
     </div>
     <div class="bloque">
@@ -40,7 +53,7 @@
       <div class="row ceromargin">
         <div class="col-md-4 black center">
           <div class="">
-            <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/solucion-icono.png" alt="">
+            <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-3.png" alt="">
           </div>
           <div class="">
             <span class="text_white_bold">PROBLEMA</span>
@@ -73,7 +86,7 @@
         </div>
         <div class="col-md-4 red center">
           <div class="">
-            <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/solucion-icono.png" alt="">
+            <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-2.png" alt="">
           </div>
           <div class="">
             <span class="text_white_bold">SOLUCIÓN</span>
@@ -106,7 +119,7 @@
         </div>
         <div class="col-md-4 black center">
           <div class="">
-            <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/beneficio-icono.png" alt="">
+            <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-1.png" alt="">
           </div>
           <div class="">
             <span class="text_white_bold">BENEFICIO</span>
@@ -148,8 +161,8 @@
       </div>
     </div>
     <div class="fichero">
-      <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/retornable/cuerpo-1.png" alt="">
-      <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/retornable/cuerpo-2.png" alt="">
+      <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/control/retornable/cuerpo-1.png" alt="">
+      <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/control/retornable/cuerpo-2.png" alt="">
       <div class="primero">
         <div class="row text_red_bold">
           <div class="col-md-1">

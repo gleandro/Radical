@@ -13,6 +13,20 @@
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <div class="item active">
+          <div class="row center" style="position:absolute;width:100%">
+            <div class="col-md-2">
+              <a href="<?php echo base_url();?>" style="text-decoration:none;color:white"><span class="subray" id="best">SOLUCIONES</span></a>
+            </div>
+            <div class="col-md-2">
+              <a href="<?php echo base_url();?>Radical/exitos" style="text-decoration:none;color:white"><span class="subray">CASOS DE ÉXITO</span></a>
+            </div>
+            <div class="col-md-2">
+              <a href="<?php echo base_url();?>Radical/nosotros" style="text-decoration:none;color:white"><span class="subray">NOSOTROS</span></a>
+            </div>
+            <div class="col-md-2">
+              <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:white"><span class="subray">CONTACTO</span></a>
+            </div>
+          </div>
           <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/img2.png" alt="...">
           <div class="carousel-caption">
             <span class="top">CONTROL DE </span><span class="text_red top">ACTIVOS</span><br>
@@ -50,42 +64,50 @@
       <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/adorno-inferior.png" alt="">
       <div class="linea">
         <div>
-          <a href="<?php echo base_url(); ?>control_activos/control">
-          <img src="<?php echo base_url(); ?>/application/helpers/images/ver/control_activos/1.jpg" alt="">
+          <a href="<?php echo base_url(); ?>control_activos/retornables">
+            <img src="<?php echo base_url(); ?>/application/helpers/images/control/1.jpg" alt="">
           </a>
-          <div class="centro">
-            <span>CONTROL DE </span>
-            <span>ACTIVOS</span>
+          <div class="centro" style="text-align:left;padding-left:5%;">
+            <span>Control de </span>
+            <span>retornables</span>
           </div>
         </div>
         <div>
-          <img src="<?php echo base_url(); ?>/application/helpers/images/ver/control_activos/2.jpg" alt="">
-          <div class="centro">
-            <span>TRAZABILIDAD DE</span>
-            <span>CARGA</span>
+          <a href="<?php echo base_url(); ?>control_activos/Activos">
+            <img src="<?php echo base_url(); ?>/application/helpers/images/control/2.jpg" alt="">
+          </a>
+          <div class="centro" style="text-align:left;padding-left:5%;">
+            <span>Control de </span>
+            <span>Activos Fijos</span>
           </div>
         </div>
         <div>
-          <img src="<?php echo base_url(); ?>/application/helpers/images/ver/control_activos/3.jpg" alt="">
-          <div class="centro">
-            <span>CONTROL DE</span>
-            <span>RETAIL E INVENTARIOS</span>
+          <a href="<?php echo base_url(); ?>control_activos/equipos">
+            <img src="<?php echo base_url(); ?>/application/helpers/images/control/3.jpg" alt="">
+          </a>
+          <div class="centro" style="text-align:left;padding-left:5%;">
+            <span>Control de </span>
+            <span>Equipos TI</span>
           </div>
         </div>
       </div>
       <div class="linea" style="padding-left: 19.3%;padding-right: 19.3%;">
         <div>
-          <img src="<?php echo base_url(); ?>/application/helpers/images/ver/control_activos/4.jpg" alt="">
-          <div class="centro">
-            <span>SALUD Y</span>
-            <span>TRAZABILIDAD</span>
+          <a href="<?php echo base_url(); ?>control_activos/neumaticos">
+            <img src="<?php echo base_url(); ?>/application/helpers/images/control/4.jpg" alt="">
+          </a>
+          <div class="centro" style="text-align:left;padding-left:5%;">
+            <span>Control de </span>
+            <span>Neumáticos</span>
           </div>
         </div>
         <div>
-          <img src="<?php echo base_url(); ?>/application/helpers/images/ver/control_activos/5.jpg" alt="">
-          <div class="centro">
-            <span>SOLUCIÓN</span>
-            <span>OIL & GAS</span>
+          <a href="<?php echo base_url(); ?>control_activos/documental">
+            <img src="<?php echo base_url(); ?>/application/helpers/images/control/5.jpg" alt="">
+          </a>
+          <div class="centro" style="text-align:left;padding-left:5%;">
+            <span>Control </span>
+            <span>Documental</span>
           </div>
         </div>
       </div>

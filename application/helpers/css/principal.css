@@ -47,6 +47,12 @@ div.footer div a img{
   font-size: 120%;
 }
 
+.text_orange_bold{
+  color: #DA6612;
+  font-weight: bold;
+  font-size: 120%;
+}
+
 .text_white_bold{
   color: white;
   font-weight: bold;
@@ -75,12 +81,10 @@ a img.flecha{
 }
 
 a.left{
-  text-align: right;
-  padding-right: 10%;
+  text-align: left;
 }
 a.right{
   text-align: left;
-  padding-left: 10%;
 }
 
 div span.top{
@@ -279,9 +283,16 @@ div.fichero div.tercero{
 
 div.fichero div.cuarto{
   position: absolute;
-  top: 63%;
-  left: 62%;
+  top: 60%;
+  left: 60%;
   max-width: 20%;
+}
+
+div.fichero div.quinto{
+  position: absolute;
+  top: 68%;
+  left: 45%;
+  max-width: 100%;
 }
 
 
@@ -289,4 +300,20 @@ div.fichero * img.imagen{
   width: 30%;
   height: 30%;
   padding-bottom: 6%;
+}
+
+div.item div.center{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 120%;
+  top: 8%;
+}
+
+#best{
+  border-bottom-style:solid;
+  border-bottom-width:thick;
 }
