@@ -27,7 +27,7 @@
               <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:white"><span class="subray">CONTACTO</span></a>
             </div>
           </div>
-          <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/img4.png" alt="...">
+          <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/img4.jpg" alt="...">
           <div class="carousel-caption">
             <span class="top">CONTROL DE </span><span class="text_red top">RETAIL</span><br>
             <span class="top">E </span><span class="text_red top">INVENTARIO</span><br>
@@ -162,8 +162,8 @@
       </div>
     </div>
     <div class="fichero">
-      <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/control/activos/control-de-activos-IMAGEN-SUPERIOR-CUERPO.png" alt="">
-      <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/control/activos/control-de-activos-IMAGEN-INFERIOR-CUERPO.png" alt="">
+      <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/retail/superior.png" alt="">
+      <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/retail/inferior.png" alt="">
       <div class="primero">
         <div class="row text_red_bold">
           <div class="col-md-1">
@@ -223,7 +223,7 @@
       </div>
       <div class="cuarto">
         <div class="row" style="margin-left: 20%;">
-          <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/icon.png" alt="">
+          <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/retail/icono.png" alt="">
         </div>
         <div class="row text_red_bold">
           <div class="col-md-1">
@@ -245,6 +245,25 @@
     </div>
     <script src="<?php echo base_url(); ?>/application/helpers/js/jquery-1.11.1.js"></script>
     <script src="<?php echo base_url(); ?>/application/helpers/js/bootstrap.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $(".subray").mouseover(function() {
+        if ($(this)[0].id != "best") {
+          $("#best").css("border-bottom-style", "none");
+          $(this).css("border-bottom-style", "solid");
+          $(this).css("border-bottom-width", "thick");
+        }
+       });
+      $(".subray").mouseout(function() {
+        if ($(this)[0].id != "best") {
+          $(this).css("border-bottom-style", "none");
+          $("#best").css("border-bottom-style", "solid");
+          $("#best").css("border-bottom-width", "thick");
+        }
+       });
+
+    });
+    </script>
   </body>
   <footer>
     <div class="container" >

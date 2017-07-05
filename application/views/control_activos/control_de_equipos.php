@@ -27,7 +27,7 @@
               <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:white"><span class="subray">CONTACTO</span></a>
             </div>
           </div>
-          <img src="<?php echo base_url(); ?>/application/helpers/images/control/equipos/CONTROL-DE-EQUIPOS-TI-header.png" alt="...">
+          <img src="<?php echo base_url(); ?>/application/helpers/images/control/equipos/CONTROL-DE-EQUIPOS-TI-header.jpg" alt="...">
           <div class="carousel-caption">
             <span class="top">CONTROL DE </span><span class="text_red top">EQUIPOS TI</span><br>
             <span class="back">CON TECNOLOGÍA RFID</span><br>
@@ -50,7 +50,7 @@
     </div>
     <div class="cuerpodetalle" >
       <div class="row ceromargin">
-        <div class="col-md-4 black center">
+        <div class="col-md-4 black center" style="max-height: 510px;">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-3.png" alt="">
           </div>
@@ -81,9 +81,9 @@
               <span class="text_white_detalle">Ineficiencia en el uso de equipos.</span>
             </div>
           </div>
-          <br><br><br><br><br><br>
+          <br><br><br><br><br><br><br><br><br><br>
         </div>
-        <div class="col-md-4 red center">
+        <div class="col-md-4 red center" style="max-height: 510px;">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-2.png" alt="">
           </div>
@@ -106,9 +106,9 @@
               <span class="text_white_detalle">Validar al personal autorizado con cada equipo, así el sistema puede detectar fallas de seguridad o movimientos extraños.</span>
             </div>
           </div>
-          <br><br><br>
+          <br><br><br><br><br><br><br><br><br>
         </div>
-        <div class="col-md-4 black center">
+        <div class="col-md-4 black center" style="max-height: 510px;">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-1.png" alt="">
           </div>
@@ -155,6 +155,7 @@
               <span class="text_white_detalle">Visibilidad completa y real sobre el movimiento de los equipos.</span>
             </div>
           </div>
+          <br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
       </div>
     </div>
@@ -241,6 +242,25 @@
     </div>
     <script src="<?php echo base_url(); ?>/application/helpers/js/jquery-1.11.1.js"></script>
     <script src="<?php echo base_url(); ?>/application/helpers/js/bootstrap.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $(".subray").mouseover(function() {
+        if ($(this)[0].id != "best") {
+          $("#best").css("border-bottom-style", "none");
+          $(this).css("border-bottom-style", "solid");
+          $(this).css("border-bottom-width", "thick");
+        }
+       });
+      $(".subray").mouseout(function() {
+        if ($(this)[0].id != "best") {
+          $(this).css("border-bottom-style", "none");
+          $("#best").css("border-bottom-style", "solid");
+          $("#best").css("border-bottom-width", "thick");
+        }
+       });
+
+    });
+    </script>
   </body>
   <footer>
     <div class="container" >

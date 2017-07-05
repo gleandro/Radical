@@ -27,7 +27,7 @@
               <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:white"><span class="subray">CONTACTO</span></a>
             </div>
           </div>
-          <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/img6.png" alt="...">
+          <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/img6.jpg" alt="...">
           <div class="carousel-caption" style="right: 15%;left: 15%;">
             <span class="top">CONTROL DE CILINDROS DE </span><span class="text_red top">GAS</span><br>
             <span class="back">CON TECNOLOGÍA RFID</span><br>
@@ -153,14 +153,14 @@
       </div>
     </div>
     <div class="fichero">
-      <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/control/neumaticos/control-de-neumaticos-superior.png" alt="">
-      <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/control/neumaticos/control-de-neumaticos-inferior.png" alt="">
+      <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/gas/superior.png" alt="">
+      <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/gas/inferior.png" alt="">
       <div class="primero">
         <div class="row text_orange_bold">
-          <div class="col-md-1">
+          <div class="col-md-1" style="color: #9782BB">
             1.
           </div>
-          <div class="col-md-9">
+          <div class="col-md-9" style="color:#9782BB">
             ASOCIA
             <span style="color:#333; font-weight:normal;font-size:14px;"> cada</span>
           </div>
@@ -175,13 +175,13 @@
       </div>
       <div class="segundo">
         <div class="row" style="margin-left: 10%;">
-          <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/icon.png" alt="">
+          <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/gas/icono.png" alt="">
         </div>
         <div class="row text_orange_bold">
-          <div class="col-md-1">
+          <div class="col-md-1" style="color: #9782BB">
             2.
           </div>
-          <div class="col-md-9">
+          <div class="col-md-9" style="color: #9782BB">
             LECTURA
             <span style="color:#333; font-weight:normal;font-size:14px;"> a</span>
           </div>
@@ -196,10 +196,10 @@
       </div>
       <div class="tercero" style="left: 52%;">
         <div class="row text_orange_bold">
-          <div class="col-md-1">
+          <div class="col-md-1" style="color: #9782BB">
             3.
           </div>
-          <div class="col-md-9">
+          <div class="col-md-9" style="color: #9782BB">
             REDUCCIÓN
             <span style="color:#333; font-weight:normal;font-size:14px;"> de tiempo</span>
           </div>
@@ -214,13 +214,13 @@
       </div>
       <div class="cuarto" style="top: 65%;left: 65%;">
         <div class="row" style="margin-left: 20%;">
-          <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/icon.png" alt="">
+          <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/gas/icono-2.png" alt="">
         </div>
         <div class="row text_orange_bold">
-          <div class="col-md-1">
+          <div class="col-md-1" style="color: #9782BB">
             4.
           </div>
-          <div class="col-md-9">
+          <div class="col-md-9" style="color: #9782BB">
             REDUCE
             <span style="color:#333; font-weight:normal;font-size:14px;"> la tasa</span>
           </div>
@@ -234,11 +234,30 @@
         </div>
       </div>
       <div class="quinto">
-        <img style="width: 35%;" class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/neumaticos/logo-tire-sense.png" alt="">
+        <img style="width: 35%;" class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/gas/safegas.png" alt="">
       </div>
     </div>
     <script src="<?php echo base_url(); ?>/application/helpers/js/jquery-1.11.1.js"></script>
     <script src="<?php echo base_url(); ?>/application/helpers/js/bootstrap.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $(".subray").mouseover(function() {
+        if ($(this)[0].id != "best") {
+          $("#best").css("border-bottom-style", "none");
+          $(this).css("border-bottom-style", "solid");
+          $(this).css("border-bottom-width", "thick");
+        }
+       });
+      $(".subray").mouseout(function() {
+        if ($(this)[0].id != "best") {
+          $(this).css("border-bottom-style", "none");
+          $("#best").css("border-bottom-style", "solid");
+          $("#best").css("border-bottom-width", "thick");
+        }
+       });
+
+    });
+    </script>
   </body>
   <footer style="position: relative;">
     <div class="container" >

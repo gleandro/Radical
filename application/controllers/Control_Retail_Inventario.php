@@ -5,7 +5,7 @@ class Control_retail_inventario extends CI_Controller{
 
   function index()
   {
-    $this->load->view('Control_retail_inventario/index');
+    $this->load->view('Control_Retail_Inventario/index');
   }
 
 }

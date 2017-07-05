@@ -14,28 +14,36 @@
       <div class="col-md-2">
         <img style="width: 100%;" class="logo" src="<?php echo base_url(); ?>/application/helpers/images/carousel/LOGO-COLORES.png" alt="">
       </div>
-      <div class="col-md-2">
-        <a href="<?php echo base_url();?>" style="text-decoration:none;color:black"><span class="subray">SOLUCIONES</span></a>
-      </div>
-      <div class="col-md-2">
-        <a href="<?php echo base_url();?>Radical/exitos" style="text-decoration:none;color:black"><span class="subray" id="best">CASOS DE ÉXITO</span></a>
-      </div>
-      <div class="col-md-2">
-        <a href="<?php echo base_url();?>Radical/nosotros" style="text-decoration:none;color:black"><span class="subray">NOSOTROS</span></a>
-      </div>
-      <div class="col-md-2">
-        <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:black"><span class="subray">CONTACTO</span></a>
+      <div class="col-md-1">
       </div>
       <div class="col-md-1">
+      </div>
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-1" style="width: 9%;">
+        <a href="<?php echo base_url();?>" class="scroll" style="text-decoration:none;color:black"><span class="subray">SOLUCIONES</span></a>
+      </div>
+      <div class="col-md-1" style="width: 12%;">
+        <a href="<?php echo base_url();?>Radical/exitos" style="text-decoration:none;color:black"><span class="subray">CASOS DE ÉXITO</span></a>
+      </div>
+      <div class="col-md-1">
+        <a href="<?php echo base_url();?>Radical/nosotros" style="text-decoration:none;color:black"><span class="subray" >NOSOTROS</span></a>
+      </div>
+      <div class="col-md-1">
+        <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:black"><span class="subray" id="best">CONTACTO</span></a>
       </div>
     </div>
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img src="<?php echo base_url(); ?>/application/helpers/images/header.png" alt="...">
-          <div class="carousel-caption center">
-            <div class="">
-              <span class="top">------CONTACTANOS------ </span>
+          <img src="<?php echo base_url(); ?>/application/helpers/images/CONTACTO.jpg" alt="...">
+          <div class="carousel-caption center" style="top: 45%;">
+            <div class="" style="width: 40%;opacity: 0.7;">
+              <span class="top">CONTACTANOS</span>
               <form role="form">
                 <div class="input-group input-group-lg" style="width: 100%;">
                   <input type="text" class="form-control" placeholder="Nombre:" aria-describedby="sizing-addon1">

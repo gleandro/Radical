@@ -4,7 +4,7 @@
     <meta charset="utf-8">
       <link href="<?php echo base_url(); ?>/application/helpers/css/bootstrap.css" rel="stylesheet">
       <link href="<?php echo base_url(); ?>/application/helpers/css/principal.css" rel="stylesheet">
-      <title>Control de cilindros de gas</title>
+      <title>Control de mascotas</title>
   </head>
   <body>
     <header>
@@ -27,7 +27,7 @@
               <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:white"><span class="subray">CONTACTO</span></a>
             </div>
           </div>
-          <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/img7.png" alt="...">
+          <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/img7.jpg" alt="...">
           <div class="carousel-caption">
             <span class="top">CONTROL DE </span><span class="text_red top">MASCOTAS</span><br>
             <span class="back">CON TECNOLOGÍA RFID</span><br>
@@ -50,7 +50,7 @@
     </div>
     <div class="cuerpodetalle" >
       <div class="row ceromargin">
-        <div class="col-md-4 black center" style="max-height: 540px;">
+        <div class="col-md-4 black center">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-3.png" alt="">
           </div>
@@ -83,7 +83,7 @@
           </div>
           <br><br><br><br><br><br><br><br>
         </div>
-        <div class="col-md-4 red center" style="max-height: 540px;">
+        <div class="col-md-4 red center">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-2.png" alt="">
           </div>
@@ -108,7 +108,7 @@
           </div>
           <br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
-        <div class="col-md-4 black center" style="max-height: 540px;">
+        <div class="col-md-4 black center">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-1.png" alt="">
           </div>
@@ -144,14 +144,14 @@
       </div>
     </div>
     <div class="fichero">
-      <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/control/neumaticos/control-de-neumaticos-superior.png" alt="">
-      <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/control/neumaticos/control-de-neumaticos-inferior.png" alt="">
+      <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/mascotas/superior.png" alt="">
+      <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/mascotas/inferior.png" alt="">
       <div class="primero">
         <div class="row text_orange_bold">
-          <div class="col-md-1">
+          <div class="col-md-1" style="color:#8BAA52">
             1.
           </div>
-          <div class="col-md-9">
+          <div class="col-md-9" style="color:#8BAA52">
             CERTIFICADO VIRTUAL DE NACIMIENTO
           </div>
         </div>
@@ -165,13 +165,13 @@
       </div>
       <div class="segundo">
         <div class="row" style="margin-left: 10%;">
-          <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/icon.png" alt="">
+          <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/mascotas/icono.png" alt="">
         </div>
         <div class="row text_orange_bold">
-          <div class="col-md-1">
+          <div class="col-md-1" style="color:#8BAA52">
             2.
           </div>
-          <div class="col-md-9">
+          <div class="col-md-9" style="color:#8BAA52">
             RED SOCIAL DE MASCOTAS
           </div>
         </div>
@@ -185,10 +185,10 @@
       </div>
       <div class="tercero" style="left: 52%;">
         <div class="row text_orange_bold">
-          <div class="col-md-1">
+          <div class="col-md-1" style="color:#8BAA52">
             3.
           </div>
-          <div class="col-md-9">
+          <div class="col-md-9" style="color:#8BAA52">
             REGISTRA
             <span style="color:#333; font-weight:normal;font-size:14px;"> a tu</span>
           </div>
@@ -203,13 +203,13 @@
       </div>
       <div class="cuarto" style="top: 65%;left: 65%;">
         <div class="row" style="margin-left: 20%;">
-          <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/icon.png" alt="">
+          <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/mascotas/icono-2.png" alt="">
         </div>
         <div class="row text_orange_bold">
-          <div class="col-md-1">
+          <div class="col-md-1" style="color:#8BAA52">
             4.
           </div>
-          <div class="col-md-9">
+          <div class="col-md-9" style="color:#8BAA52">
             RECIBE NOTIFICACIONES
           </div>
         </div>
@@ -222,11 +222,30 @@
         </div>
       </div>
       <div class="quinto">
-        <img style="width: 35%;" class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/neumaticos/logo-tire-sense.png" alt="">
+        <img style="width: 35%;" class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/mascotas/logo-upet.png" alt="">
       </div>
     </div>
     <script src="<?php echo base_url(); ?>/application/helpers/js/jquery-1.11.1.js"></script>
     <script src="<?php echo base_url(); ?>/application/helpers/js/bootstrap.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $(".subray").mouseover(function() {
+        if ($(this)[0].id != "best") {
+          $("#best").css("border-bottom-style", "none");
+          $(this).css("border-bottom-style", "solid");
+          $(this).css("border-bottom-width", "thick");
+        }
+       });
+      $(".subray").mouseout(function() {
+        if ($(this)[0].id != "best") {
+          $(this).css("border-bottom-style", "none");
+          $("#best").css("border-bottom-style", "solid");
+          $("#best").css("border-bottom-width", "thick");
+        }
+       });
+
+    });
+    </script>
   </body>
   <footer style="position: relative;">
     <div class="container" >

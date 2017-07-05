@@ -27,13 +27,12 @@
               <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:white"><span class="subray">CONTACTO</span></a>
             </div>
           </div>
-          <img src="<?php echo base_url(); ?>/application/helpers/images/header.png" alt="...">
+          <img src="<?php echo base_url(); ?>/application/helpers/images/salud/salud-y-trazabilidad.jpg" alt="...">
           <div class="carousel-caption">
             <span class="top">SALUD Y </span><span class="text_red top">TRAZABILIDAD</span><br>
             <span class="back">CON TECNOLOGÍA RFID</span><br>
           </div>
         </div>
-
       </div>
     </div>
     <div class="bloque">
@@ -65,7 +64,7 @@
       <div class="linea" style="padding-bottom: 8%;padding-left: 15%;padding-right: 15%;padding-top: 4%;">
         <div>
           <a href="<?php echo base_url(); ?>Salud_y_Trazabilidad/medicamentos">
-            <img src="<?php echo base_url(); ?>/application/helpers/images/item.jpg" alt="">
+            <img src="<?php echo base_url(); ?>/application/helpers/images/salud/1.jpg" alt="">
           </a>
           <div class="centro" style="text-align:left;padding-left:5%;">
             <span>Trazabilidad de</span>
@@ -74,7 +73,7 @@
         </div>
         <div>
           <a href="<?php echo base_url(); ?>Salud_y_Trazabilidad/seguimiento">
-            <img src="<?php echo base_url(); ?>/application/helpers/images/item.jpg" alt="">
+            <img src="<?php echo base_url(); ?>/application/helpers/images/salud/2.jpg" alt="">
           </a>
           <div class="centro" style="text-align:left;padding-left:5%;">
             <span>Seguimiento de</span>
@@ -88,6 +87,25 @@
     </div>
     <script src="<?php echo base_url(); ?>/application/helpers/js/jquery-1.11.1.js"></script>
     <script src="<?php echo base_url(); ?>/application/helpers/js/bootstrap.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $(".subray").mouseover(function() {
+        if ($(this)[0].id != "best") {
+          $("#best").css("border-bottom-style", "none");
+          $(this).css("border-bottom-style", "solid");
+          $(this).css("border-bottom-width", "thick");
+        }
+       });
+      $(".subray").mouseout(function() {
+        if ($(this)[0].id != "best") {
+          $(this).css("border-bottom-style", "none");
+          $("#best").css("border-bottom-style", "solid");
+          $("#best").css("border-bottom-width", "thick");
+        }
+       });
+
+    });
+    </script>
   </body>
   <footer>
     <div class="container" >

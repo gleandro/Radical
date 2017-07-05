@@ -27,7 +27,7 @@
               <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:white"><span class="subray">CONTACTO</span></a>
             </div>
           </div>
-          <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/img2.png" alt="...">
+          <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/img2.jpg" alt="...">
           <div class="carousel-caption">
             <span class="top">CONTROL DE </span><span class="text_red top">ACTIVOS</span><br>
             <span class="back">CON TECNOLOGÍA RFID</span><br>
@@ -64,7 +64,7 @@
       <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/adorno-inferior.png" alt="">
       <div class="linea">
         <div>
-          <a href="<?php echo base_url(); ?>control_activos/retornables">
+          <a href="<?php echo base_url(); ?>control_Activos/retornables">
             <img src="<?php echo base_url(); ?>/application/helpers/images/control/1.jpg" alt="">
           </a>
           <div class="centro" style="text-align:left;padding-left:5%;">
@@ -73,7 +73,7 @@
           </div>
         </div>
         <div>
-          <a href="<?php echo base_url(); ?>control_activos/Activos">
+          <a href="<?php echo base_url(); ?>control_Activos/Activos">
             <img src="<?php echo base_url(); ?>/application/helpers/images/control/2.jpg" alt="">
           </a>
           <div class="centro" style="text-align:left;padding-left:5%;">
@@ -82,7 +82,7 @@
           </div>
         </div>
         <div>
-          <a href="<?php echo base_url(); ?>control_activos/equipos">
+          <a href="<?php echo base_url(); ?>control_Activos/equipos">
             <img src="<?php echo base_url(); ?>/application/helpers/images/control/3.jpg" alt="">
           </a>
           <div class="centro" style="text-align:left;padding-left:5%;">
@@ -93,7 +93,7 @@
       </div>
       <div class="linea" style="padding-left: 19.3%;padding-right: 19.3%;">
         <div>
-          <a href="<?php echo base_url(); ?>control_activos/neumaticos">
+          <a href="<?php echo base_url(); ?>control_Activos/neumaticos">
             <img src="<?php echo base_url(); ?>/application/helpers/images/control/4.jpg" alt="">
           </a>
           <div class="centro" style="text-align:left;padding-left:5%;">
@@ -102,7 +102,7 @@
           </div>
         </div>
         <div>
-          <a href="<?php echo base_url(); ?>control_activos/documental">
+          <a href="<?php echo base_url(); ?>control_Activos/documental">
             <img src="<?php echo base_url(); ?>/application/helpers/images/control/5.jpg" alt="">
           </a>
           <div class="centro" style="text-align:left;padding-left:5%;">
@@ -116,6 +116,25 @@
     </div>
     <script src="<?php echo base_url(); ?>/application/helpers/js/jquery-1.11.1.js"></script>
     <script src="<?php echo base_url(); ?>/application/helpers/js/bootstrap.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $(".subray").mouseover(function() {
+        if ($(this)[0].id != "best") {
+          $("#best").css("border-bottom-style", "none");
+          $(this).css("border-bottom-style", "solid");
+          $(this).css("border-bottom-width", "thick");
+        }
+       });
+      $(".subray").mouseout(function() {
+        if ($(this)[0].id != "best") {
+          $(this).css("border-bottom-style", "none");
+          $("#best").css("border-bottom-style", "solid");
+          $("#best").css("border-bottom-width", "thick");
+        }
+       });
+
+    });
+    </script>
   </body>
   <footer>
     <div class="container" >

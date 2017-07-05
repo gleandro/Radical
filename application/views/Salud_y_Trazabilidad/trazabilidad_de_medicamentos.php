@@ -27,7 +27,7 @@
               <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:white"><span class="subray">CONTACTO</span></a>
             </div>
           </div>
-          <img src="<?php echo base_url(); ?>/application/helpers/images/header.png" alt="...">
+          <img src="<?php echo base_url(); ?>/application/helpers/images/salud/medicamentos/medicamentos.jpg" alt="...">
           <div class="carousel-caption" style="right: 0; left: 0;">
             <span class="top">TRAZABILIDAD DE </span><span class="text_red top">MEDICAMENTOS</span><br>
             <span class="back">CON TECNOLOGÍA RFID</span><br>
@@ -145,8 +145,8 @@
       </div>
     </div>
     <div class="fichero">
-      <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/control/activos/control-de-activos-IMAGEN-SUPERIOR-CUERPO.png" alt="">
-      <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/control/activos/control-de-activos-IMAGEN-INFERIOR-CUERPO.png" alt="">
+      <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/salud/medicamentos/superior.png" alt="">
+      <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/salud/medicamentos/inferior.png" alt="">
       <div class="primero">
         <div class="row text_red_bold">
           <div class="col-md-1">
@@ -228,6 +228,25 @@
     </div>
     <script src="<?php echo base_url(); ?>/application/helpers/js/jquery-1.11.1.js"></script>
     <script src="<?php echo base_url(); ?>/application/helpers/js/bootstrap.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $(".subray").mouseover(function() {
+        if ($(this)[0].id != "best") {
+          $("#best").css("border-bottom-style", "none");
+          $(this).css("border-bottom-style", "solid");
+          $(this).css("border-bottom-width", "thick");
+        }
+       });
+      $(".subray").mouseout(function() {
+        if ($(this)[0].id != "best") {
+          $(this).css("border-bottom-style", "none");
+          $("#best").css("border-bottom-style", "solid");
+          $("#best").css("border-bottom-width", "thick");
+        }
+       });
+
+    });
+    </script>
   </body>
   <footer>
     <div class="container" >

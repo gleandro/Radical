@@ -27,7 +27,7 @@
               <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:white"><span class="subray">CONTACTO</span></a>
             </div>
           </div>
-          <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/img3.png" alt="...">
+          <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/img3.jpg" alt="...">
           <div class="carousel-caption">
             <span class="top">TRAZABILIDAD DE </span><span class="text_red top">CARGA</span><br>
             <span class="back">CON TECNOLOGÍA RFID</span><br>
@@ -64,8 +64,8 @@
       <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/adorno-inferior.png" alt="">
       <div class="linea" style="padding-bottom: 8%;padding-left: 15%;padding-right: 15%;padding-top: 4%;">
         <div>
-          <a href="<?php echo base_url(); ?>Trazabilidad_de_carga/contenedores">
-            <img src="<?php echo base_url(); ?>/application/helpers/images/item.jpg" alt="">
+          <a href="<?php echo base_url(); ?>Trazabilidad_de_Carga/contenedores">
+            <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/2.jpg" alt="">
           </a>
           <div class="centro" style="text-align:left;padding-left:5%;">
             <span>Control de </span>
@@ -73,8 +73,8 @@
           </div>
         </div>
         <div>
-          <a href="<?php echo base_url(); ?>Trazabilidad_de_carga/carga_suelta">
-            <img src="<?php echo base_url(); ?>/application/helpers/images/item.jpg" alt="">
+          <a href="<?php echo base_url(); ?>Trazabilidad_de_Carga/carga_suelta">
+            <img src="<?php echo base_url(); ?>/application/helpers/images/trazabilidad/2.jpg" alt="">
           </a>
           <div class="centro" style="text-align:left;padding-left:5%;">
             <span>Control de </span>
@@ -87,6 +87,25 @@
     </div>
     <script src="<?php echo base_url(); ?>/application/helpers/js/jquery-1.11.1.js"></script>
     <script src="<?php echo base_url(); ?>/application/helpers/js/bootstrap.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $(".subray").mouseover(function() {
+        if ($(this)[0].id != "best") {
+          $("#best").css("border-bottom-style", "none");
+          $(this).css("border-bottom-style", "solid");
+          $(this).css("border-bottom-width", "thick");
+        }
+       });
+      $(".subray").mouseout(function() {
+        if ($(this)[0].id != "best") {
+          $(this).css("border-bottom-style", "none");
+          $("#best").css("border-bottom-style", "solid");
+          $("#best").css("border-bottom-width", "thick");
+        }
+       });
+
+    });
+    </script>
   </body>
   <footer>
     <div class="container" >

@@ -32,6 +32,10 @@ div.footer div a img{
   color: #E2231A;
 }
 
+.text_black{
+  color: black
+}
+
 .text_white{
   color: white;
 }
@@ -44,7 +48,6 @@ div.footer div a img{
 .text_red_bold{
   color: #E2231A;
   font-weight: bold;
-  font-size: 120%;
 }
 
 .text_orange_bold{
@@ -59,8 +62,16 @@ div.footer div a img{
   font-size: 180%;
 }
 
+.text_black_bold{
+  color: black;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+
 div.item img{
   max-height: 100%;
+  width:100%
 }
 
 div.item div a img.ver{
@@ -124,8 +135,8 @@ div span.back{
 }
 
 .barra{
-  width: 35px;
-  height: 10px;
+  width: 60px;
+  height: 15px;
   display: table-cell;
 }
 .bot{
@@ -201,6 +212,7 @@ div.cuerpo div.linea div{
 }
 
 div.cuerpo div.linea div .centro{
+  font-weight: bold;
   position: absolute;
   top: 67.2%;
   width: 80%;
@@ -290,9 +302,9 @@ div.fichero div.cuarto{
 
 div.fichero div.quinto{
   position: absolute;
-  top: 68%;
-  left: 45%;
-  max-width: 100%;
+  top: 64%;
+  left: 47%;
+  max-width: 40%;
 }
 
 
@@ -317,3 +329,38 @@ div.item div.center{
   border-bottom-style:solid;
   border-bottom-width:thick;
 }
+
+.caja{
+    display: block;
+    -webkit-margin-start: 2px;
+    -webkit-margin-end: 2px;
+    -webkit-padding-before: 0.35em;
+    -webkit-padding-start: 0.75em;
+    -webkit-padding-end: 0.75em;
+    -webkit-padding-after: 0.625em;
+    min-width: -webkit-min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+}
+
+.video1{
+  position:absolute;
+  top:1%;
+  left:1%;
+}
+
+.video2{
+  position:absolute;
+  top:1%;
+  left:1%;
+}
+
+.video3{
+  position:absolute;
+  top:1%;
+  left:1%;
+}
+
+

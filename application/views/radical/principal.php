@@ -5,132 +5,47 @@
       <link href="<?php echo base_url(); ?>/application/helpers/css/bootstrap.css" rel="stylesheet">
       <link href="<?php echo base_url(); ?>/application/helpers/css/principal.css" rel="stylesheet">
       <title>Radical - WEB</title>
+      <link rel="shortcut icon" href="<?php echo base_url(); ?>/application/helpers/iconos/icono.png" type="image/png" />
   </head>
   <body>
     <header>
 
     </header>
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="6"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="7"></li>
-      </ol>
-
-      <!-- Wrapper for slides -->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <div class="row center" style="position:absolute;width:100%">
-            <div class="col-md-2">
-              <a href="<?php echo base_url();?>" style="text-decoration:none;color:white"><span class="subray" id="best">SOLUCIONES</span></a>
-            </div>
-            <div class="col-md-2">
-              <a href="<?php echo base_url();?>Radical/exitos" style="text-decoration:none;color:white"><span class="subray">CASOS DE ÉXITO</span></a>
-            </div>
-            <div class="col-md-3">
+          <div class="row center" style="position:absolute;width:100%;z-index: 10;">
+            <div class="col-md-2 col-lg-2" style="text-align: left;left: 5%;">
               <img class="logo" src="<?php echo base_url(); ?>/application/helpers/images/carousel/LOGO-BLANCO.png" alt="">
             </div>
-            <div class="col-md-2">
+            <div class="col-md-1 col-md-offset-4 col-lg-1 col-lg-offset-6">
+              <a href="#soluciones" class="scroll" style="text-decoration:none;color:white"><span class="subray" id="best">SOLUCIONES</span></a>
+            </div>
+            <div class="col-md-2 col-lg-1">
+              <a href="<?php echo base_url();?>Radical/exitos" style="text-decoration:none;color:white"><span class="subray">CASOS DE ÉXITO</span></a>
+            </div>
+            <div class="col-md-1 col-lg-1">
               <a href="<?php echo base_url();?>Radical/nosotros" style="text-decoration:none;color:white"><span class="subray">NOSOTROS</span></a>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-1 col-lg-1">
               <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:white"><span class="subray">CONTACTO</span></a>
             </div>
           </div>
-          <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/home.png" alt="...">
-          <div class="carousel-caption">
-            <img class="logo" src="<?php echo base_url(); ?>/application/helpers/images/carousel/LOGO-BLANCO.png" alt="">
-          </div>
-        </div>
-        <div class="item">
-          <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/img2.png" alt="...">
-          <div class="carousel-caption">
-            <span class="top">CONTROL DE </span><span class="text_red top">ACTIVOS</span><br>
-            <span class="back">CON TECNOLOGÍA RFID</span><br>
-            <a href="<?php echo base_url(); ?>Control_activos">
-              <img class="ver" src="<?php echo base_url(); ?>/application/helpers/images/carousel/ver.png" alt="">
+          <video style="width: 100%" src="<?php echo base_url(); ?>/application/helpers/images/header.mp4" autoplay preload loop></video>
+          <div class="carousel-caption" style="left: 5%;text-align-last: left;z-index: 10;padding-bottom: 23%;">
+            <span class="top" style="font-size: 350%;">Desarrollamos soluciones</span><br>
+            <span class="top" style="font-size: 350%;">radicales integrando</span><br>
+            <span class="top" style="font-size: 350%;">tecnologías RFID/NFC.</span><br>
+            <div>
+            <a href="#soluciones" class="scroll">
+              <img style="width: 10%;" src="<?php echo base_url(); ?>/application/helpers/images/boton.png" alt="...">
             </a>
-          </div>
-        </div>
-        <div class="item">
-          <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/img3.png" alt="...">
-          <div class="carousel-caption">
-            <span class="top">TRAZABILIDAD DE </span><span class="text_red top">CARGA</span><br>
-            <span class="back">CON TECNOLOGÍA RFID</span><br>
-            <a href="<?php echo base_url(); ?>Trazabilidad_de_carga">
-              <img class="ver" src="<?php echo base_url(); ?>/application/helpers/images/carousel/ver.png" alt="">
-            </a>
-          </div>
-        </div>
-        <div class="item">
-          <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/img4.png" alt="...">
-          <div class="carousel-caption">
-            <span class="top">CONTROL DE </span><span class="text_red top">RETAIL</span><br>
-            <span class="top">E </span><span class="text_red top">INVENTARIO</span><br>
-            <span class="back">CON TECNOLOGÍA RFID</span><br>
-            <a href="<?php echo base_url(); ?>Control_retail_inventario">
-              <img class="ver" src="<?php echo base_url(); ?>/application/helpers/images/carousel/ver.png" alt="">
-            </a>
-          </div>
-        </div>
-        <div class="item">
-          <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/img5.png" alt="...">
-          <div class="carousel-caption">
-            <span class="top">SALUD Y </span><span class="text_red top">TRAZABILIDAD</span><br>
-            <span class="back">CON TECNOLOGÍA RFID</span><br>
-            <a href="<?php echo base_url(); ?>Salud_y_Trazabilidad">
-              <img class="ver" src="<?php echo base_url(); ?>/application/helpers/images/carousel/ver.png" alt="">
-            </a>
-          </div>
-        </div>
-        <div class="item">
-          <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/img6.png" alt="...">
-          <div class="carousel-caption">
-            <span class="top">CONTROL DE CILINDRO DE </span><span class="text_red top">GAS</span><br>
-            <span class="back">CON TECNOLOGÍA RFID</span><br>
-            <a href="<?php echo base_url(); ?>Control_de_Gas">
-              <img class="ver" src="<?php echo base_url(); ?>/application/helpers/images/carousel/ver.png" alt="">
-            </a>
-          </div>
-        </div>
-        <div class="item">
-          <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/img7.png" alt="...">
-          <div class="carousel-caption">
-            <span class="top">CONTROL DE </span><span class="text_red top">MASCOTAS</span><br>
-            <span class="back">CON TECNOLOGÍA NFC</span><br>
-            <a href="<?php echo base_url(); ?>Control_de_Mascotas">
-              <img class="ver" src="<?php echo base_url(); ?>/application/helpers/images/carousel/ver.png" alt="">
-            </a>
-          </div>
-        </div>
-        <div class="item">
-          <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/img8.png" alt="...">
-          <div class="carousel-caption">
-            <span class="top">SOLUCIÓN DE CLONACIÓN DE </span><span class="text_red top">CELULAR</span><br>
-            <span class="back">CON TECNOLOGÍA NFC</span><br>
-            <a href="<?php echo base_url(); ?>Control_activos">
-              <img class="ver" src="<?php echo base_url(); ?>/application/helpers/images/carousel/ver.png" alt="">
-            </a>
+            </div>
           </div>
         </div>
       </div>
-      <!-- Controls -->
-      <a style="width: 9%;display: flex;justify-content: center;" class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-        <img class="flecha" src="<?php echo base_url(); ?>/application/helpers/images/carousel/IZQ.png" alt="">
-        <span class="sr-only">Previous</span>
-      </a>
-      <a style="width: 9%;display: flex;justify-content: center;" class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-        <img class="flecha" src="<?php echo base_url(); ?>/application/helpers/images/carousel/DERE.png" alt="">
-        <span class="sr-only">Next</span>
-      </a>
     </div>
-    <div class="bloque">
+    <div class="bloque" id="soluciones">
       <div class="row">
         <div class="top">
           <span class="barra" style="background-color:#E2231A"></span>
@@ -140,7 +55,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-lg-12">
           <span class="aviso">Soluciones a medida de cada&nbsp;</span><span class="text_red  aviso"> cliente</span>
         </div>
       </div>
@@ -159,7 +74,7 @@
       <div class="linea">
         <div>
           <a href="<?php echo base_url(); ?>Control_Activos">
-            <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/1.png" alt="">
+            <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/1.jpg" alt="">
           </a>
           <div class="centro">
             <span>CONTROL DE </span>
@@ -168,7 +83,7 @@
         </div>
         <div>
           <a href="<?php echo base_url(); ?>Trazabilidad_de_Carga">
-            <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/2.png" alt="">
+            <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/2.jpg" alt="">
           </a>
           <div class="centro">
             <span>TRAZABILIDAD DE</span>
@@ -177,7 +92,7 @@
         </div>
         <div>
           <a href="<?php echo base_url(); ?>Control_Retail_Inventario">
-            <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/3.png" alt="">
+            <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/3.jpg" alt="">
           </a>
           <div class="centro">
             <span>CONTROL DE</span>
@@ -188,7 +103,7 @@
       <div class="linea">
         <div>
           <a href="<?php echo base_url(); ?>Salud_y_Trazabilidad">
-            <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/4.png" alt="">
+            <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/4.jpg" alt="">
           </a>
           <div class="centro">
             <span>SALUD Y</span>
@@ -197,7 +112,7 @@
         </div>
         <div>
           <a href="<?php echo base_url(); ?>Control_de_Gas">
-            <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/5.png" alt="">
+            <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/5.jpg" alt="">
           </a>
           <div class="centro">
             <span>SOLUCIÓN</span>
@@ -206,7 +121,7 @@
         </div>
         <div>
           <a href="<?php echo base_url(); ?>Control_de_Peaje">
-            <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/6.png" alt="">
+            <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/6.jpg" alt="">
           </a>
           <div class="centro">
             <span>CONTROL PEAJE</span>
@@ -216,7 +131,7 @@
       <div class="linea">
         <div>
           <a href="<?php echo base_url(); ?>Control_de_Mascotas">
-            <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/7.png" alt="">
+            <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/7.jpg" alt="">
           </a>
           <div class="centro">
             <span>CONTROL DE</span>
@@ -226,7 +141,7 @@
         <div>
         <!--  <a href="<?php echo base_url(); ?>Seguridad_Publica">-->
         <a href="#"  data-toggle="modal" data-target=".bs-example-modal-sm">
-            <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/8.png" alt="">
+            <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/8.jpg" alt="">
           </a>
           <div class="centro">
             <span>SEGURIDAD</span>
@@ -236,7 +151,7 @@
         <div>
           <!--<a href="<?php echo base_url(); ?>Manejo_de_Desastres">-->
           <a href="#"  data-toggle="modal" data-target=".bs-example-modal-sm">
-            <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/9.png" alt="">
+            <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/9.jpg" alt="">
           </a>
           <div class="centro">
             <span>MANEJO DE</span>
@@ -252,6 +167,31 @@
 
     <script type="text/javascript">
     $(document).ready(function(){
+
+    $('body').scrollspy({target: ".navbar", offset: 50});   
+
+      // Add smooth scrolling on all links inside the navbar
+      $(".scroll").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 1000, function(){
+       
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        }  // End if
+      });
+
       $(".subray").mouseover(function() {
         if ($(this)[0].id != "best") {
           $("#best").css("border-bottom-style", "none");
@@ -280,33 +220,33 @@
   <footer>
     <div class="container" >
       <div class="row footer">
-        <div class="col-md-3">
+        <div class="col-lg-3">
           <div class="text_red">Dirección:</div>
           <span class="text_white">Calle German Schreiber 276</span><br>
           <span class="text_white">San Isidro - Lima - Perú</span>
         </div>
-        <div class="col-md-2">
+        <div class="col-lg-2">
           <div class="text_red">Teléfono:</div>
           <span class="text_white">+51 | 4697684</span>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3">
           <div class="text_red">Mail</div>
           <span class="text_white">info@rfidperu.pe</span>
         </div>
       </div>
       <br>
       <div class="row footer">
-        <div class="col-md-1">
+        <div class="col-lg-1">
           <a href="https://www.facebook.com">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/icono-de-face.png" alt="">
           </a>
         </div>
-        <div class="col-md-1">
+        <div class="col-lg-1">
           <a href="https://twitter.com">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/twitter.png" alt="">
           </a>
         </div>
-        <div class="col-md-1">
+        <div class="col-lg-1">
           <a href="https://www.youtube.com/">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/yt.png" alt="">
           </a>
