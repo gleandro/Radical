@@ -13,35 +13,25 @@
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <div class="row center" style="position:absolute;width:100%;z-index: 10;">
-            <div class="col-md-2" style="text-align: left;left: 5%;">
+          <div class="row center" id="hide1" style="position:absolute;width:100%;z-index: 11;">
+            <div class="col-sm-4 col-md-2 col-lg-2" style="text-align: left;left: 5%;">
               <img class="logo" src="<?php echo base_url(); ?>/application/helpers/images/carousel/LOGO-BLANCO.png" alt="">
             </div>
-            <div class="col-md-2">
+            <div class="col-sm-2 col-sm-offset-2 col-md-2 col-md-offset-4 col-lg-1 col-lg-offset-5">
+              <a href="<?php echo base_url();?>Radical" class="scroll" style="text-decoration:none;color:white"><span class="subray">SOLUCIONES</span></a>
             </div>
-            <div class="col-md-1">
+            <div class="col-sm-2 col-lg-1">
+              <a href="<?php echo base_url();?>Radical/exitos" style="text-decoration:none;color:white"><span class="subray" >CASOS DE ÉXITO</span></a>
             </div>
-            <div class="col-md-1">
-            </div>
-            <div class="col-md-1">
-            </div>
-            <div class="col-md-1">
-            </div>
-            <div class="col-md-1" style="width: 9%;">
-              <a href="<?php echo base_url();?>" class="scroll" style="text-decoration:none;color:white"><span class="subray">SOLUCIONES</span></a>
-            </div>
-            <div class="col-md-1" style="width: 12%;">
-              <a href="<?php echo base_url();?>Radical/exitos" style="text-decoration:none;color:white"><span class="subray">CASOS DE ÉXITO</span></a>
-            </div>
-            <div class="col-md-1">
+            <div class="col-sm-2 col-lg-1">
               <a href="<?php echo base_url();?>Radical/nosotros" style="text-decoration:none;color:white"><span class="subray" id="best">NOSOTROS</span></a>
             </div>
-            <div class="col-md-1">
+            <div class="col-sm-2 col-lg-1">
               <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:white"><span class="subray">CONTACTO</span></a>
             </div>
           </div>
           <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/home.jpg" alt="...">
-          <div class="carousel-caption" style="right: 0;left: 0;">
+          <div class="carousel-caption" style="right: 0;left: 0;top:35%">
             <span class="top">NUESTRA COMPAÑIA TIENE </span><br>
             <span class="top">LA SOLUCIÓN A TUS PROBLEMAS</span><br>
           </div>
@@ -50,10 +40,10 @@
     </div>
     <div class="cuerpo">
       <div class="linea">
-          <fieldset class="caja" style="width: 100%;display: flex;width: 100%;justify-content: center;align-items: center;text-align: center;margin-top: 3%;">
+          <fieldset class="caja" style="width: 100%;display: flex;width: 100%;justify-content: center;align-items: center;text-align: center;margin-top: 10%;padding-bottom:300px">
           <legend style="width: auto;border-bottom: 0;text-align: left;font-weight: bold">NOSOTROS</legend>
-          <div style="padding-top: 5%;padding-bottom: 15%">
-            <div class="row" style="justify-content: center;display: flex;">
+          <div style="">
+            <div class="row" style="justify-content: center;display: flex;padding-top: 5%;">
               <div class="top">
                 <span class="barra" style="background-color:#E2231A"></span>
                 <span class="barra" style="background-color:#E53131"></span>
@@ -86,10 +76,10 @@
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img src="<?php echo base_url(); ?>/application/helpers/images/nosotros.jpg" alt="...">
-          <div class="carousel-caption" style="padding-bottom: 0;right: 4%;left: 4%;bottom: 5%; top: 5%;">
+          <img style="height:1000px" src="<?php echo base_url(); ?>/application/helpers/images/nosotros.jpg" alt="...">
+          <div class="carousel-caption" style="padding-bottom: 0;right: 4%;left: 4%;bottom: 5%; top: 5%;width:auto">
             <div class="linea">
-              <fieldset class="caja" style="width: 100%;display: flex;width: 100%;justify-content: center;align-items: center;text-align: center;">
+              <fieldset class="caja" style="width: 100%;display: flex;width: 100%;justify-content: center;align-items: center;text-align: center;padding-bottom:200px">
               <legend class="text_white_bold" style="width: auto;border-bottom: 0;text-align: left">EQUIPO</legend>
               <div style="padding-top: 5%;padding-bottom: 10%">
                 <div class="row" style="justify-content: center;display: flex;">
@@ -157,41 +147,47 @@
     </div>
   </div>
 </div>
-  <footer>
-    <div class="container" >
-      <div class="row footer">
-        <div class="col-md-3">
-          <div class="text_red">Dirección:</div>
-          <span class="text_white">Calle German Schreiber 276</span><br>
-          <span class="text_white">San Isidro - Lima - Perú</span>
-        </div>
-        <div class="col-md-2">
-          <div class="text_red">Teléfono:</div>
-          <span class="text_white">+51 | 4697684</span>
-        </div>
-        <div class="col-md-3">
-          <div class="text_red">Mail</div>
-          <span class="text_white">info@rfidperu.pe</span>
-        </div>
+<footer>
+  <div class="container" >
+    <div class="row footer">
+      <div class="col-lg-3">
+        <div class="text_red">Dirección:</div>
+        <span class="text_white">Calle German Schreiber 276</span><br>
+        <span class="text_white">San Isidro - Lima - Perú</span>
       </div>
-      <br>
-      <div class="row footer">
-        <div class="col-md-1">
-          <a href="https://www.facebook.com">
-            <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/icono-de-face.png" alt="">
+      <div class="col-lg-2">
+        <div class="text_red">Teléfono:</div>
+        <a href="tel:4697684">
+          <span class="text_white">+51 | 4697684</span>
+        </a>
+      </div>
+      <div class="col-lg-3">
+        <div class="text_red">Mail</div>
+        <a href="mailto:info@rfidperu.pe">
+          <a href="mailto:info@rfidperu.pe">
+            <span class="text_white">info@rfidperu.pe</span>
           </a>
-        </div>
-        <div class="col-md-1">
-          <a href="https://twitter.com">
-            <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/twitter.png" alt="">
-          </a>
-        </div>
-        <div class="col-md-1">
-          <a href="https://www.youtube.com/">
-            <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/yt.png" alt="">
-          </a>
-        </div>
+        </a>
       </div>
     </div>
-  </footer>
+    <br>
+    <div class="row footer">
+      <div class="col-xs-2 col-md-1 col-lg-1">
+        <a href="https://www.facebook.com">
+          <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/icono-de-face.png" alt="">
+        </a>
+      </div>
+      <div class="col-xs-2 col-md-1 col-lg-1">
+        <a href="https://twitter.com">
+          <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/twitter.png" alt="">
+        </a>
+      </div>
+      <div class="col-xs-2 col-md-1 col-lg-1">
+        <a href="https://www.youtube.com/">
+          <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/yt.png" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
 </html>

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
       <link href="<?php echo base_url(); ?>/application/helpers/css/bootstrap.css" rel="stylesheet">
       <link href="<?php echo base_url(); ?>/application/helpers/css/principal.css" rel="stylesheet">
-      <title>Solución de clonación de celuar</title>
+      <title>Control de acceso</title>
   </head>
   <body>
     <header>
@@ -27,32 +27,31 @@
               <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:white"><span class="subray">CONTACTO</span></a>
             </div>
           </div>
-          <img src="<?php echo base_url(); ?>/application/helpers/images/control/neumaticos/CONTROL-DE-NEUMATICOS-HEADER.png" alt="...">
+          <img src="<?php echo base_url(); ?>/application/helpers/images/acceso/header.jpg" alt="...">
           <div class="carousel-caption">
-            <span class="top">SOLUCIÓN DE CLONACIÓN</span><br>
-            <span class="top">DE </span><span class="text_red top">CELULAR</span><br>
-            <span class="back">CON TECNOLOGÍA RFID</span><br>
+            <span class="top">CONTROL DE ACCESO </span><br>
+            <span class="top text_red">RFID</span><span class="top"> + </span><span class="top text_red">CCTV</span>
           </div>
         </div>
       </div>
     </div>
     <div class="bloque">
-      <div class="row titulo">
+      <div class="row titulo" style="margin-right: 0;margin-left: 0;">
         <div class="col-md-12">
-          <span class="">SOLUCIÓN A CLONACION DE CELULARES</span>
+          <span class="">RFID + CCTV</span>
         </div>
       </div>
-      <div class="row detalle">
+      <div class="row detalle" style="margin-right: 0;margin-left: 0;">
         <div class="col-md-12">
-          <span>Nuestra solución comprende un sistema de Identificación con tecnología NFC</span><br>
-          <span>sistema permite encriptar el código IMEI de los teléfonos móviles impidiendo su uso</span><br>
-          <span>después del robo.</span>
+          <span>Al integrar los datos de identificación RFID con CCTV, se tiene un control de acceso mas </span><br>
+          <span>preciso ya que puede investigar y prevenir entradas o salidas no deseadas, seguir y gestionar</span><br>
+          <span>el personal que ingresa de manera más eficaz y obtener una visión sin precedentes en su empresa.</span>
         </div>
       </div>
     </div>
     <div class="cuerpodetalle" >
       <div class="row ">
-        <div class="col-md-4 black center" style="max-height: 540px;">
+        <div class="col-sm-12 col-md-12 col-lg-4 black center" style="min-height: 550px;">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-3.png" alt="">
           </div>
@@ -64,28 +63,19 @@
               <span class="text_white_bold">_</span>
             </div>
             <div class="col-xs-9 col-sm-9 left">
-              <span class="text_white_detalle">El robo de celulares pone en riesgo tu vida.</span>
+              <span class="text_white_detalle">No se posee un control total ni a tiempo real por lo que genera entradas y salidas no deseadas y puede causar pérdidas importantes a la empresa.</span>
             </div>
           </div>
           <div class="row">
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
-              <span class="text_white_detalle">Venta de celulares robados hace que continúe el hurto de estos.</span>
+            <div class=" col-xs-9 col-sm-9 left">
+              <span class="text_white_detalle">Falta de supervisión exacta en las cámaras debido al monitoreo que tiene que hacer el personal durante horas.</span>
             </div>
           </div>
-          <div class="row">
-            <div class="col-xs-1 col-sm-1 col-md-1">
-              <span class="text_white_bold">_</span>
-            </div>
-            <div class="col-xs-9 col-sm-9 left">
-              <span class="text_white_detalle">Código IMEI puede ser clonado con facilidad.</span>
-            </div>
-          </div>
-          <br><br><br><br><br><br><br><br>
         </div>
-        <div class="col-md-4 red center" style="max-height: 540px;">
+        <div class="col-sm-12 col-md-12 col-lg-4 red center" style="min-height: 550px;">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-2.png" alt="">
           </div>
@@ -96,29 +86,12 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
-              <span class="text_white_detalle">Un sistema permite encriptar el código IMEI de los teléfonos móviles con un software de tecnología NFC.</span>
+            <div class=" col-xs-9 col-sm-9 left">
+              <span class="text_white_detalle">Integración con RFID + CCTV para el monitoreo del control de acceso</span>
             </div>
           </div>
-          <div class="row">
-            <div class="col-xs-1 col-sm-1 col-md-1">
-              <span class="text_white_bold">_</span>
-            </div>
-            <div class="col-xs-9 col-sm-9 left">
-              <span class="text_white_detalle">Llave de seguridad externa del código IMEI.</span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-1 col-sm-1 col-md-1">
-              <span class="text_white_bold">_</span>
-            </div>
-            <div class="col-xs-9 col-sm-9 left">
-              <span class="text_white_detalle">Bloqueo total del equipo después de realizarse el robo.</span>
-            </div>
-          </div>
-          <br><br><br><br><br><br>
         </div>
-        <div class="col-md-4 black center" style="max-height: 540px;">
+        <div class="col-sm-12 col-md-12 col-lg-4 black center" style="min-height: 550px;">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-1.png" alt="">
           </div>
@@ -129,113 +102,108 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
-              <span class="text_white_detalle">Reducción del índice de robos de celular.</span>
+            <div class=" col-xs-9 col-sm-9 left">
+              <span class="text_white_detalle">Localiza con precisión el ingreso y salida de todos los tags RFID en tiempo real.</span>
             </div>
           </div>
           <div class="row">
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
-              <span class="text_white_detalle">Seguridad en toda la información que tengas en el equipo.</span>
+            <div class=" col-xs-9 col-sm-9 left">
+              <span class="text_white_detalle">Se integra con las cámaras para proporcionar automáticamente un clip de vídeo cada vez que se mueve un activo.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-1 col-sm-1 col-md-1">
+            <div class="col-xs-1 col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
             <div class="col-xs-9 col-sm-9 left">
-              <span class="text_white_detalle">Acceso rápido al bloqueo de celular encaso de robo.</span>
+              <span class="text_white_detalle">A través de la cámara la plataforma genera el minuto exacto donde se movió el activo con RFID, sin la necesidad de ver extensas horas de video.</span>
             </div>
           </div>
-          <br><br><br><br><br><br><br><br><br>
+          <br>
         </div>
       </div>
     </div>
     <div class="fichero">
-      <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/control/neumaticos/control-de-neumaticos-superior.png" alt="">
-      <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/control/neumaticos/control-de-neumaticos-inferior.png" alt="">
+      <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/acceso/up.png" alt="">
+      <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/acceso/down.png" alt="">
       <div class="primero">
         <div class="row text_orange_bold">
-          <div class="col-xs-1 col-sm-1 col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1" style="color: #E2231A">
             1.
           </div>
-          <div class="col-md-9">
-            CONECTA
-            <span style="color:#333; font-weight:normal;font-size:14px;"> tu celular</span>
+          <div class="col-md-9" style="color:#E2231A">
+            Integre
+            <span style="color:#333; font-weight:normal;font-size:14px;"> RFID</span>
           </div>
         </div>
         <div class="row">
           <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
-            con una clave digital.
+            + CCTV
           </div>
         </div>
       </div>
       <div class="segundo">
         <div class="row" style="margin-left: 10%;">
-          <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/icon.png" alt="">
+          <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/1.png" alt="">
         </div>
         <div class="row text_orange_bold">
-          <div class="col-xs-1 col-sm-1 col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1" style="color: #E2231A">
             2.
           </div>
-          <div class="col-md-9">
-            ASEGURA
-            <span style="color:#333; font-weight:normal;font-size:14px;"> tu</span>
+          <div class="col-md-9" style="color: #E2231A">
+            LECTURA
+            <span style="color:#333; font-weight:normal;font-size:14px;"> a</span>
           </div>
         </div>
         <div class="row">
           <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
-            información.
+            tiempo real.
           </div>
         </div>
       </div>
       <div class="tercero" style="left: 52%;">
         <div class="row text_orange_bold">
-          <div class="col-xs-1 col-sm-1 col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1" style="color: #E2231A">
             3.
           </div>
-          <div class="col-md-9">
-            REDUCE
-            <span style="color:#333; font-weight:normal;font-size:14px;"> la tasa</span>
+          <div class="col-md-9" style="color: #E2231A">
+            REPORTA
           </div>
         </div>
         <div class="row">
           <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
-            de índice de robo de celulares.
+            movimientos de manera inmediata.
           </div>
         </div>
       </div>
       <div class="cuarto" style="top: 65%;left: 65%;">
         <div class="row" style="margin-left: 20%;">
-          <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/icon.png" alt="">
+          <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/5.png" alt="">
         </div>
         <div class="row text_orange_bold">
-          <div class="col-xs-1 col-sm-1 col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1" style="color: #E2231A">
             4.
           </div>
-          <div class="col-md-9">
-            BLOQUEA
-            <span style="color:#333; font-weight:normal;font-size:14px;"> tu</span>
+          <div class="col-md-9" style="color: #E2231A">
+            MONITOREA
           </div>
         </div>
         <div class="row">
           <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
-            celular en caso de pérdida o robo.
+            cada tag junto con la cámara para saber sus movimientos incluso en determinadas horas.
           </div>
         </div>
-      </div>
-      <div class="quinto">
-        <img style="width: 35%;" class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/neumaticos/logo-tire-sense.png" alt="">
       </div>
     </div>
     <script src="<?php echo base_url(); ?>/application/helpers/js/jquery-1.11.1.js"></script>
@@ -260,40 +228,42 @@
     });
     </script>
   </body>
-  <footer style="position: relative;">
+  <footer>
     <div class="container" >
       <div class="row footer">
-        <div class="col-md-3">
+        <div class="col-lg-3" style="font-size:120%">
           <div class="text_red">Dirección:</div>
           <span class="text_white">Calle German Schreiber 276</span><br>
           <span class="text_white">San Isidro - Lima - Perú</span>
         </div>
-        <div class="col-md-2">
+        <div class="col-lg-2" style="font-size:120%">
           <div class="text_red">Teléfono:</div>
           <a href="tel:4697684">
             <span class="text_white">+51 | 4697684</span>
           </a>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3" style="font-size:120%">
           <div class="text_red">Mail</div>
           <a href="mailto:info@rfidperu.pe">
+            <a href="mailto:info@rfidperu.pe">
   <span class="text_white">info@rfidperu.pe</span>
 </a>
+          </a>
         </div>
       </div>
       <br>
       <div class="row footer">
-        <div class="col-xs-1 col-sm-1 col-md-1">
+        <div class="col-xs-2 col-md-1 col-lg-1">
           <a href="https://www.facebook.com">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/icono-de-face.png" alt="">
           </a>
         </div>
-        <div class="col-xs-1 col-sm-1 col-md-1">
+        <div class="col-xs-2 col-md-1 col-lg-1">
           <a href="https://twitter.com">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/twitter.png" alt="">
           </a>
         </div>
-        <div class="col-xs-1 col-sm-1 col-md-1">
+        <div class="col-xs-2 col-md-1 col-lg-1">
           <a href="https://www.youtube.com/">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/yt.png" alt="">
           </a>

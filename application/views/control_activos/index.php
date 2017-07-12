@@ -13,7 +13,7 @@
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <div class="row center" style="position:absolute;width:100%">
+          <div class="row center" style="position:absolute;width:100%;z-index:11">
             <div class="col-md-2">
               <a href="<?php echo base_url();?>" style="text-decoration:none;color:white"><span class="subray" id="best">SOLUCIONES</span></a>
             </div>
@@ -62,8 +62,8 @@
     <div class="cuerpo" >
       <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/adorno-superior.png" alt="">
       <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/adorno-inferior.png" alt="">
-      <div class="linea">
-        <div>
+      <div class="linea row" style="display:inline;">
+        <div class="col-sm-6 col-sm-4 col-lg-4">
           <a href="<?php echo base_url(); ?>control_Activos/retornables">
             <img src="<?php echo base_url(); ?>/application/helpers/images/control/1.jpg" alt="">
           </a>
@@ -72,7 +72,7 @@
             <span>retornables</span>
           </div>
         </div>
-        <div>
+        <div class="col-sm-6 col-sm-4 col-lg-4">
           <a href="<?php echo base_url(); ?>control_Activos/Activos">
             <img src="<?php echo base_url(); ?>/application/helpers/images/control/2.jpg" alt="">
           </a>
@@ -81,7 +81,7 @@
             <span>Activos Fijos</span>
           </div>
         </div>
-        <div>
+        <div class="col-sm-6 col-sm-4 col-lg-4">
           <a href="<?php echo base_url(); ?>control_Activos/equipos">
             <img src="<?php echo base_url(); ?>/application/helpers/images/control/3.jpg" alt="">
           </a>
@@ -90,9 +90,7 @@
             <span>Equipos TI</span>
           </div>
         </div>
-      </div>
-      <div class="linea" style="padding-left: 19.3%;padding-right: 19.3%;">
-        <div>
+        <div class="col-sm-6 col-sm-4 col-lg-4">
           <a href="<?php echo base_url(); ?>control_Activos/neumaticos">
             <img src="<?php echo base_url(); ?>/application/helpers/images/control/4.jpg" alt="">
           </a>
@@ -101,7 +99,7 @@
             <span>Neumáticos</span>
           </div>
         </div>
-        <div>
+        <div class="col-sm-6 col-sm-4 col-lg-4">
           <a href="<?php echo base_url(); ?>control_Activos/documental">
             <img src="<?php echo base_url(); ?>/application/helpers/images/control/5.jpg" alt="">
           </a>
@@ -139,33 +137,39 @@
   <footer>
     <div class="container" >
       <div class="row footer">
-        <div class="col-md-3">
+        <div class="col-lg-3">
           <div class="text_red">Dirección:</div>
           <span class="text_white">Calle German Schreiber 276</span><br>
           <span class="text_white">San Isidro - Lima - Perú</span>
         </div>
-        <div class="col-md-2">
+        <div class="col-lg-2">
           <div class="text_red">Teléfono:</div>
-          <span class="text_white">+51 | 4697684</span>
+          <a href="tel:4697684">
+            <span class="text_white">+51 | 4697684</span>
+          </a>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3">
           <div class="text_red">Mail</div>
-          <span class="text_white">info@rfidperu.pe</span>
+          <a href="mailto:info@rfidperu.pe">
+            <a href="mailto:info@rfidperu.pe">
+              <span class="text_white">info@rfidperu.pe</span>
+            </a>
+          </a>
         </div>
       </div>
       <br>
       <div class="row footer">
-        <div class="col-md-1">
+        <div class="col-xs-2 col-md-1 col-lg-1">
           <a href="https://www.facebook.com">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/icono-de-face.png" alt="">
           </a>
         </div>
-        <div class="col-md-1">
+        <div class="col-xs-2 col-md-1 col-lg-1">
           <a href="https://twitter.com">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/twitter.png" alt="">
           </a>
         </div>
-        <div class="col-md-1">
+        <div class="col-xs-2 col-md-1 col-lg-1">
           <a href="https://www.youtube.com/">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/yt.png" alt="">
           </a>

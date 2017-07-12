@@ -13,7 +13,7 @@
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <div class="row center" style="position:absolute;width:100%">
+          <div class="row center" style="position:absolute;width:100%;z-index:11">
             <div class="col-md-2">
               <a href="<?php echo base_url();?>" style="text-decoration:none;color:white"><span class="subray" id="best">SOLUCIONES</span></a>
             </div>
@@ -49,7 +49,7 @@
       </div>
     </div>
     <div class="cuerpodetalle" >
-      <div class="row ceromargin">
+      <div class="row ">
         <div class="col-md-4 black center">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-3.png" alt="">
@@ -58,30 +58,29 @@
             <span class="text_white_bold">PROBLEMA</span>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Perdida de mascotas a diario.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Mascotas extraviadas sin información del dueño.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Desconocimiento de antecedentes de la mascota en caso de encontrar una.</span>
             </div>
           </div>
-          <br><br><br><br><br><br><br><br>
         </div>
         <div class="col-md-4 red center">
           <div class="">
@@ -91,22 +90,21 @@
             <span class="text_white_bold">SOLUCIÓN</span>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Asociar la mascota con su tag RFID.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Brindar al sistema información completa sobre la mascota.</span>
             </div>
           </div>
-          <br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
         <div class="col-md-4 black center">
           <div class="">
@@ -116,30 +114,29 @@
             <span class="text_white_bold">BENEFICIO</span>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Alerta en tiempo real al leerse el tag de la mascota, haciendo fácil su localización.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Brinda documentación de la mascota, como el certificado virtual de nacimiento.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Red social de mascotas, incluido en el sistema, para la interacción entre mascotas.</span>
             </div>
           </div>
-          <br><br><br><br><br><br><br><br><br>
         </div>
       </div>
     </div>
@@ -156,7 +153,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
             para tu mascota.
@@ -176,7 +173,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
             para encontrar amigos.
@@ -194,7 +191,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
             mascota en nuestra aplicación móvil.
@@ -214,7 +211,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
             cuando alguien encuentre a tu mascota.
@@ -247,36 +244,42 @@
     });
     </script>
   </body>
-  <footer style="position: relative;">
+  <footer>
     <div class="container" >
       <div class="row footer">
-        <div class="col-md-3">
+        <div class="col-lg-3">
           <div class="text_red">Dirección:</div>
           <span class="text_white">Calle German Schreiber 276</span><br>
           <span class="text_white">San Isidro - Lima - Perú</span>
         </div>
-        <div class="col-md-2">
+        <div class="col-lg-2">
           <div class="text_red">Teléfono:</div>
-          <span class="text_white">+51 | 4697684</span>
+          <a href="tel:4697684">
+            <span class="text_white">+51 | 4697684</span>
+          </a>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3">
           <div class="text_red">Mail</div>
-          <span class="text_white">info@rfidperu.pe</span>
+          <a href="mailto:info@rfidperu.pe">
+            <a href="mailto:info@rfidperu.pe">
+              <span class="text_white">info@rfidperu.pe</span>
+            </a>
+          </a>
         </div>
       </div>
       <br>
       <div class="row footer">
-        <div class="col-md-1">
+        <div class="col-xs-2 col-md-1 col-lg-1">
           <a href="https://www.facebook.com">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/icono-de-face.png" alt="">
           </a>
         </div>
-        <div class="col-md-1">
+        <div class="col-xs-2 col-md-1 col-lg-1">
           <a href="https://twitter.com">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/twitter.png" alt="">
           </a>
         </div>
-        <div class="col-md-1">
+        <div class="col-xs-2 col-md-1 col-lg-1">
           <a href="https://www.youtube.com/">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/yt.png" alt="">
           </a>

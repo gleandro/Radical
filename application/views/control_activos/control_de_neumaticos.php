@@ -13,7 +13,7 @@
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <div class="row center" style="position:absolute;width:100%">
+          <div class="row center" style="position:absolute;width:100%;z-index:11">
             <div class="col-md-2">
               <a href="<?php echo base_url();?>" style="text-decoration:none;color:white"><span class="subray" id="best">SOLUCIONES</span></a>
             </div>
@@ -49,8 +49,8 @@
       </div>
     </div>
     <div class="cuerpodetalle" >
-      <div class="row ceromargin">
-        <div class="col-md-4 black center" style="max-height: 645px;">
+      <div class="row ">
+        <div class="col-md-4 black center" style="min-height: 645px;">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-3.png" alt="">
           </div>
@@ -58,32 +58,31 @@
             <span class="text_white_bold">PROBLEMA</span>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Robos y pérdidas de neumáticos.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Desconocimiento de tiempo de vida de los neumáticos.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Desperdicio de recursos designados a la gestión de los neumáticos.</span>
             </div>
           </div>
-          <br><br><br><br><br><br><br><br>
         </div>
-        <div class="col-md-4 red center" style="max-height: 645px;">
+        <div class="col-md-4 red center" style="min-height: 645px;">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-2.png" alt="">
           </div>
@@ -91,40 +90,39 @@
             <span class="text_white_bold">SOLUCIÓN</span>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Identificar cada neumático con un TAG RFID.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Asociar cada neumático con su vehículo correspondiente.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">El sistema conocerá qué neumático utiliza cada auto para una posterior auditoría.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Inspeccionar los kilómetros recorridos, la presión del aire y la profundidad de la huella, utilizando el terminar portátil.</span>
             </div>
           </div>
-          <br><br><br><br>
         </div>
-        <div class="col-md-4 black center" style="max-height: 645px;">
+        <div class="col-md-4 black center" style="min-height: 645px;">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-1.png" alt="">
           </div>
@@ -132,54 +130,53 @@
             <span class="text_white_bold">BENEFICIO</span>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Lectura de activos en tiempo real.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Mayor seguridad de los equipos e información confidencial.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Reducción de robos y pérdidas.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Administración eficiente sobre movimiento de los equipos.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Reducción de costos y tiempo relacionado a inventarios.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Visibilidad completa y real sobre el movimiento de los equipos.</span>
             </div>
           </div>
-          <br><br><br><br><br><br><br><br><br>
         </div>
       </div>
     </div>
@@ -188,7 +185,7 @@
       <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/control/neumaticos/control-de-neumaticos-inferior.png" alt="">
       <div class="primero">
         <div class="row text_orange_bold">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
             1.
           </div>
           <div class="col-md-9">
@@ -196,7 +193,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
             y seguro.
@@ -208,7 +205,7 @@
           <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/neumaticos/icono-1.png" alt="">
         </div>
         <div class="row text_orange_bold">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
             2.
           </div>
           <div class="col-md-9">
@@ -216,7 +213,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
             a tiempo real.
@@ -225,7 +222,7 @@
       </div>
       <div class="tercero" style="left: 52%;">
         <div class="row text_orange_bold">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
             3.
           </div>
           <div class="col-md-9">
@@ -234,7 +231,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
             riesgo de perdidas.
@@ -246,7 +243,7 @@
           <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/neumaticos/icono-2.png" alt="">
         </div>
         <div class="row text_orange_bold">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
             4.
           </div>
           <div class="col-md-9">
@@ -255,7 +252,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
             ciclo de vida de la llanta.
@@ -288,36 +285,42 @@
     });
     </script>
   </body>
-  <footer style="position: relative;">
+  <footer>
     <div class="container" >
       <div class="row footer">
-        <div class="col-md-3">
+        <div class="col-lg-3">
           <div class="text_red">Dirección:</div>
           <span class="text_white">Calle German Schreiber 276</span><br>
           <span class="text_white">San Isidro - Lima - Perú</span>
         </div>
-        <div class="col-md-2">
+        <div class="col-lg-2">
           <div class="text_red">Teléfono:</div>
-          <span class="text_white">+51 | 4697684</span>
+          <a href="tel:4697684">
+            <span class="text_white">+51 | 4697684</span>
+          </a>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3">
           <div class="text_red">Mail</div>
-          <span class="text_white">info@rfidperu.pe</span>
+          <a href="mailto:info@rfidperu.pe">
+            <a href="mailto:info@rfidperu.pe">
+              <span class="text_white">info@rfidperu.pe</span>
+            </a>
+          </a>
         </div>
       </div>
       <br>
       <div class="row footer">
-        <div class="col-md-1">
+        <div class="col-xs-2 col-md-1 col-lg-1">
           <a href="https://www.facebook.com">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/icono-de-face.png" alt="">
           </a>
         </div>
-        <div class="col-md-1">
+        <div class="col-xs-2 col-md-1 col-lg-1">
           <a href="https://twitter.com">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/twitter.png" alt="">
           </a>
         </div>
-        <div class="col-md-1">
+        <div class="col-xs-2 col-md-1 col-lg-1">
           <a href="https://www.youtube.com/">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/yt.png" alt="">
           </a>

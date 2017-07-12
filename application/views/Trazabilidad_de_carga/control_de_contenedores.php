@@ -13,7 +13,7 @@
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <div class="row center" style="position:absolute;width:100%">
+          <div class="row center" style="position:absolute;width:100%;z-index:11">
             <div class="col-md-2">
               <a href="<?php echo base_url();?>" style="text-decoration:none;color:white"><span class="subray" id="best">SOLUCIONES</span></a>
             </div>
@@ -50,8 +50,8 @@
       </div>
     </div>
     <div class="cuerpodetalle" >
-      <div class="row ceromargin">
-        <div class="col-md-4 black center" style="max-height: 510px;">
+      <div class="row ">
+        <div class="col-md-4 black center" style="min-height: 510px;">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-3.png" alt="">
           </div>
@@ -59,32 +59,31 @@
             <span class="text_white_bold">PROBLEMA</span>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Elevados tiempos y costos de gestión.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Robos de contenedores.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Procesos lentos.</span>
             </div>
           </div>
-          <br><br><br><br><br><br><br><br><br>
         </div>
-        <div class="col-md-4 red center" style="max-height: 510px;">
+        <div class="col-md-4 red center" style="min-height: 510px;">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-2.png" alt="">
           </div>
@@ -92,32 +91,31 @@
             <span class="text_white_bold">SOLUCIÓN</span>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">El contenedor se carga y se relaciona con el precinto RFID, se inspeccionar, se cierra y se relaciona con el TAG RFID.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Al ingresar se captura el código de contenedor, del vehículo y del TAG RFID.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Al pasar los puntos de control, los lectores envian la información de los contenedores al sistema.</span>
             </div>
           </div>
-          <br><br><br><br><br>
         </div>
-        <div class="col-md-4 black center" style="max-height: 510px;">
+        <div class="col-md-4 black center" style="min-height: 510px;">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-1.png" alt="">
           </div>
@@ -125,38 +123,37 @@
             <span class="text_white_bold">BENEFICIO</span>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Reducción de errores humanos.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Información precisa en menor tiempo.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Mayor seguridad en la carga.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Mejora en utilización de los recursos.</span>
             </div>
           </div>
-          <br><br><br><br><br><br><br><br><br>
         </div>
       </div>
     </div>
@@ -165,7 +162,7 @@
       <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/trazabilidad/contenedor/inferior.png" alt="">
       <div class="primero">
         <div class="row text_red_bold">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
             1.
           </div>
           <div class="col-md-10">
@@ -174,7 +171,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
             contenedor con el tag RFID.
@@ -186,7 +183,7 @@
           <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/1.png" alt="">
         </div>
         <div class="row text_red_bold">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
             2.
           </div>
           <div class="col-md-9">
@@ -195,7 +192,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
             precisa en menjor tiempo.
@@ -204,7 +201,7 @@
       </div>
       <div class="tercero">
         <div class="row text_red_bold">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
             3.
           </div>
           <div class="col-md-10">
@@ -213,7 +210,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
             errores humanos.
@@ -225,7 +222,7 @@
           <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/trazabilidad/iconoalerta.png" alt="">
         </div>
         <div class="row text_red_bold">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
             4.
           </div>
           <div class="col-md-9">
@@ -234,7 +231,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
             apertura del contenedor.
@@ -267,33 +264,39 @@
   <footer>
     <div class="container" >
       <div class="row footer">
-        <div class="col-md-3">
+        <div class="col-lg-3">
           <div class="text_red">Dirección:</div>
           <span class="text_white">Calle German Schreiber 276</span><br>
           <span class="text_white">San Isidro - Lima - Perú</span>
         </div>
-        <div class="col-md-2">
+        <div class="col-lg-2">
           <div class="text_red">Teléfono:</div>
-          <span class="text_white">+51 | 4697684</span>
+          <a href="tel:4697684">
+            <span class="text_white">+51 | 4697684</span>
+          </a>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3">
           <div class="text_red">Mail</div>
-          <span class="text_white">info@rfidperu.pe</span>
+          <a href="mailto:info@rfidperu.pe">
+            <a href="mailto:info@rfidperu.pe">
+              <span class="text_white">info@rfidperu.pe</span>
+            </a>
+          </a>
         </div>
       </div>
       <br>
       <div class="row footer">
-        <div class="col-md-1">
+        <div class="col-xs-2 col-md-1 col-lg-1">
           <a href="https://www.facebook.com">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/icono-de-face.png" alt="">
           </a>
         </div>
-        <div class="col-md-1">
+        <div class="col-xs-2 col-md-1 col-lg-1">
           <a href="https://twitter.com">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/twitter.png" alt="">
           </a>
         </div>
-        <div class="col-md-1">
+        <div class="col-xs-2 col-md-1 col-lg-1">
           <a href="https://www.youtube.com/">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/yt.png" alt="">
           </a>

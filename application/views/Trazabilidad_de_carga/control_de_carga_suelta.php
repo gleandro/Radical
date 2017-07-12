@@ -13,7 +13,7 @@
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <div class="row center" style="position:absolute;width:100%">
+          <div class="row center" style="position:absolute;width:100%;z-index:11">
             <div class="col-md-2">
               <a href="<?php echo base_url();?>" style="text-decoration:none;color:white"><span class="subray" id="best">SOLUCIONES</span></a>
             </div>
@@ -50,8 +50,8 @@
       </div>
     </div>
     <div class="cuerpodetalle" >
-      <div class="row ceromargin">
-        <div class="col-md-4 black center" style="max-height: 510px;">
+      <div class="row ">
+        <div class="col-md-4 black center">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-3.png" alt="">
           </div>
@@ -59,40 +59,39 @@
             <span class="text_white_bold">PROBLEMA</span>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Manipulación de la carga suelta.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Alto costo de inventarios.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Pérdida o robo de la carga suelta.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Poca visibilidad en tiempo real.</span>
             </div>
           </div>
-          <br><br><br><br><br><br><br><br><br>
         </div>
-        <div class="col-md-4 red center" style="max-height: 510px;">
+        <div class="col-md-4 red center">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-2.png" alt="">
           </div>
@@ -100,40 +99,39 @@
             <span class="text_white_bold">SOLUCIÓN</span>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Se coloca un TAG RDID en los bultos.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Se colocan antenas en el vehículo y en el almacén.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Validación de la carga y de la descarga.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Detección de manipulaciones indebidas de la carga.</span>
             </div>
           </div>
-          <br><br><br><br><br>
         </div>
-        <div class="col-md-4 black center" style="max-height: 510px;">
+        <div class="col-md-4 black center">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-1.png" alt="">
           </div>
@@ -141,38 +139,37 @@
             <span class="text_white_bold">BENEFICIO</span>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Mayor velocidad en los procesos de control.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Reducción de costos operativos.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Notificación inmediata de vehículo disponibles.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Mayor productividad del personal.</span>
             </div>
           </div>
-          <br><br><br><br><br><br><br><br><br>
         </div>
       </div>
     </div>
@@ -181,7 +178,7 @@
       <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/trazabilidad/carga/inferior.png" alt="">
       <div class="primero">
         <div class="row text_red_bold">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
             1.
           </div>
           <div class="col-md-9">
@@ -189,7 +186,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
             con tag RFID.
@@ -201,7 +198,7 @@
           <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/1.png" alt="">
         </div>
         <div class="row text_red_bold">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
             2.
           </div>
           <div class="col-md-9">
@@ -209,7 +206,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
             manipulaciones indebidas de la carga.
@@ -218,16 +215,16 @@
       </div>
       <div class="tercero">
         <div class="row text_red_bold">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
             3.
           </div>
-          <div class="col-md-10">
+          <div class="col-md-9">
             REDUCE
             <span style="color:#333; font-weight:normal;font-size:14px;"> costos </span>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
             operativos.
@@ -239,7 +236,7 @@
           <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/trazabilidad/icono.png" alt="">
         </div>
         <div class="row text_red_bold">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
             4.
           </div>
           <div class="col-md-9">
@@ -248,7 +245,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
             en los procesos de control.
@@ -281,33 +278,39 @@
   <footer>
     <div class="container" >
       <div class="row footer">
-        <div class="col-md-3">
+        <div class="col-lg-3">
           <div class="text_red">Dirección:</div>
           <span class="text_white">Calle German Schreiber 276</span><br>
           <span class="text_white">San Isidro - Lima - Perú</span>
         </div>
-        <div class="col-md-2">
+        <div class="col-lg-2">
           <div class="text_red">Teléfono:</div>
-          <span class="text_white">+51 | 4697684</span>
+          <a href="tel:4697684">
+            <span class="text_white">+51 | 4697684</span>
+          </a>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3">
           <div class="text_red">Mail</div>
-          <span class="text_white">info@rfidperu.pe</span>
+          <a href="mailto:info@rfidperu.pe">
+            <a href="mailto:info@rfidperu.pe">
+              <span class="text_white">info@rfidperu.pe</span>
+            </a>
+          </a>
         </div>
       </div>
       <br>
       <div class="row footer">
-        <div class="col-md-1">
+        <div class="col-xs-2 col-md-1 col-lg-1">
           <a href="https://www.facebook.com">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/icono-de-face.png" alt="">
           </a>
         </div>
-        <div class="col-md-1">
+        <div class="col-xs-2 col-md-1 col-lg-1">
           <a href="https://twitter.com">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/twitter.png" alt="">
           </a>
         </div>
-        <div class="col-md-1">
+        <div class="col-xs-2 col-md-1 col-lg-1">
           <a href="https://www.youtube.com/">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/yt.png" alt="">
           </a>

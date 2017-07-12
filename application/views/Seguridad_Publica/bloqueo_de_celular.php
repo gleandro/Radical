@@ -13,7 +13,7 @@
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <div class="row center" style="position:absolute;width:100%">
+          <div class="row center" style="position:absolute;width:100%;z-index:11">
             <div class="col-md-2">
               <a href="<?php echo base_url();?>" style="text-decoration:none;color:white"><span class="subray" id="best">SOLUCIONES</span></a>
             </div>
@@ -49,7 +49,7 @@
       </div>
     </div>
     <div class="cuerpodetalle" >
-      <div class="row ceromargin">
+      <div class="row ">
         <div class="col-md-4 black center" style="max-height: 540px;">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-3.png" alt="">
@@ -58,34 +58,34 @@
             <span class="text_white_bold">PROBLEMA</span>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Acceso clandestino a celulares de convictos.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Uso indebido de celulares en los convictos.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Planeamiento de delitos dentro de la cárcel.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">No existe una identificación de celular.</span>
             </div>
           </div>
@@ -99,10 +99,10 @@
             <span class="text_white_bold">SOLUCIÓN</span>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Implementación de nuestro sistema de bloqueo de celulares en las cárceles el cual podrá identificar y bloquear todos los celulares no autorizados.</span>
             </div>
           </div>
@@ -116,26 +116,26 @@
             <span class="text_white_bold">BENEFICIO</span>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Control total de las redes celulares dentro de la prisión.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Evitar que se planeen crímenes de la prisión.</span>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-1">
+            <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-md-10 ceropadding left">
+            <div class="col-xs-9 col-sm-9 left">
               <span class="text_white_detalle">Aumenta la seguridad en las prisiones a nivel nacional.</span>
             </div>
           </div>
@@ -148,7 +148,7 @@
       <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/control/neumaticos/control-de-neumaticos-inferior.png" alt="">
       <div class="primero">
         <div class="row text_orange_bold">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
             1.
           </div>
           <div class="col-md-10">
@@ -157,7 +157,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
             de bloqueo en las prisiones.
@@ -169,7 +169,7 @@
           <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/1.png" alt="">
         </div>
         <div class="row text_orange_bold">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
             2.
           </div>
           <div class="col-md-9">
@@ -177,7 +177,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
             a tiempo real.
@@ -186,7 +186,7 @@
       </div>
       <div class="tercero" style="left: 52%;">
         <div class="row text_orange_bold">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
             3.
           </div>
           <div class="col-md-9">
@@ -195,7 +195,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
             celulares no autorizados.
@@ -207,7 +207,7 @@
           <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/2.png" alt="">
         </div>
         <div class="row text_orange_bold">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
             4.
           </div>
           <div class="col-md-9">
@@ -215,7 +215,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-1">
+          <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
             planeamientos indevidos de los convictos.
@@ -255,26 +255,30 @@
         </div>
         <div class="col-md-2">
           <div class="text_red">Teléfono:</div>
-          <span class="text_white">+51 | 4697684</span>
+          <a href="tel:4697684">
+  <span class="text_white">+51 | 4697684</span>
+</a>
         </div>
         <div class="col-md-3">
           <div class="text_red">Mail</div>
-          <span class="text_white">info@rfidperu.pe</span>
+          <a href="mailto:info@rfidperu.pe">
+  <span class="text_white">info@rfidperu.pe</span>
+</a>
         </div>
       </div>
       <br>
       <div class="row footer">
-        <div class="col-md-1">
+        <div class="col-xs-1 col-sm-1 col-md-1">
           <a href="https://www.facebook.com">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/icono-de-face.png" alt="">
           </a>
         </div>
-        <div class="col-md-1">
+        <div class="col-xs-1 col-sm-1 col-md-1">
           <a href="https://twitter.com">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/twitter.png" alt="">
           </a>
         </div>
-        <div class="col-md-1">
+        <div class="col-xs-1 col-sm-1 col-md-1">
           <a href="https://www.youtube.com/">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/yt.png" alt="">
           </a>

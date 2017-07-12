@@ -13,8 +13,8 @@ footer{
   justify-content: center;
   align-items: center;
   background-color: #1F252F;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 footer div.container div.footer{
@@ -99,26 +99,22 @@ a.right{
 }
 
 div span.top{
-  font-size: 50px;
+  font-size: 400%;
   font-weight: bold;
 }
 
 div span.back{
-  font-size: 40px;
+  font-size: 300%;
   font-weight: bold;
 }
 
 
 .bloque{
-  height: 277px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  min-height: 277px;
 }
 
 .aviso{
-  font-size: 50px;
+  font-size: 350%;
   font-family: CenturyGothic;
   font-weight: bold;
 }
@@ -127,11 +123,15 @@ div span.back{
   font-size: 180%;
   font-family: CenturyGothic;
   font-weight: bold;
-  padding-bottom: 9%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  text-align: center;
 }
 .detalle{
   font-size: 160%;
-  padding-top: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
 }
 
 .barra{
@@ -144,10 +144,6 @@ div span.back{
 }
 .top{
   margin-top: 100px;
-}
-
-div.bloque div.row{
-  position: absolute;
 }
 
 .cuerpo{
@@ -173,10 +169,10 @@ div.bloque div.row{
 }
 
 .cuerpodetalle div.row div.center{
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding-top: 2%;
+
     text-align: center;
-    max-height: 500px;
+    min-height: 500px;
 }
 
 .cuerpodetalle div.row div.center div.row div.left{
@@ -186,11 +182,6 @@ div.bloque div.row{
 
 .cuerpodetalle div.row div img{
   width: 18%;
-}
-
-.ceromargin{
-  margin-right: 0;
-  margin-left: 0;
 }
 
 .ceropadding{
@@ -214,10 +205,10 @@ div.cuerpo div.linea div{
 div.cuerpo div.linea div .centro{
   font-weight: bold;
   position: absolute;
-  top: 67.2%;
+  top: 61.2%;
   width: 80%;
   left: 10.1%;
-  height: 32.3%;
+  height: 29.3%;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -363,4 +354,28 @@ div.item div.center{
   left:1%;
 }
 
+.row{
+  margin-right: 0;
+  margin-left: 0;
+}
 
+div.bloque div.row{
+  text-align: center;
+}
+
+div.row div.top{
+  display: flex;
+  justify-content: center;
+}
+
+div.row div.bot{
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-caption{
+  width: 100%;
+  right: 0;
+  left: 0;
+
+}
