@@ -13,21 +13,40 @@
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <div class="row center" id="hide1" style="position:absolute;width:100%;z-index: 11;">
+          <div class="row center responsive_header">
             <div class="col-sm-4 col-md-2 col-lg-2" style="text-align: left;left: 5%;">
               <img class="logo" src="<?php echo base_url(); ?>/application/helpers/images/carousel/LOGO-BLANCO.png" alt="">
             </div>
             <div class="col-sm-2 col-sm-offset-2 col-md-2 col-md-offset-4 col-lg-1 col-lg-offset-5">
-              <a href="<?php echo base_url();?>Radical" class="scroll" style="text-decoration:none;color:white"><span class="subray">SOLUCIONES</span></a>
+              <a href="#soluciones" class="scroll" style="text-decoration:none;color:white"><span class="subray">SOLUCIONES</span></a>
             </div>
-            <div class="col-sm-2 col-lg-1">
-              <a href="<?php echo base_url();?>Radical/exitos" style="text-decoration:none;color:white"><span class="subray" >CASOS DE ÉXITO</span></a>
+            <div class="col-sm-2-5 col-lg-2-5">
+              <a href="<?php echo base_url();?>Radical/exitos" style="text-decoration:none;color:white"><span class="subray">CASOS DE ÉXITO</span></a>
             </div>
             <div class="col-sm-2 col-lg-1">
               <a href="<?php echo base_url();?>Radical/nosotros" style="text-decoration:none;color:white"><span class="subray" id="best">NOSOTROS</span></a>
             </div>
             <div class="col-sm-2 col-lg-1">
               <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:white"><span class="subray">CONTACTO</span></a>
+            </div>
+          </div>
+          <div class="colapsive_header navbar navbar-inverse">
+            <div class="container-fluid" style="width: 100%;">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li class=""><a href="<?php echo base_url();?>">SOLUCIONES</a></li>
+                  <li class=""><a href="<?php echo base_url();?>Radical/exitos">CASOS DE ÉXITO</a></li>
+                  <li class="active"><a href="<?php echo base_url();?>Radical/nosotros">NOSOTROS</a></li>
+                  <li class=""><a href="<?php echo base_url();?>Radical/contacto">CONTACTO</a></li>
+                </ul>
+              </div>
             </div>
           </div>
           <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/home.jpg" alt="...">
@@ -40,10 +59,10 @@
     </div>
     <div class="cuerpo">
       <div class="linea">
-          <fieldset class="caja" style="width: 100%;display: flex;width: 100%;justify-content: center;align-items: center;text-align: center;margin-top: 10%;padding-bottom:300px">
+          <fieldset class="caja field_caja">
           <legend style="width: auto;border-bottom: 0;text-align: left;font-weight: bold">NOSOTROS</legend>
           <div style="">
-            <div class="row" style="justify-content: center;display: flex;padding-top: 5%;">
+            <div class="row top_nos">
               <div class="top">
                 <span class="barra" style="background-color:#E2231A"></span>
                 <span class="barra" style="background-color:#E53131"></span>
@@ -53,11 +72,11 @@
             </div>
             <div class="row" style="text-align: center">
               <div class="col-md-12">
-                <span class="aviso" style="font-size: 600%;"">SOLUCIONES RÁPIDAS&nbsp;</span><span class="text_red  aviso" style="font-size: 600%;""> RFID</span>
+                <span class="aviso">SOLUCIONES RÁPIDAS&nbsp;</span><span class="text_red  aviso"> RFID</span>
               </div>
             </div>
             <div class="row">
-              <div class="bot" style="justify-content: center;display: flex;">
+              <div class="bot_res" style="justify-content: center;display: flex;">
                 <span class="barra" style="background-color:#E2231A"></span>
                 <span class="barra" style="background-color:#E53131"></span>
                 <span class="barra" style="background-color:#EA5C2D"></span>
@@ -81,9 +100,9 @@
             <div class="linea">
               <fieldset class="caja" style="width: 100%;display: flex;width: 100%;justify-content: center;align-items: center;text-align: center;padding-bottom:200px">
               <legend class="text_white_bold" style="width: auto;border-bottom: 0;text-align: left">EQUIPO</legend>
-              <div style="padding-top: 5%;padding-bottom: 10%">
+              <div>
                 <div class="row" style="justify-content: center;display: flex;">
-                  <div class="top">
+                  <div class="top_top">
                     <span class="barra" style="background-color:white"></span>
                     <span class="barra" style="background-color:white"></span>
                     <span class="barra" style="background-color:white"></span>
@@ -92,11 +111,11 @@
                 </div>
                 <div class="row" style="text-align: center">
                   <div class="col-md-12">
-                    <span class="aviso" style="font-size: 600%;">NUESTRO EQUIPO.</span>
+                    <span class="aviso">NUESTRO EQUIPO</span>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="bot" style="justify-content: center;display: flex;">
+                  <div class="bot_bot" style="justify-content: center;display: flex;">
                     <span class="barra" style="background-color:white"></span>
                     <span class="barra" style="background-color:white"></span>
                     <span class="barra" style="background-color:white"></span>

@@ -10,50 +10,65 @@
     <header>
 
     </header>
-    <div class="row" style="width:100%;z-index: 10;padding-top:2%;padding-bottom:2%">
-      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="text-align: left;left: 5%;">
-        <img class="logo" style="width: 100%" src="<?php echo base_url(); ?>/application/helpers/images/carousel/LOGO-COLORES.png" alt="">
-      </div>
-      <div class="col-xs-2 col-sm-2 col-sm-offset-2 col-md-2 col-md-offset-2 col-lg-1 col-lg-offset-5">
-        <a href="#soluciones" class="scroll" style="text-decoration:none;color:black"><span class="subray">SOLUCIONES</span></a>
-      </div>
-      <div class="col-xs-2 col-sm-2 col-lg-1">
-        <a href="<?php echo base_url();?>Radical/exitos" style="text-decoration:none;color:black"><span class="subray">CASOS DE ÉXITO</span></a>
-      </div>
-      <div class="col-xs-2 col-sm-2 col-lg-1">
-        <a href="<?php echo base_url();?>Radical/nosotros" style="text-decoration:none;color:black"><span class="subray">NOSOTROS</span></a>
-      </div>
-      <div class="col-xs-2 col-sm-2 col-lg-1">
-        <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:black"><span class="subray" id="best">CONTACTO</span></a>
+    <div class="row contac_row aditional_none">
+      <div class="row center responsive_header_2">
+        <div class="logo_ref col-sm-3 col-md-2 col-lg-2">
+          <img class="logo_contac" src="<?php echo base_url(); ?>/application/helpers/images/carousel/LOGO-COLORES.png" alt="">
+        </div>
+        <div class="col-sm-1 col-sm-offset-1 col-md-1 col-md-offset-4 col-lg-1 col-lg-offset-5">
+          <a href="<?php echo base_url();?>" class="scroll" style="text-decoration:none;color:black"><span class="subray" id="best">SOLUCIONES</span></a>
+        </div>
+        <div class="col-sm-3 col-md-2 col-lg-2-5" style="text-align:center;">
+          <a href="<?php echo base_url();?>Radical/exitos" style="text-decoration:none;color:black"><span class="subray">CASOS DE ÉXITO</span></a>
+        </div>
+        <div class="col-sm-2 col-md-1 col-lg-1">
+          <a href="<?php echo base_url();?>Radical/nosotros" style="text-decoration:none;color:black"><span class="subray">NOSOTROS</span></a>
+        </div>
+        <div class="col-sm-2 col-md-1 col-lg-1">
+          <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:black"><span class="subray">CONTACTO</span></a>
+        </div>
       </div>
     </div>
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img style="height:800px" src="<?php echo base_url(); ?>/application/helpers/images/CONTACTO.jpg" alt="...">
-          <div class="carousel-caption center" style="top: 45%;">
-            <div class="" style="width: 40%;opacity: 0.7;">
-              <span class="top">CONTACTANOS</span>
-              <form role="form">
-                <div class="input-group input-group-lg" style="width: 100%;">
-                  <input type="text" class="form-control" placeholder="Nombre:" aria-describedby="sizing-addon1">
+    <div class="colapsive_header navbar navbar-inverse">
+      <div class="container-fluid" style="width: 100%;">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="<?php echo base_url();?>">SOLUCIONES</a></li>
+            <li class=""><a href="<?php echo base_url();?>Radical/exitos">CASOS DE ÉXITO</a></li>
+            <li class=""><a href="<?php echo base_url();?>Radical/nosotros">NOSOTROS</a></li>
+            <li class=""><a href="<?php echo base_url();?>Radical/contacto">CONTACTO</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <a href="mailto:info@rfidperu.pe">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img style="height:800px" src="<?php echo base_url(); ?>/application/helpers/images/CONTACTO.jpg" alt="...">
+            <div class="carousel-caption center_2">
+              <div class="row">
+                <div class="col-lg-12">
+                  <span class="top">CONTACTANOS</span>
                 </div>
-                <div class="input-group input-group-lg" style="width: 100%;">
-                <input type="text" class="form-control" placeholder="Email:" aria-describedby="sizing-addon1">
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="<?php echo base_url();?>/application//helpers/images//enviar.png" alt="">
                 </div>
-                <div class="input-group input-group-lg" style="width: 100%;">
-                  <input type="text" class="form-control" placeholder="Teléfono:" aria-describedby="sizing-addon1">
-                </div>
-                <div class="input-group input-group-lg" style="width: 100%;">
-                  <input type="text" class="form-control" placeholder="Mensaje:" aria-describedby="sizing-addon1">
-                </div>
-                <button style="width: 100%;" type="submit" class="btn btn-default">Enviar</button>
-              </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </a>
     <script src="<?php echo base_url(); ?>/application/helpers/js/jquery-1.11.1.js"></script>
     <script src="<?php echo base_url(); ?>/application/helpers/js/bootstrap.js"></script>
 
@@ -101,9 +116,7 @@
       <div class="col-lg-3">
         <div class="text_red">Mail</div>
         <a href="mailto:info@rfidperu.pe">
-          <a href="mailto:info@rfidperu.pe">
             <span class="text_white">info@rfidperu.pe</span>
-          </a>
         </a>
       </div>
     </div>

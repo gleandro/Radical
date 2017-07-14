@@ -14,14 +14,14 @@
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <div class="row center" id="hide1" style="position:absolute;width:100%;z-index: 11;display:none">
+          <div class="row center responsive_header">
             <div class="col-sm-4 col-md-2 col-lg-2" style="text-align: left;left: 5%;">
               <img class="logo" src="<?php echo base_url(); ?>/application/helpers/images/carousel/LOGO-BLANCO.png" alt="">
             </div>
             <div class="col-sm-2 col-sm-offset-2 col-md-2 col-md-offset-4 col-lg-1 col-lg-offset-5">
               <a href="#soluciones" class="scroll" style="text-decoration:none;color:white"><span class="subray" id="best">SOLUCIONES</span></a>
             </div>
-            <div class="col-sm-2 col-lg-1">
+            <div class="col-sm-2-5 col-lg-2-5">
               <a href="<?php echo base_url();?>Radical/exitos" style="text-decoration:none;color:white"><span class="subray">CASOS DE ÉXITO</span></a>
             </div>
             <div class="col-sm-2 col-lg-1">
@@ -31,14 +31,33 @@
               <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:white"><span class="subray">CONTACTO</span></a>
             </div>
           </div>
+          <div class="colapsive_header navbar navbar-inverse">
+            <div class="container-fluid" style="width: 100%;">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#soluciones" class="subray" id="best">SOLUCIONES</a></li>
+                  <li class=""><a href="<?php echo base_url();?>Radical/exitos">CASOS DE ÉXITO</a></li>
+                  <li class=""><a href="<?php echo base_url();?>Radical/nosotros">NOSOTROS</a></li>
+                  <li class=""><a href="<?php echo base_url();?>Radical/contacto">CONTACTO</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
           <video style="width: 100%" src="<?php echo base_url(); ?>/application/helpers/images/header.mp4" autoplay preload loop></video>
-          <div class="carousel-caption" id="hide2" style="left: 5%;text-align-last: left;z-index: 10;padding-bottom: 23%;display:none;font-size:100%;top:20%">
+          <div class="carousel-caption banner_res" id="hide2" style="left: 5%;text-align-last: left;z-index: 10;padding-bottom: 23%;display:none">
             <span class="top" style="font-size: 350%;">Desarrollamos soluciones</span><br>
             <span class="top" style="font-size: 350%;">radicales integrando</span><br>
             <span class="top" style="font-size: 350%;">tecnologías RFID/NFC.</span><br>
             <div>
             <a href="#soluciones" class="scroll">
-              <img style="width: 10%;" src="<?php echo base_url(); ?>/application/helpers/images/boton.png" alt="...">
+              <img class="img_res" src="<?php echo base_url(); ?>/application/helpers/images/boton.png" alt="...">
             </a>
             </div>
           </div>
@@ -71,8 +90,8 @@
     <div class="cuerpo">
       <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/adorno-superior.png" alt="">
       <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/adorno-inferior.png" alt="">
-      <div class="linea row" id="hide3" style="display:inline;">
-        <div class="col-sm-4 col-md-3 col-lg-2" style="min-height: 0;padding-right: 0;padding-left: 0;">
+      <div class="linea row"  style="display:inline;">
+        <div class="col-sm-4 col-md-3 col-lg-2" id="hide3" style="min-height: 0;padding-right: 0;padding-left: 0;display:none">
           <a href="<?php echo base_url(); ?>Control_Activos">
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/1.jpg" alt="">
           </a>
@@ -81,7 +100,7 @@
             <span>ACTIVOS</span>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 col-lg-2" style="min-height: 0;padding-right: 0;padding-left: 0;">
+        <div class="col-sm-4 col-md-3 col-lg-2" id="hide4" style="min-height: 0;padding-right: 0;padding-left: 0;display:none">
           <a href="<?php echo base_url(); ?>Trazabilidad_de_Carga">
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/2.jpg" alt="">
           </a>
@@ -90,7 +109,7 @@
             <span>CARGA</span>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 col-lg-2" style="min-height: 0;padding-right: 0;padding-left: 0;">
+        <div class="col-sm-4 col-md-3 col-lg-2" id="hide5" style="min-height: 0;padding-right: 0;padding-left: 0;display:none">
           <a href="<?php echo base_url(); ?>Control_Retail_Inventario">
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/3.jpg" alt="">
           </a>
@@ -99,7 +118,7 @@
             <span>RETAIL E INVENTARIOS</span>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 col-lg-2" style="min-height: 0;padding-right: 0;padding-left: 0;">
+        <div class="col-sm-4 col-md-3 col-lg-2" id="hide6" style="min-height: 0;padding-right: 0;padding-left: 0;display:none">
           <a href="<?php echo base_url(); ?>Salud_y_Trazabilidad">
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/4.jpg" alt="">
           </a>
@@ -108,7 +127,7 @@
             <span>TRAZABILIDAD</span>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 col-lg-2" style="min-height: 0;padding-right: 0;padding-left: 0;">
+        <div class="col-sm-4 col-md-3 col-lg-2" id="hide7" style="min-height: 0;padding-right: 0;padding-left: 0;display:none">
           <a href="<?php echo base_url(); ?>Control_de_Gas">
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/5.jpg" alt="">
           </a>
@@ -117,7 +136,7 @@
             <span>OIL & GAS</span>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 col-lg-2" style="min-height: 0;padding-right: 0;padding-left: 0;">
+        <div class="col-sm-4 col-md-3 col-lg-2" id="hide8" style="min-height: 0;padding-right: 0;padding-left: 0;display:none">
           <a href="<?php echo base_url(); ?>Control_de_Peaje">
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/6.jpg" alt="">
           </a>
@@ -125,7 +144,7 @@
             <span>CONTROL PEAJE</span>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 col-lg-2" style="min-height: 0;padding-right: 0;padding-left: 0;">
+        <div class="col-sm-4 col-md-3 col-lg-2" id="hide9" style="min-height: 0;padding-right: 0;padding-left: 0;display:none">
           <a href="<?php echo base_url(); ?>Control_de_Mascotas">
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/7.jpg" alt="">
           </a>
@@ -134,16 +153,16 @@
             <span>MASCOTAS</span>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 col-lg-2" style="min-height: 0;padding-right: 0;padding-left: 0;">
+        <div class="col-sm-4 col-md-3 col-lg-2" id="hide10" style="min-height: 0;padding-right: 0;padding-left: 0;display:none">
           <a href="<?php echo base_url(); ?>Control_de_Acceso">
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/11.jpg" alt="">
           </a>
           <div class="centro">
             <span>CONTROL DE</span>
-            <span>ACCESO</span>
+            <span>ACCESO RFID + CCTV</span>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 col-lg-2" style="min-height: 0;padding-right: 0;padding-left: 0;">
+        <div class="col-sm-4 col-md-3 col-lg-2" id="hide11" style="min-height: 0;padding-right: 0;padding-left: 0;display:none">
         <!--  <a href="<?php echo base_url(); ?>Seguridad_Publica">-->
         <a href="#"  data-toggle="modal" data-target=".bs-example-modal-sm">
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/8.jpg" alt="">
@@ -153,7 +172,7 @@
             <span>PÚBLICA</span>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 col-lg-2" style="min-height: 0;padding-right: 0;padding-left: 0;">
+        <div class="col-sm-4 col-md-3 col-lg-2" id="hide12" style="min-height: 0;padding-right: 0;padding-left: 0;display:none">
           <!--<a href="<?php echo base_url(); ?>Manejo_de_Desastres">-->
           <a href="#"  data-toggle="modal" data-target=".bs-example-modal-sm">
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/9.jpg" alt="">
@@ -185,6 +204,15 @@
 
           if( bottom_of_window_ini >= bottom_of_object ){
               $('#hide3').fadeIn(3500);
+              $('#hide4').fadeIn(3500);
+              $('#hide5').fadeIn(3500);
+              $('#hide6').fadeIn(3500);
+              $('#hide7').fadeIn(3500);
+              $('#hide8').fadeIn(3500);
+              $('#hide9').fadeIn(3500);
+              $('#hide10').fadeIn(3500);
+              $('#hide11').fadeIn(3500);
+              $('#hide12').fadeIn(3500);
           }
           if( bottom_of_window >= bottom_of_object+50 ){
               $('#hide4').fadeIn(3500);
@@ -238,7 +266,7 @@
 <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
   <div class="modal-dialog modal-sm" role="document" style="width: 50%;text-align:center">
     <div class="modal-content">
-        <h1 class="text_red_bold">No puede ingresar a esta opción.</h1>
+        <h1 class="text_red_bold">Acceso restringido.</h1>
     </div>
   </div>
 </div>

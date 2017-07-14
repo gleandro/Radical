@@ -13,18 +13,40 @@
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <div class="row center" style="position:absolute;width:100%;z-index:11">
-            <div class="col-md-2">
-              <a href="<?php echo base_url();?>" style="text-decoration:none;color:white"><span class="subray" id="best">SOLUCIONES</span></a>
+          <div class="row center responsive_header">
+            <div class="col-sm-4 col-md-2 col-lg-2" style="text-align: left;left: 5%;">
+              <img class="logo" src="<?php echo base_url(); ?>/application/helpers/images/carousel/LOGO-BLANCO.png" alt="">
             </div>
-            <div class="col-md-2">
+            <div class="col-sm-2 col-sm-offset-2 col-md-2 col-md-offset-4 col-lg-1 col-lg-offset-5">
+              <a href="<?php echo base_url();?>" class="scroll" style="text-decoration:none;color:white"><span class="subray" id="best">SOLUCIONES</span></a>
+            </div>
+            <div class="col-sm-2-5 col-lg-2-5">
               <a href="<?php echo base_url();?>Radical/exitos" style="text-decoration:none;color:white"><span class="subray">CASOS DE ÉXITO</span></a>
             </div>
-            <div class="col-md-2">
+            <div class="col-sm-2 col-lg-1">
               <a href="<?php echo base_url();?>Radical/nosotros" style="text-decoration:none;color:white"><span class="subray">NOSOTROS</span></a>
             </div>
-            <div class="col-md-2">
+            <div class="col-sm-2 col-lg-1">
               <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:white"><span class="subray">CONTACTO</span></a>
+            </div>
+          </div>
+          <div class="colapsive_header navbar navbar-inverse">
+            <div class="container-fluid" style="width: 100%;">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="<?php echo base_url();?>">SOLUCIONES</a></li>
+                  <li class=""><a href="<?php echo base_url();?>Radical/exitos">CASOS DE ÉXITO</a></li>
+                  <li class=""><a href="<?php echo base_url();?>Radical/nosotros">NOSOTROS</a></li>
+                  <li class=""><a href="<?php echo base_url();?>Radical/contacto">CONTACTO</a></li>
+                </ul>
+              </div>
             </div>
           </div>
           <img src="<?php echo base_url(); ?>/application/helpers/images/salud/salud-y-trazabilidad.jpg" alt="...">
@@ -35,7 +57,7 @@
         </div>
       </div>
     </div>
-    <div class="bloque">
+    <div class="bloque"  id="soluciones">
       <div class="row">
         <div class="top">
           <span class="barra" style="background-color:#E2231A"></span>
@@ -62,7 +84,7 @@
       <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/adorno-superior.png" alt="">
       <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/adorno-inferior.png" alt="">
       <div class="row linea" style="display:inline">
-        <div class="col-sm-6 col-md-6 col-lg-offset-2 col-lg-4">
+        <div class="col-sm-6 col-md-6 col-lg-offset-2 col-lg-4"  id="hide3" style="display:none">
           <a href="<?php echo base_url(); ?>Salud_y_Trazabilidad/medicamentos">
             <img src="<?php echo base_url(); ?>/application/helpers/images/salud/1.jpg" alt="">
           </a>
@@ -71,7 +93,7 @@
             <span>Medicamentos</span>
           </div>
         </div>
-        <div class="col-sm-6 col-md-6 col-lg-pull-0 col-lg-4 ">
+        <div class="col-sm-6 col-md-6 col-lg-pull-0 col-lg-4 " id="hide4" style="display:none">
           <a href="<?php echo base_url(); ?>Salud_y_Trazabilidad/seguimiento">
             <img src="<?php echo base_url(); ?>/application/helpers/images/salud/2.jpg" alt="">
           </a>
@@ -89,6 +111,32 @@
     <script src="<?php echo base_url(); ?>/application/helpers/js/bootstrap.js"></script>
     <script type="text/javascript">
     $(document).ready(function(){
+
+      $(window).scroll(function() {
+          var bottom_of_object = $("#soluciones").offset().top;
+          var bottom_of_window_ini = $(window).scrollTop() + $(window).height();
+          var bottom_of_window = $(window).scrollTop();
+
+          if( bottom_of_window_ini >= bottom_of_object ){
+              $('#hide3').fadeIn(3500);
+              $('#hide4').fadeIn(3500);
+              $('#hide5').fadeIn(3500);
+              $('#hide6').fadeIn(3500);
+              $('#hide7').fadeIn(3500);
+              $('#hide8').fadeIn(3500);
+              $('#hide9').fadeIn(3500);
+              $('#hide10').fadeIn(3500);
+              $('#hide11').fadeIn(3500);
+              $('#hide12').fadeIn(3500);
+          }
+          if( bottom_of_window >= bottom_of_object+50 ){
+              $('#hide4').fadeIn(3500);
+          }
+          if( bottom_of_window >= bottom_of_object+750 ){
+              $('#hide5').fadeIn(3500);
+          }
+      });
+
       $(".subray").mouseover(function() {
         if ($(this)[0].id != "best") {
           $("#best").css("border-bottom-style", "none");
