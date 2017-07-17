@@ -50,14 +50,14 @@
               </div>
             </div>
           <img src="<?php echo base_url(); ?>/application/helpers/images/control/neumaticos/CONTROL-DE-NEUMATICOS-HEADER.jpg" alt="...">
-          <div class="carousel-caption">
+          <div class="carousel-caption banner_res_2" id="hide1" style="display:none;">
             <span class="top">CONTROL DE </span><span class="text_red top">NEUMÁTICOS</span><br>
             <span class="back">CON TECNOLOGÍA RFID</span><br>
           </div>
         </div>
       </div>
     </div>
-    <div class="bloque">
+    <div class="bloque" id="soluciones">
       <div class="row titulo">
         <div class="col-md-12">
           <span class="">OPTIMICE SUS NEUMÁTICOS</span>
@@ -70,9 +70,9 @@
         </div>
       </div>
     </div>
-    <div class="cuerpodetalle" >
+    <div class="cuerpodetalle" id="bloques" >
       <div class="row ">
-        <div class="col-md-4 black center" style="min-height: 645px;">
+        <div class="col-md-4 black center" id="a" style="display:none;">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-3.png" alt="">
           </div>
@@ -104,7 +104,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 red center" style="min-height: 645px;">
+        <div class="col-md-4 red center" id="b" style="display:none;">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-2.png" alt="">
           </div>
@@ -144,7 +144,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 black center" style="min-height: 645px;">
+        <div class="col-md-4 black center" id="c" style="display:none;">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-1.png" alt="">
           </div>
@@ -203,9 +203,9 @@
       </div>
     </div>
     <div class="fichero">
-      <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/control/neumaticos/control-de-neumaticos-superior.png" alt="">
-      <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/control/neumaticos/control-de-neumaticos-inferior.png" alt="">
-      <div class="primero">
+      <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/control/neumaticos/control-de-neumaticos-superior.png" alt="" id="top" style="opacity:0">
+      <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/control/neumaticos/control-de-neumaticos-inferior.png" alt="" id="bot" style="opacity:0">
+      <div class="primero" id="num_1" style="display:none">
         <div class="row text_orange_bold">
           <div class="col-xs-1 col-sm-1 col-md-1">
             1.
@@ -222,7 +222,7 @@
           </div>
         </div>
       </div>
-      <div class="segundo">
+      <div class="segundo" id="num_2" style="display:none">
         <div class="row" style="margin-left: 10%;">
           <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/neumaticos/icono-1.png" alt="">
         </div>
@@ -242,7 +242,7 @@
           </div>
         </div>
       </div>
-      <div class="tercero" style="left: 52%;">
+      <div class="tercero" style="left: 52%;display:none" id="num_3">
         <div class="row text_orange_bold">
           <div class="col-xs-1 col-sm-1 col-md-1">
             3.
@@ -260,7 +260,7 @@
           </div>
         </div>
       </div>
-      <div class="cuarto" style="top: 65%;left: 65%;">
+      <div class="cuarto" style="top: 65%;left: 65%;display:none" id="num_4">
         <div class="row" style="margin-left: 20%;">
           <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/neumaticos/icono-2.png" alt="">
         </div>
@@ -281,7 +281,7 @@
           </div>
         </div>
       </div>
-      <div class="quinto">
+      <div class="quinto" id="num_5" style="display:none">
         <img style="width: 40%;" class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/neumaticos/logo-tire-sense.png" alt="">
       </div>
     </div>
@@ -289,6 +289,11 @@
     <script src="<?php echo base_url(); ?>/application/helpers/js/bootstrap.js"></script>
     <script type="text/javascript">
     $(document).ready(function(){
+
+      $('body').scrollspy({target: ".navbar", offset: 50});
+
+      $('#hide1').fadeIn(3000);
+
       $(".subray").mouseover(function() {
         if ($(this)[0].id != "best") {
           $("#best").css("border-bottom-style", "none");
@@ -302,6 +307,39 @@
           $("#best").css("border-bottom-style", "solid");
           $("#best").css("border-bottom-width", "thick");
         }
+       });
+       var count=0;
+       $(window).scroll(function() {
+           var bottom_of_object = $("#soluciones").offset().top;
+           var bottom_of_window_ini = $(window).scrollTop() + $(window).height();
+           var bottom_of_object_bloque = $("#bloques").offset().top;
+           var bottom_of_window = $(window).scrollTop();
+
+           if( bottom_of_window_ini >= bottom_of_object ){
+             $('#a').delay(0).fadeIn(2000);
+             $('#a').css("min-height","645px");
+             $('#b').delay(1200).fadeIn(2000);
+             $('#b').css("min-height","645px");
+             $('#c').delay(2400).fadeIn(2000);
+             $('#c').css("min-height","645px");
+           }
+           if( bottom_of_window >= bottom_of_object_bloque ){
+             if (count==0) {
+               var top = $("#top");
+               top.animate({right: '500px', opacity: '0.0'}, "fast");
+               top.animate({right: '0px', opacity: '1'}, 3000);
+
+               var bot = $("#bot");
+               bot.animate({left: '500px', opacity: '0.0'}, "fast");
+               bot.animate({left: '0px', opacity: '1'}, 3000);
+               $("#num_1").delay(3000).fadeIn(2000);
+               $("#num_2").delay(4000).fadeIn(2000);
+               $("#num_3").delay(5000).fadeIn(2000);
+               $("#num_4").delay(6000).fadeIn(2000);
+               $("#num_5").delay(3000).fadeIn(2000);
+             }
+              count++;
+           }
        });
 
     });

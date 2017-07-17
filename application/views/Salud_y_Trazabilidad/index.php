@@ -50,7 +50,7 @@
             </div>
           </div>
           <img src="<?php echo base_url(); ?>/application/helpers/images/salud/salud-y-trazabilidad.jpg" alt="...">
-          <div class="carousel-caption">
+          <div class="carousel-caption banner_res_2" id="hide1" style="display:none;">
             <span class="top">SALUD Y </span><span class="text_red top">TRAZABILIDAD</span><br>
             <span class="back">CON TECNOLOGÍA RFID</span><br>
           </div>
@@ -105,37 +105,22 @@
         </div>
       </div>
     </div>
-    <div style="background-color:gray;" class="bloque">
-    </div>
+    <marquee width="100%">
+      <div >
+        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/lib.png" alt="">
+        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/kathrein.png" alt="">
+        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/escon.png" alt="">
+        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/mojix.png" alt="">
+      </div>
+    </marquee>
     <script src="<?php echo base_url(); ?>/application/helpers/js/jquery-1.11.1.js"></script>
     <script src="<?php echo base_url(); ?>/application/helpers/js/bootstrap.js"></script>
     <script type="text/javascript">
     $(document).ready(function(){
 
-      $(window).scroll(function() {
-          var bottom_of_object = $("#soluciones").offset().top;
-          var bottom_of_window_ini = $(window).scrollTop() + $(window).height();
-          var bottom_of_window = $(window).scrollTop();
+      $('body').scrollspy({target: ".navbar", offset: 50});
 
-          if( bottom_of_window_ini >= bottom_of_object ){
-              $('#hide3').fadeIn(3500);
-              $('#hide4').fadeIn(3500);
-              $('#hide5').fadeIn(3500);
-              $('#hide6').fadeIn(3500);
-              $('#hide7').fadeIn(3500);
-              $('#hide8').fadeIn(3500);
-              $('#hide9').fadeIn(3500);
-              $('#hide10').fadeIn(3500);
-              $('#hide11').fadeIn(3500);
-              $('#hide12').fadeIn(3500);
-          }
-          if( bottom_of_window >= bottom_of_object+50 ){
-              $('#hide4').fadeIn(3500);
-          }
-          if( bottom_of_window >= bottom_of_object+750 ){
-              $('#hide5').fadeIn(3500);
-          }
-      });
+      $('#hide1').fadeIn(3000);
 
       $(".subray").mouseover(function() {
         if ($(this)[0].id != "best") {
@@ -150,6 +135,18 @@
           $("#best").css("border-bottom-style", "solid");
           $("#best").css("border-bottom-width", "thick");
         }
+       });
+       var count=0;
+       $(window).scroll(function() {
+           var bottom_of_object = $("#soluciones").offset().top;
+           var bottom_of_window_ini = $(window).scrollTop() + $(window).height();
+           var bottom_of_window_ini = $(window).scrollTop() + $(window).height();
+           var bottom_of_window = $(window).scrollTop();
+
+           if( bottom_of_window_ini >= bottom_of_object ){
+               $('#hide3').fadeIn(3500);
+               $('#hide4').fadeIn(3500);
+           }
        });
 
     });

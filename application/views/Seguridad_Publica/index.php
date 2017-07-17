@@ -50,13 +50,13 @@
             </div>
           </div>
           <img src="<?php echo base_url(); ?>/application/helpers/images/header.png" alt="...">
-          <div class="carousel-caption">
+          <div class="carousel-caption banner_res_2" id="hide1" style="display:none;">
             <span class="top">SEGURIDAD </span><span class="text_red top">PÚBLICA</span>
           </div>
         </div>
       </div>
     </div>
-    <div class="bloque">
+    <div class="bloque" id="soluciones">
       <div class="row">
         <div class="top">
           <span class="barra" style="background-color:#E2231A"></span>
@@ -105,8 +105,14 @@
         </div>
       </div>
     </div>
-    <div style="background-color:gray;" class="bloque">
-    </div>
+    <marquee width="100%">
+      <div >
+        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/lib.png" alt="">
+        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/kathrein.png" alt="">
+        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/escon.png" alt="">
+        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/mojix.png" alt="">
+      </div>
+    </marquee>
     <script src="<?php echo base_url(); ?>/application/helpers/js/jquery-1.11.1.js"></script>
     <script src="<?php echo base_url(); ?>/application/helpers/js/bootstrap.js"></script>
     <script type="text/javascript">

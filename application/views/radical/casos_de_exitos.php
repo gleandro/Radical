@@ -50,7 +50,7 @@
             </div>
           </div>
           <img src="<?php echo base_url(); ?>/application/helpers/images/casos_de_exito/HEADER.jpg" alt="...">
-          <div class="carousel-caption">
+          <div class="carousel-caption banner_res_2" id="hide1" style="display:none;">
             <span class="top">CASOS DE </span><span class="text_red top">ÉXITO</span><br>
             <span class="back">Radical solutions</span><br>
           </div>

@@ -3,7 +3,10 @@
   src:url(/application/helpers/fonts/CenturyGothic.ttf);
 }
 
-
+.logo_banner{
+  width: 300px;
+  height: 100px;
+}
 
 body{
   width: 100%;
@@ -111,7 +114,7 @@ div span.back{
 
 
 .bloque{
-  height: 277px;
+  font-size: 100%;
 }
 
 .aviso{
@@ -397,6 +400,11 @@ div.row div.bot{
   top:20%
 }
 
+.banner_res_2{
+  font-size: 100%;
+  top:35%;
+}
+
 .img_res{
   padding-top: 1%;
   width: 10%;
@@ -462,6 +470,9 @@ div.row div.bot{
 
 @media only screen and (max-width: 1300px){
   .banner_res{
+    font-size: 90%;
+  }
+  .banner_res_2{
     font-size: 90%;
   }
   .aviso{
@@ -554,6 +565,10 @@ div.row div.bot{
   .banner_res{
     font-size: 80%;
   }
+  .banner_res_2{
+    font-size: 80%;
+  }
+
   .aviso{
     font-size: 250%;
   }
@@ -599,8 +614,15 @@ div.row div.bot{
 
 @media only screen and (max-width: 800px){
   .banner_res{
-    font-size: 60%;
+    font-size: 50%;
     top:25%
+  }
+  .banner_res_2{
+    font-size: 70%;
+    top:30%
+  }
+  .aviso{
+    font-size: 200%;
   }
   .img_res{
     width: :16.5%;
@@ -642,9 +664,20 @@ div.row div.bot{
 }
 
 @media only screen and (max-width: 767px){
-div.item div.center{
-  display: none;
-}
+  div.item div.center{
+    display: none;
+  }
+  .banner_res{
+    font-size: 40%;
+    top:25%
+  }
+  .banner_res_2{
+    font-size: 60%;
+    top:30%
+  }
+  .aviso{
+    font-size: 150%;
+  }
   .colapsive_header{
     display: flex;
     opacity: 0.8;
@@ -688,5 +721,18 @@ div.item div.center{
   }
   .bloque{
     height: 200px;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .banner_res_2{
+    font-size: 50%;
+    top:30%;
+  }
+  .bloque{
+    font-size: 90%;
+  }
+  .cuerpodetalle{
+    font-size: 90%
   }
 }

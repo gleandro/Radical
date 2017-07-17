@@ -50,14 +50,14 @@
             </div>
           </div>
           <img src="<?php echo base_url(); ?>/application/helpers/images/acceso/header.jpg" alt="...">
-          <div class="carousel-caption">
+          <div class="carousel-caption banner_res_2" id="hide1" style="display:none;">
             <span class="top">CONTROL DE ACCESO </span><br>
             <span class="top text_red">RFID</span><span class="top"> + </span><span class="top text_red">CCTV</span>
           </div>
         </div>
       </div>
     </div>
-    <div class="bloque">
+    <div class="bloque" id="soluciones">
       <div class="row titulo" style="margin-right: 0;margin-left: 0;">
         <div class="col-md-12">
           <span class="">RFID + CCTV</span>
@@ -71,9 +71,9 @@
         </div>
       </div>
     </div>
-    <div class="cuerpodetalle" >
+    <div class="cuerpodetalle" id="bloques" >
       <div class="row ">
-        <div class="col-sm-12 col-md-12 col-lg-4 black center" style="min-height: 550px;">
+        <div class="col-sm-12 col-md-12 col-lg-4 black center" id="a" style="min-height: 550px;display:none">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-3.png" alt="">
           </div>
@@ -97,7 +97,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-4 red center" style="min-height: 550px;">
+        <div class="col-sm-12 col-md-12 col-lg-4 red center" id="b" style="min-height: 550px;display:none">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-2.png" alt="">
           </div>
@@ -113,7 +113,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-4 black center" style="min-height: 550px;">
+        <div class="col-sm-12 col-md-12 col-lg-4 black center" id="c" style="min-height: 550px;display:none">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-1.png" alt="">
           </div>
@@ -149,9 +149,9 @@
       </div>
     </div>
     <div class="fichero">
-      <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/acceso/up.png" alt="">
-      <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/acceso/down.png" alt="">
-      <div class="primero">
+      <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/acceso/up.png" alt="" id="top" style="opacity:0">
+      <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/acceso/down.png" alt="" id="bot" style="opacity:0">
+      <div class="primero" id="num_1" style="display:none">
         <div class="row text_orange_bold">
           <div class="col-xs-1 col-sm-1 col-md-1" style="color: #E2231A">
             1.
@@ -169,7 +169,7 @@
           </div>
         </div>
       </div>
-      <div class="segundo">
+      <div class="segundo" id="num_2" style="display:none">
         <div class="row" style="margin-left: 10%;">
           <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/1.png" alt="">
         </div>
@@ -190,7 +190,7 @@
           </div>
         </div>
       </div>
-      <div class="tercero" style="left: 52%;">
+      <div class="tercero" id="num_3" style="left: 52%;display:none">
         <div class="row text_orange_bold">
           <div class="col-xs-1 col-sm-1 col-md-1" style="color: #E2231A">
             3.
@@ -207,7 +207,7 @@
           </div>
         </div>
       </div>
-      <div class="cuarto" style="top: 65%;left: 65%;">
+      <div class="cuarto" id="num_4" style="top: 65%;left: 65%;display:none">
         <div class="row" style="margin-left: 20%;">
           <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/5.png" alt="">
         </div>
@@ -232,6 +232,11 @@
     <script src="<?php echo base_url(); ?>/application/helpers/js/bootstrap.js"></script>
     <script type="text/javascript">
     $(document).ready(function(){
+
+      $('body').scrollspy({target: ".navbar", offset: 50});
+
+      $('#hide1').fadeIn(3000);
+
       $(".subray").mouseover(function() {
         if ($(this)[0].id != "best") {
           $("#best").css("border-bottom-style", "none");
@@ -246,7 +251,35 @@
           $("#best").css("border-bottom-width", "thick");
         }
        });
+       var count=0;
+       $(window).scroll(function() {
+           var bottom_of_object = $("#soluciones").offset().top;
+           var bottom_of_object_bloque = $("#bloques").offset().top;
+           var bottom_of_window_ini = $(window).scrollTop() + $(window).height();
+           var bottom_of_window = $(window).scrollTop();
 
+           if( bottom_of_window_ini >= bottom_of_object ){
+               $('#a').delay(0).fadeIn(2000);
+               $('#b').delay(1200).fadeIn(2000);
+               $('#c').delay(2400).fadeIn(2000);
+           }
+           if( bottom_of_window >= bottom_of_object_bloque ){
+             if (count==0) {
+               var top = $("#top");
+               top.animate({right: '500px', opacity: '0.0'}, "fast");
+               top.animate({right: '0px', opacity: '1'}, 3000);
+
+               var bot = $("#bot");
+               bot.animate({left: '500px', opacity: '0.0'}, "fast");
+               bot.animate({left: '0px', opacity: '1'}, 3000);
+               $("#num_1").delay(3000).fadeIn(2000);
+               $("#num_2").delay(4000).fadeIn(2000);
+               $("#num_3").delay(5000).fadeIn(2000);
+               $("#num_4").delay(6000).fadeIn(2000);
+             }
+              count++;
+           }
+       });
     });
     </script>
   </body>

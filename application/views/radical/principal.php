@@ -91,7 +91,7 @@
       <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/adorno-superior.png" alt="">
       <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/adorno-inferior.png" alt="">
       <div class="linea row"  style="display:inline;">
-        <div class="col-sm-4 col-md-3 col-lg-2" id="hide3" style="min-height: 0;padding-right: 0;padding-left: 0;display:none">
+        <div class="col-sm-4 col-md-3 col-lg-2" id="hide3" style="min-height: 0;padding-right: 0;padding-left: 0;opacity:0">
           <a href="<?php echo base_url(); ?>Control_Activos">
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/1.jpg" alt="">
           </a>
@@ -100,7 +100,7 @@
             <span>ACTIVOS</span>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 col-lg-2" id="hide4" style="min-height: 0;padding-right: 0;padding-left: 0;display:none">
+        <div class="col-sm-4 col-md-3 col-lg-2" id="hide4" style="min-height: 0;padding-right: 0;padding-left: 0;opacity:0">
           <a href="<?php echo base_url(); ?>Trazabilidad_de_Carga">
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/2.jpg" alt="">
           </a>
@@ -109,7 +109,7 @@
             <span>CARGA</span>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 col-lg-2" id="hide5" style="min-height: 0;padding-right: 0;padding-left: 0;display:none">
+        <div class="col-sm-4 col-md-3 col-lg-2" id="hide5" style="min-height: 0;padding-right: 0;padding-left: 0;opacity:0">
           <a href="<?php echo base_url(); ?>Control_Retail_Inventario">
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/3.jpg" alt="">
           </a>
@@ -118,7 +118,7 @@
             <span>RETAIL E INVENTARIOS</span>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 col-lg-2" id="hide6" style="min-height: 0;padding-right: 0;padding-left: 0;display:none">
+        <div class="col-sm-4 col-md-3 col-lg-2" id="hide6" style="min-height: 0;padding-right: 0;padding-left: 0;opacity:0">
           <a href="<?php echo base_url(); ?>Salud_y_Trazabilidad">
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/4.jpg" alt="">
           </a>
@@ -127,7 +127,7 @@
             <span>TRAZABILIDAD</span>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 col-lg-2" id="hide7" style="min-height: 0;padding-right: 0;padding-left: 0;display:none">
+        <div class="col-sm-4 col-md-3 col-lg-2" id="hide7" style="min-height: 0;padding-right: 0;padding-left: 0;opacity:0">
           <a href="<?php echo base_url(); ?>Control_de_Gas">
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/5.jpg" alt="">
           </a>
@@ -136,7 +136,7 @@
             <span>OIL & GAS</span>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 col-lg-2" id="hide8" style="min-height: 0;padding-right: 0;padding-left: 0;display:none">
+        <div class="col-sm-4 col-md-3 col-lg-2" id="hide8" style="min-height: 0;padding-right: 0;padding-left: 0;opacity:0">
           <a href="<?php echo base_url(); ?>Control_de_Peaje">
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/6.jpg" alt="">
           </a>
@@ -144,7 +144,7 @@
             <span>CONTROL PEAJE</span>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 col-lg-2" id="hide9" style="min-height: 0;padding-right: 0;padding-left: 0;display:none">
+        <div class="col-sm-4 col-md-3 col-lg-2" id="hide9" style="min-height: 0;padding-right: 0;padding-left: 0;opacity:0">
           <a href="<?php echo base_url(); ?>Control_de_Mascotas">
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/7.jpg" alt="">
           </a>
@@ -153,7 +153,7 @@
             <span>MASCOTAS</span>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 col-lg-2" id="hide10" style="min-height: 0;padding-right: 0;padding-left: 0;display:none">
+        <div class="col-sm-4 col-md-3 col-lg-2" id="hide10" style="min-height: 0;padding-right: 0;padding-left: 0;opacity:0">
           <a href="<?php echo base_url(); ?>Control_de_Acceso">
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/11.jpg" alt="">
           </a>
@@ -162,7 +162,7 @@
             <span>ACCESO RFID + CCTV</span>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 col-lg-2" id="hide11" style="min-height: 0;padding-right: 0;padding-left: 0;display:none">
+        <div class="col-sm-4 col-md-3 col-lg-2" id="hide11" style="min-height: 0;padding-right: 0;padding-left: 0;opacity:0">
         <!--  <a href="<?php echo base_url(); ?>Seguridad_Publica">-->
         <a href="#"  data-toggle="modal" data-target=".bs-example-modal-sm">
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/8.jpg" alt="">
@@ -172,7 +172,7 @@
             <span>PÚBLICA</span>
           </div>
         </div>
-        <div class="col-sm-4 col-md-3 col-lg-2" id="hide12" style="min-height: 0;padding-right: 0;padding-left: 0;display:none">
+        <div class="col-sm-4 col-md-3 col-lg-2" id="hide12" style="min-height: 0;padding-right: 0;padding-left: 0;opacity:0">
           <!--<a href="<?php echo base_url(); ?>Manejo_de_Desastres">-->
           <a href="#"  data-toggle="modal" data-target=".bs-example-modal-sm">
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/9.jpg" alt="">
@@ -184,8 +184,14 @@
         </div>
       </div>
     </div>
-    <div style="background-color:gray;" class="bloque">
-    </div>
+    <marquee width="100%">
+      <div >
+        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/lib.png" alt="">
+        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/kathrein.png" alt="">
+        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/escon.png" alt="">
+        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/mojix.png" alt="">
+      </div>
+    </marquee>
     <script src="<?php echo base_url(); ?>/application/helpers/js/jquery-1.11.1.js"></script>
     <script src="<?php echo base_url(); ?>/application/helpers/js/bootstrap.js"></script>
 
@@ -196,29 +202,46 @@
 
       $('#hide1').fadeIn(4000);
       $('#hide2').fadeIn(4000);
-
+      var count=0;
       $(window).scroll(function() {
           var bottom_of_object = $("#soluciones").offset().top;
           var bottom_of_window_ini = $(window).scrollTop() + $(window).height();
           var bottom_of_window = $(window).scrollTop();
 
           if( bottom_of_window_ini >= bottom_of_object ){
-              $('#hide3').fadeIn(3500);
-              $('#hide4').fadeIn(3500);
-              $('#hide5').fadeIn(3500);
-              $('#hide6').fadeIn(3500);
-              $('#hide7').fadeIn(3500);
-              $('#hide8').fadeIn(3500);
-              $('#hide9').fadeIn(3500);
-              $('#hide10').fadeIn(3500);
-              $('#hide11').fadeIn(3500);
-              $('#hide12').fadeIn(3500);
-          }
-          if( bottom_of_window >= bottom_of_object+50 ){
-              $('#hide4').fadeIn(3500);
-          }
-          if( bottom_of_window >= bottom_of_object+750 ){
-              $('#hide5').fadeIn(3500);
+            if (count==0) {
+              var dato = $('#hide3');
+              dato.animate({left: '800px', opacity: '0.0'}, "fast");
+              dato.animate({left: '0px', opacity: '1'}, 4000);
+              dato = $('#hide4');
+              dato.animate({right: '800px', opacity: '0.0'}, "fast");
+              dato.animate({right: '0px', opacity: '1'}, 4000);
+              dato = $('#hide5');
+              dato.animate({top: '800px', opacity: '0.0'}, "fast");
+              dato.animate({top: '0px', opacity: '1'}, 4000);
+              dato = $('#hide6');
+              dato.animate({left: '800px', opacity: '0.0'}, "fast");
+              dato.animate({left: '0px', opacity: '1'}, 4000);
+              dato = $('#hide7');
+              dato.animate({top: '800px', opacity: '0.0'}, "fast");
+              dato.animate({top: '0px', opacity: '1'}, 4000);
+              dato = $('#hide8');
+              dato.animate({right: '800px', opacity: '0.0'}, "fast");
+              dato.animate({right: '0px', opacity: '1'}, 4000);
+              dato = $('#hide9');
+              dato.animate({top: '800px', opacity: '0.0'}, "fast");
+              dato.animate({top: '0px', opacity: '1'}, 4000);
+              dato = $('#hide10');
+              dato.animate({bottom: '800px', opacity: '0.0'}, "fast");
+              dato.animate({bottom: '0px', opacity: '1'}, 4000);
+              dato = $('#hide11');
+              dato.animate({top: '800px', opacity: '0.0'}, "fast");
+              dato.animate({top: '0px', opacity: '1'}, 4000);
+              dato = $('#hide12');
+              dato.animate({bottom: '800px', opacity: '0.0'}, "fast");
+              dato.animate({bottom: '0px', opacity: '1'}, 4000);
+            }
+            count++;
           }
       });
 

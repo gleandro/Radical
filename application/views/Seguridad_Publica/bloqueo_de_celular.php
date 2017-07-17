@@ -50,14 +50,14 @@
             </div>
           </div>
           <img src="<?php echo base_url(); ?>/application/helpers/images/header.png" alt="...">
-          <div class="carousel-caption">
+          <div class="carousel-caption banner_res_2" id="hide1" style="display:none;">
             <span class="top">BLOQUEO DE CELULARES</span><br>
             <span class="top">EN LAS </span><span class="text_red top">CÁRCELES</span><br>
           </div>
         </div>
       </div>
     </div>
-    <div class="bloque">
+    <div class="bloque" id="soluciones">
       <div class="row titulo">
         <div class="col-md-12">
           <span class="">BLOQUEO DE CELULAR EN LAS CÁRCELES</span>
@@ -70,7 +70,7 @@
         </div>
       </div>
     </div>
-    <div class="cuerpodetalle" >
+    <div class="cuerpodetalle" id="bloques" >
       <div class="row ">
         <div class="col-md-4 black center" style="max-height: 540px;">
           <div class="">
@@ -168,7 +168,7 @@
     <div class="fichero">
       <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/control/neumaticos/control-de-neumaticos-superior.png" alt="">
       <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/control/neumaticos/control-de-neumaticos-inferior.png" alt="">
-      <div class="primero">
+      <div class="primero" id="num_1" style="display:none">
         <div class="row text_orange_bold">
           <div class="col-xs-1 col-sm-1 col-md-1">
             1.
@@ -186,7 +186,7 @@
           </div>
         </div>
       </div>
-      <div class="segundo">
+      <div class="segundo" id="num_2" style="display:none">
         <div class="row" style="margin-left: 10%;">
           <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/1.png" alt="">
         </div>

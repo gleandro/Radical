@@ -50,7 +50,7 @@
             </div>
           </div>
           <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/home.jpg" alt="...">
-          <div class="carousel-caption" style="right: 0;left: 0;top:35%">
+          <div class="carousel-caption banner_res_2" style="right: 0;left: 0;top:35%">
             <span class="top">NUESTRA COMPAÑIA TIENE </span><br>
             <span class="top">LA SOLUCIÓN A TUS PROBLEMAS</span><br>
           </div>
@@ -96,7 +96,7 @@
       <div class="carousel-inner" role="listbox">
         <div class="item active">
           <img style="height:1000px" src="<?php echo base_url(); ?>/application/helpers/images/nosotros.jpg" alt="...">
-          <div class="carousel-caption" style="padding-bottom: 0;right: 4%;left: 4%;bottom: 5%; top: 5%;width:auto">
+          <div class="carousel-caption banner_res_2" style="padding-bottom: 0;right: 4%;left: 4%;bottom: 5%; top: 5%;width:auto">
             <div class="linea">
               <fieldset class="caja" style="width: 100%;display: flex;width: 100%;justify-content: center;align-items: center;text-align: center;padding-bottom:200px">
               <legend class="text_white_bold" style="width: auto;border-bottom: 0;text-align: left">EQUIPO</legend>
@@ -134,8 +134,14 @@
         </div>
       </div>
     </div>
-    <div style="background-color:gray;" class="bloque">
-    </div>
+    <marquee width="100%">
+      <div >
+        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/lib.png" alt="">
+        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/kathrein.png" alt="">
+        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/escon.png" alt="">
+        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/mojix.png" alt="">
+      </div>
+    </marquee>
     <script src="<?php echo base_url(); ?>/application/helpers/js/jquery-1.11.1.js"></script>
     <script src="<?php echo base_url(); ?>/application/helpers/js/bootstrap.js"></script>
 

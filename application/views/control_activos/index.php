@@ -50,7 +50,7 @@
             </div>
           </div>
           <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/img2.jpg" alt="...">
-          <div class="carousel-caption">
+          <div class="carousel-caption banner_res_2" id="hide2" style="display:none;">
             <span class="top">CONTROL DE </span><span class="text_red top">ACTIVOS</span><br>
             <span class="back">CON TECNOLOGÍA RFID</span><br>
           </div>
@@ -132,12 +132,22 @@
         </div>
       </div>
     </div>
-    <div style="background-color:gray;" class="bloque">
-    </div>
+    <marquee width="100%">
+      <div >
+        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/lib.png" alt="">
+        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/kathrein.png" alt="">
+        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/escon.png" alt="">
+        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/mojix.png" alt="">
+      </div>
+    </marquee>
     <script src="<?php echo base_url(); ?>/application/helpers/js/jquery-1.11.1.js"></script>
     <script src="<?php echo base_url(); ?>/application/helpers/js/bootstrap.js"></script>
     <script type="text/javascript">
     $(document).ready(function(){
+
+      $('body').scrollspy({target: ".navbar", offset: 50});
+
+      $('#hide2').fadeIn(3000);
 
       $(window).scroll(function() {
           var bottom_of_object = $("#soluciones").offset().top;
