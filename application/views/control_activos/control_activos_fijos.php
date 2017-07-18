@@ -125,7 +125,7 @@
               <span class="text_white_bold">_</span>
             </div>
             <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Lectura SIMULTANEA de todos de los activos existentes.</span>
+              <span class="text_white_detalle">Lectura simultanea de todos de los activos existentes.</span>
             </div>
           </div>
           <div class="row">
@@ -133,7 +133,7 @@
               <span class="text_white_bold">_</span>
             </div>
             <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Transmisión de la información y  reporte de diferencias.</span>
+              <span class="text_white_detalle">Transmisión de la información y reporte de diferencias.</span>
             </div>
           </div>
         </div>

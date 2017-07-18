@@ -108,7 +108,7 @@
               <span class="text_white_bold">_</span>
             </div>
             <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Identificación de documento con TAG RFID.</span>
+              <span class="text_white_detalle">Identificación de documento con tag RFID.</span>
             </div>
           </div>
           <div class="row">
@@ -124,7 +124,7 @@
               <span class="text_white_bold">_</span>
             </div>
             <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Permite administrar de manera eficiente todos los Archivos.</span>
+              <span class="text_white_detalle">Permite administrar de manera eficiente todos los archivos.</span>
             </div>
           </div>
           <div class="row">
@@ -132,7 +132,7 @@
               <span class="text_white_bold">_</span>
             </div>
             <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Se aplica en: Organismos gubernamentales; tribunales y estudios jurídicos;Organizaciones Financieras; Centros Hospitalarios;Bibliotecas y Depósitos empresariales.</span>
+              <span class="text_white_detalle">Se aplica en: Organismos gubernamentales; Tribunales y estudios jurídicos;Organizaciones Financieras; Centros Hospitalarios;Bibliotecas y Depósitos empresariales.</span>
             </div>
           </div>
         </div>

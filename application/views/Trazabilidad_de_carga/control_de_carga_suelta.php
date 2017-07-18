@@ -125,7 +125,7 @@
               <span class="text_white_bold">_</span>
             </div>
             <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Se coloca un TAG RDID en los bultos.</span>
+              <span class="text_white_detalle">Se coloca un tag RDID en los bultos.</span>
             </div>
           </div>
           <div class="row">

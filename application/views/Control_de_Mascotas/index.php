@@ -65,7 +65,7 @@
       </div>
       <div class="row detalle">
         <div class="col-md-12">
-          <span>Nuestra solución comprende un sistema de Identificación hacia las mascotas para</span><br>
+          <span>Nuestra solución comprende un sistema de identificación hacia las mascotas para</span><br>
           <span>su rapida localización y asi evitar perdidas.</span><br>
         </div>
       </div>

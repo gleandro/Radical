@@ -116,7 +116,7 @@
               <span class="text_white_bold">_</span>
             </div>
             <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Identificar cada neumático con un TAG RFID.</span>
+              <span class="text_white_detalle">Identificar cada neumático con un tag RFID.</span>
             </div>
           </div>
           <div class="row">

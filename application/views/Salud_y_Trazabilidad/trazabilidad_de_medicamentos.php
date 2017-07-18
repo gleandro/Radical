@@ -65,7 +65,7 @@
       </div>
       <div class="row detalle">
         <div class="col-md-12">
-          <span>Nuestra solución comprende un sistema de Identificación y captura de datos con</span><br>
+          <span>Nuestra solución comprende un sistema de identificación y captura de datos con</span><br>
           <span>tecnología RFID diseñado para capturar información de forma automática y a alta</span><br>
           <span>velocidad, realizando la lectura de todos los items de forma simultanea.</span>
         </div>

@@ -109,7 +109,7 @@
               <span class="text_white_bold">_</span>
             </div>
             <div class=" col-xs-9 col-sm-9 left">
-              <span class="text_white_detalle">Integración con RFID + CCTV para el monitoreo del control de acceso</span>
+              <span class="text_white_detalle">Integración con RFID + CCTV para el monitoreo del control de acceso.</span>
             </div>
           </div>
         </div>

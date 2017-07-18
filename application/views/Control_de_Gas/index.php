@@ -85,7 +85,7 @@
               <span class="text_white_bold">_</span>
             </div>
             <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">robo de cilindros.</span>
+              <span class="text_white_detalle">Robo de cilindros.</span>
             </div>
           </div>
           <div class="row">
@@ -93,7 +93,7 @@
               <span class="text_white_bold">_</span>
             </div>
             <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">El uso indebido del os ciliindros.</span>
+              <span class="text_white_detalle">El uso indebido de los cilindros.</span>
             </div>
           </div>
           <div class="row">
@@ -165,7 +165,7 @@
               <span class="text_white_bold">_</span>
             </div>
             <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Ayuda a prevenir accidentes por el desgasto del cilindro.</span>
+              <span class="text_white_detalle">Ayuda a prevenir accidentes por el desgaste del cilindro.</span>
             </div>
           </div>
         </div>

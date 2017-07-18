@@ -65,7 +65,7 @@
       </div>
       <div class="row detalle">
         <div class="col-md-12">
-          <span>Con la identificación de cada equipo portátil con un Tag RFID es mas simple la</span><br>
+          <span>Con la identificación de cada equipo portátil con un tag RFID es mas simple la</span><br>
           <span>administración y control de los mismos.</span>
         </div>
       </div>
@@ -116,7 +116,7 @@
               <span class="text_white_bold">_</span>
             </div>
             <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Identificar cada notebook con un TAG RFID y asociarla al ID de la empresa del usuario de la laptop.</span>
+              <span class="text_white_detalle">Identificar cada notebook con un tag RFID y asociarla al ID de la empresa del usuario de la laptop.</span>
             </div>
           </div>
           <div class="row">

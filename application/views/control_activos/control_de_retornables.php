@@ -133,7 +133,7 @@
               <span class="text_white_bold">_</span>
             </div>
             <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Al atravesar los puntos de control, los lectores RFID obtienen la información de los TAGS y es enviada a la aplicación.</span>
+              <span class="text_white_detalle">Al atravesar los puntos de control, los lectores RFID obtienen la información de los tags y es enviada a la aplicación.</span>
             </div>
           </div>
         </div>
