@@ -85,7 +85,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">El robo de celulares pone en riesgo tu vida.</span>
             </div>
           </div>
@@ -93,7 +93,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Venta de celulares robados hace que continúe el hurto de estos.</span>
             </div>
           </div>
@@ -101,7 +101,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Código IMEI puede ser clonado con facilidad.</span>
             </div>
           </div>
@@ -118,7 +118,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Un sistema permite encriptar el código IMEI de los teléfonos móviles con un software de tecnología NFC.</span>
             </div>
           </div>
@@ -126,7 +126,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Llave de seguridad externa del código IMEI.</span>
             </div>
           </div>
@@ -134,7 +134,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Bloqueo total del equipo después de realizarse el robo.</span>
             </div>
           </div>
@@ -151,7 +151,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Reducción del índice de robos de celular.</span>
             </div>
           </div>
@@ -159,7 +159,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Seguridad en toda la información que tengas en el equipo.</span>
             </div>
           </div>
@@ -167,7 +167,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Acceso rápido al bloqueo de celular encaso de robo.</span>
             </div>
           </div>
@@ -316,7 +316,7 @@
           </a>
         </div>
         <div class="col-xs-1 col-sm-1 col-md-1">
-          <a href="https://www.youtube.com/">
+          <a href="https://www.youtube.com/channel/UC3r1_TGCB-fGUx3_q4pScNQ">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/yt.png" alt="">
           </a>
         </div>

@@ -84,7 +84,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">No se posee un control total ni a tiempo real por lo que genera entradas y salidas no deseadas y puede causar pérdidas importantes a la empresa.</span>
             </div>
           </div>
@@ -140,7 +140,7 @@
             <div class="col-xs-1 col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">A través de la cámara la plataforma genera el minuto exacto donde se movió el activo con RFID, sin la necesidad de ver extensas horas de video.</span>
             </div>
           </div>
@@ -319,7 +319,7 @@
           </a>
         </div>
         <div class="col-xs-2 col-md-1 col-lg-1">
-          <a href="https://www.youtube.com/">
+          <a href="https://www.youtube.com/channel/UC3r1_TGCB-fGUx3_q4pScNQ">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/yt.png" alt="">
           </a>
         </div>

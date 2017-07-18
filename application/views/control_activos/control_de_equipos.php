@@ -83,7 +83,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Desconocimiento de la ubicación en tiempo real de equipos de alto valor.</span>
             </div>
           </div>
@@ -91,7 +91,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Robos y pérdidas de equipos e información.</span>
             </div>
           </div>
@@ -99,7 +99,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Ineficiencia en el uso de equipos.</span>
             </div>
           </div>
@@ -115,7 +115,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Identificar cada notebook con un TAG RFID y asociarla al ID de la empresa del usuario de la laptop.</span>
             </div>
           </div>
@@ -123,7 +123,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Validar al personal autorizado con cada equipo, así el sistema puede detectar fallas de seguridad o movimientos extraños.</span>
             </div>
           </div>
@@ -139,7 +139,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Mayor seguridad de los equipos e información confidencial.</span>
             </div>
           </div>
@@ -147,7 +147,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Reducción de robos y pérdidas.</span>
             </div>
           </div>
@@ -155,7 +155,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Administración eficiente sobre movimiento de los equipos.</span>
             </div>
           </div>
@@ -163,7 +163,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Reducción de costos y tiempo relacionado a inventarios.</span>
             </div>
           </div>
@@ -171,7 +171,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Visibilidad completa y real sobre el movimiento de los equipos.</span>
             </div>
           </div>
@@ -355,7 +355,7 @@
           </a>
         </div>
         <div class="col-xs-2 col-md-1 col-lg-1">
-          <a href="https://www.youtube.com/">
+          <a href="https://www.youtube.com/channel/UC3r1_TGCB-fGUx3_q4pScNQ">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/yt.png" alt="">
           </a>
         </div>

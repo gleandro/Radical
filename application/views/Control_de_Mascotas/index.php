@@ -83,7 +83,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Perdida de mascotas a diario.</span>
             </div>
           </div>
@@ -91,7 +91,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Mascotas extraviadas sin información del dueño.</span>
             </div>
           </div>
@@ -99,7 +99,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Desconocimiento de antecedentes de la mascota en caso de encontrar una.</span>
             </div>
           </div>
@@ -115,7 +115,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Asociar la mascota con su tag RFID.</span>
             </div>
           </div>
@@ -123,7 +123,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Brindar al sistema información completa sobre la mascota.</span>
             </div>
           </div>
@@ -139,7 +139,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Alerta en tiempo real al leerse el tag de la mascota, haciendo fácil su localización.</span>
             </div>
           </div>
@@ -147,7 +147,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Brinda documentación de la mascota, como el certificado virtual de nacimiento.</span>
             </div>
           </div>
@@ -155,7 +155,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Red social de mascotas, incluido en el sistema, para la interacción entre mascotas.</span>
             </div>
           </div>
@@ -335,7 +335,7 @@
           </a>
         </div>
         <div class="col-xs-2 col-md-1 col-lg-1">
-          <a href="https://www.youtube.com/">
+          <a href="https://www.youtube.com/channel/UC3r1_TGCB-fGUx3_q4pScNQ">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/yt.png" alt="">
           </a>
         </div>

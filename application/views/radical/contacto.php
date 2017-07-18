@@ -4,7 +4,7 @@
     <meta charset="utf-8">
       <link href="<?php echo base_url(); ?>/application/helpers/css/bootstrap.css" rel="stylesheet">
       <link href="<?php echo base_url(); ?>/application/helpers/css/principal.css" rel="stylesheet">
-      <title>Nosotros</title>
+      <title>Contacto</title>
   </head>
   <body>
     <header>
@@ -16,7 +16,7 @@
           <img class="logo_contac" src="<?php echo base_url(); ?>/application/helpers/images/carousel/LOGO-COLORES.png" alt="">
         </div>
         <div class="col-sm-1 col-sm-offset-1 col-md-1 col-md-offset-4 col-lg-1 col-lg-offset-5">
-          <a href="<?php echo base_url();?>" class="scroll" style="text-decoration:none;color:black"><span class="subray" id="best">SOLUCIONES</span></a>
+          <a href="<?php echo base_url();?>" class="scroll" style="text-decoration:none;color:black"><span class="subray">SOLUCIONES</span></a>
         </div>
         <div class="col-sm-3 col-md-2 col-lg-2-5" style="text-align:center;">
           <a href="<?php echo base_url();?>Radical/exitos" style="text-decoration:none;color:black"><span class="subray">CASOS DE ÉXITO</span></a>
@@ -25,7 +25,7 @@
           <a href="<?php echo base_url();?>Radical/nosotros" style="text-decoration:none;color:black"><span class="subray">NOSOTROS</span></a>
         </div>
         <div class="col-sm-2 col-md-1 col-lg-1">
-          <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:black"><span class="subray">CONTACTO</span></a>
+          <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:black"><span class="subray" id="best">CONTACTO</span></a>
         </div>
       </div>
     </div>
@@ -40,10 +40,10 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="<?php echo base_url();?>">SOLUCIONES</a></li>
+            <li class=""><a href="<?php echo base_url();?>">SOLUCIONES</a></li>
             <li class=""><a href="<?php echo base_url();?>Radical/exitos">CASOS DE ÉXITO</a></li>
             <li class=""><a href="<?php echo base_url();?>Radical/nosotros">NOSOTROS</a></li>
-            <li class=""><a href="<?php echo base_url();?>Radical/contacto">CONTACTO</a></li>
+            <li class="active"><a href="<?php echo base_url();?>Radical/contacto">CONTACTO</a></li>
           </ul>
         </div>
       </div>
@@ -53,7 +53,7 @@
         <div class="carousel-inner" role="listbox">
           <div class="item active">
             <img style="height:800px" src="<?php echo base_url(); ?>/application/helpers/images/CONTACTO.jpg" alt="...">
-            <div class="carousel-caption center_2">
+            <div class="carousel-caption center_2" id="hide1" style="display:none;">
               <div class="row">
                 <div class="col-lg-12">
                   <span class="top">CONTACTANOS</span>
@@ -61,7 +61,7 @@
               </div>
               <div class="row">
                 <div class="col-lg-12">
-                  <img src="<?php echo base_url();?>/application//helpers/images//enviar.png" alt="">
+                  <img src="<?php echo base_url();?>/application//helpers/images//enviar.png" alt="" style="width: 15%;">
                 </div>
               </div>
             </div>
@@ -74,6 +74,11 @@
 
     <script type="text/javascript">
     $(document).ready(function(){
+
+      $('body').scrollspy({target: ".navbar", offset: 50});
+
+      $('#hide1').fadeIn(4000);
+
       $(".subray").mouseover(function() {
         if ($(this)[0].id != "best") {
           $("#best").css("border-bottom-style", "none");
@@ -133,7 +138,7 @@
         </a>
       </div>
       <div class="col-xs-2 col-md-1 col-lg-1">
-        <a href="https://www.youtube.com/">
+        <a href="https://www.youtube.com/channel/UC3r1_TGCB-fGUx3_q4pScNQ">
           <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/yt.png" alt="">
         </a>
       </div>

@@ -52,7 +52,7 @@
           <img src="<?php echo base_url(); ?>/application/helpers/images/salud/pacientes/pacientes.jpg" alt="...">
           <div class="carousel-caption banner_res_2" id="hide1" style="right: 0; left: 0;display:none">
             <span class="top">SEGUIMIENTO DE </span><span class="text_red top">PACIENTES</span><br>
-            <span class="top">Y </span><span class="text_red top">PERSONAL </span><span class="top">MéDICO </span><br>
+            <span class="top">Y </span><span class="text_red top">PERSONAL </span><span class="top">MÉDICO </span><br>
             <span class="back">CON TECNOLOGÍA RFID</span><br>
           </div>
         </div>
@@ -86,7 +86,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Mala localización de pacientes y personal.</span>
             </div>
           </div>
@@ -94,7 +94,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Falta de control en la distribución en la dosis de medicametos.</span>
             </div>
           </div>
@@ -102,7 +102,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Elimina el riesgo de cambio de recién nacidos por confusión o error humano.</span>
             </div>
           </div>
@@ -118,7 +118,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Cada paciente debe ser identificado con etiquetas RFID las cuales identificarán y controlarán la ubicacion del paciente y la dosis de medicamentos.</span>
             </div>
           </div>
@@ -126,7 +126,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Se garantiza la trazabilidad dentro de todo el proceso (envíos, recepción y exportación) controlando cada eslabón de la cadena de atención.</span>
             </div>
           </div>
@@ -142,7 +142,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Identificación rápida de pacientes.</span>
             </div>
           </div>
@@ -150,7 +150,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Emite alarma si el paciente y/o personal cruza el perimetro permitido.</span>
             </div>
           </div>
@@ -158,7 +158,7 @@
             <div class="col-xs-1 col-sm-1 col-md-1">
               <span class="text_white_bold">_</span>
             </div>
-            <div class="col-xs-9 col-sm-9 left">
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
               <span class="text_white_detalle">Reducción de tiempos y costos de control en la entregade dosis a pacientes.</span>
             </div>
           </div>
@@ -339,7 +339,7 @@
           </a>
         </div>
         <div class="col-xs-2 col-md-1 col-lg-1">
-          <a href="https://www.youtube.com/">
+          <a href="https://www.youtube.com/channel/UC3r1_TGCB-fGUx3_q4pScNQ">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/yt.png" alt="">
           </a>
         </div>

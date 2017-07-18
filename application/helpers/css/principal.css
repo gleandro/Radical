@@ -4,8 +4,8 @@
 }
 
 .logo_banner{
-  width: 300px;
-  height: 100px;
+  width: 15%;
+  height: 150px;
 }
 
 body{
@@ -18,8 +18,8 @@ footer{
   justify-content: center;
   align-items: center;
   background-color: #1F252F;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 footer div.container div.footer{
@@ -328,7 +328,7 @@ div.item div.center_2{
   color: white;
   font-weight: bold;
   font-size: 120%;
-  top: 8%;
+  top: 25%;
 }
 
 #best{

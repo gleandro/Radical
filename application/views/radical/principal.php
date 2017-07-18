@@ -50,7 +50,7 @@
               </div>
             </div>
           </div>
-          <video style="width: 100%" src="<?php echo base_url(); ?>/application/helpers/images/header.mp4" autoplay preload loop></video>
+          <video style="width: 100%" src="<?php echo base_url(); ?>/application/helpers/images/header.webm" autoplay preload loop></video>
           <div class="carousel-caption banner_res" id="hide2" style="left: 5%;text-align-last: left;z-index: 10;padding-bottom: 23%;display:none">
             <span class="top" style="font-size: 350%;">Desarrollamos soluciones</span><br>
             <span class="top" style="font-size: 350%;">radicales integrando</span><br>
@@ -90,13 +90,13 @@
     <div class="cuerpo">
       <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/adorno-superior.png" alt="">
       <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/adorno-inferior.png" alt="">
-      <div class="linea row"  style="display:inline;">
+      <div class="linea row"  style="display:inline;padding-right:0;padding-left:0;">
         <div class="col-sm-4 col-md-3 col-lg-2" id="hide3" style="min-height: 0;padding-right: 0;padding-left: 0;opacity:0">
           <a href="<?php echo base_url(); ?>Control_Activos">
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/1.jpg" alt="">
           </a>
           <div class="centro">
-            <span>CONTROL DE </span>
+            <span>SOLUCIÓN DE </span>
             <span>ACTIVOS</span>
           </div>
         </div>
@@ -114,7 +114,7 @@
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/3.jpg" alt="">
           </a>
           <div class="centro">
-            <span>CONTROL DE</span>
+            <span>SOLUCIÓN DE</span>
             <span>RETAIL E INVENTARIOS</span>
           </div>
         </div>
@@ -141,7 +141,7 @@
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/6.jpg" alt="">
           </a>
           <div class="centro">
-            <span>CONTROL PEAJE</span>
+            <span>SOLUCIÓN DE PEAJE</span>
           </div>
         </div>
         <div class="col-sm-4 col-md-3 col-lg-2" id="hide9" style="min-height: 0;padding-right: 0;padding-left: 0;opacity:0">
@@ -158,8 +158,17 @@
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/11.jpg" alt="">
           </a>
           <div class="centro">
-            <span>CONTROL DE</span>
+            <span>SOLUCIÓN DE</span>
             <span>ACCESO RFID + CCTV</span>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-2" id="hide13" style="min-height: 0;padding-right: 0;padding-left: 0;opacity:0">
+          <a href="<?php echo base_url(); ?>Control_de_Pagos">
+            <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/12.jpg" alt="">
+          </a>
+          <div class="centro">
+            <span>SOLUCIÓN DE</span>
+            <span>CONTROL DE PAGOS</span>
           </div>
         </div>
         <div class="col-sm-4 col-md-3 col-lg-2" id="hide11" style="min-height: 0;padding-right: 0;padding-left: 0;opacity:0">
@@ -240,6 +249,9 @@
               dato = $('#hide12');
               dato.animate({bottom: '800px', opacity: '0.0'}, "fast");
               dato.animate({bottom: '0px', opacity: '1'}, 4000);
+              dato = $('#hide13');
+              dato.animate({right: '800px', opacity: '0.0'}, "fast");
+              dato.animate({right: '0px', opacity: '1'}, 4000);
             }
             count++;
           }
@@ -329,7 +341,7 @@
           </a>
         </div>
         <div class="col-xs-2 col-md-1 col-lg-1">
-          <a href="https://www.youtube.com/">
+          <a href="https://www.youtube.com/channel/UC3r1_TGCB-fGUx3_q4pScNQ">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/yt.png" alt="">
           </a>
         </div>

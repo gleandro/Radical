@@ -18,7 +18,7 @@
               <img class="logo" src="<?php echo base_url(); ?>/application/helpers/images/carousel/LOGO-BLANCO.png" alt="">
             </div>
             <div class="col-sm-2 col-sm-offset-2 col-md-2 col-md-offset-4 col-lg-1 col-lg-offset-5">
-              <a href="#soluciones" class="scroll" style="text-decoration:none;color:white"><span class="subray">SOLUCIONES</span></a>
+              <a href="<?php echo base_url();?>" class="scroll" style="text-decoration:none;color:white"><span class="subray">SOLUCIONES</span></a>
             </div>
             <div class="col-sm-2-5 col-lg-2-5">
               <a href="<?php echo base_url();?>Radical/exitos" style="text-decoration:none;color:white"><span class="subray">CASOS DE ÉXITO</span></a>
@@ -50,7 +50,7 @@
             </div>
           </div>
           <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/home.jpg" alt="...">
-          <div class="carousel-caption banner_res_2" style="right: 0;left: 0;top:35%">
+          <div class="carousel-caption banner_res_2" id="hide1" style="right: 0;left: 0;top:35%;display:none">
             <span class="top">NUESTRA COMPAÑIA TIENE </span><br>
             <span class="top">LA SOLUCIÓN A TUS PROBLEMAS</span><br>
           </div>
@@ -147,6 +147,11 @@
 
     <script type="text/javascript">
     $(document).ready(function(){
+
+      $('body').scrollspy({target: ".navbar", offset: 50});
+
+      $('#hide1').fadeIn(4000);
+
       $(".subray").mouseover(function() {
         if ($(this)[0].id != "best") {
           $("#best").css("border-bottom-style", "none");
@@ -208,7 +213,7 @@
         </a>
       </div>
       <div class="col-xs-2 col-md-1 col-lg-1">
-        <a href="https://www.youtube.com/">
+        <a href="https://www.youtube.com/channel/UC3r1_TGCB-fGUx3_q4pScNQ">
           <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/yt.png" alt="">
         </a>
       </div>

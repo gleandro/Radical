@@ -4,7 +4,7 @@
     <meta charset="utf-8">
       <link href="<?php echo base_url(); ?>/application/helpers/css/bootstrap.css" rel="stylesheet">
       <link href="<?php echo base_url(); ?>/application/helpers/css/principal.css" rel="stylesheet">
-      <title>Control de carga suelta</title>
+      <title>Control de pagos</title>
   </head>
   <body>
     <header>
@@ -49,11 +49,10 @@
               </div>
             </div>
           </div>
-          <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/img4.jpg" alt="...">
+          <img src="<?php echo base_url(); ?>/application/helpers/images/pagos/header.jpg" alt="...">
           <div class="carousel-caption banner_res_2" id="hide1" style="display:none;">
-            <span class="top">CONTROL DE </span><span class="text_red top">RETAIL</span><br>
-            <span class="top">E </span><span class="text_red top">INVENTARIO</span><br>
-            <span class="back">CON TECNOLOGÍA RFID</span>
+            <span class="top">CONTROL DE </span><span class="text_red top">PAGOS</span><br>
+            <span class="back">CON TECNOLOGÍA NFC</span><br>
           </div>
         </div>
       </div>
@@ -61,20 +60,20 @@
     <div class="bloque" id="soluciones">
       <div class="row titulo">
         <div class="col-md-12">
-          <span class="">MAYOR AHORRO DE TIEMPO Y DINERO</span>
+          <span class="">TARJETA CARDBUREX - TECNOLOGÍA NFC</span>
         </div>
       </div>
       <div class="row detalle">
         <div class="col-md-12">
-          <span>Nuestra solución comprende un sistema de Identificación y captura de datos con</span><br>
-          <span>tecnología RFID diseñado para capturar información de forma automática, rápida y</span><br>
-          <span>libre de errores, realizando la lectura de múltiples items en forma simultanea.</span>
+          <span>La tecnología de comunicación de corta distancia, conocida como NFC, promete jugar un rol importante </span><br>
+          <span>en la manera en cómo utilizamos nuestros teléfonos o la tarjeta NFC cuando de pagos se trata, ya no</span><br>
+          <span>necesitaras dinero en efectivo ni pagos a terceros.</span><br>
         </div>
       </div>
     </div>
     <div class="cuerpodetalle" id="bloques" >
       <div class="row ">
-        <div class="col-md-4 black center" id="a" style="min-height: 530px;display:none;">
+        <div class="col-md-4 black center" id="a" style="display:none;">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-3.png" alt="">
           </div>
@@ -86,7 +85,7 @@
               <span class="text_white_bold">_</span>
             </div>
             <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Desperdicio de recursos y tiempo en el control de inventarios.</span>
+              <span class="text_white_detalle">Solo se recibe dinero en efectivo en la mayoría de servicios.</span>
             </div>
           </div>
           <div class="row">
@@ -94,7 +93,7 @@
               <span class="text_white_bold">_</span>
             </div>
             <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Información imprecisa.</span>
+              <span class="text_white_detalle">Demora en el manejo de dinero de los servicios.</span>
             </div>
           </div>
           <div class="row">
@@ -102,11 +101,19 @@
               <span class="text_white_bold">_</span>
             </div>
             <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Pérdidas o robo de prendas.</span>
+              <span class="text_white_detalle">Pagos a terceros por el uso de POS.</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-1 col-sm-1 col-md-1">
+              <span class="text_white_bold">_</span>
+            </div>
+            <div class="col-xs-10 col-sm-10 col-md-10  left">
+              <span class="text_white_detalle">Inseguridad al cargar dinero en efetivo.</span>
             </div>
           </div>
         </div>
-        <div class="col-md-4 red center" id="b" style="min-height: 530px;display:none">
+        <div class="col-md-4 red center" id="b" style="display:none;">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-2.png" alt="">
           </div>
@@ -118,27 +125,11 @@
               <span class="text_white_bold">_</span>
             </div>
             <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Las etiquetas RFID permitirán identificar y controlar las prendas textiles de forma automática y rápida.</span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-1 col-sm-1 col-md-1">
-              <span class="text_white_bold">_</span>
-            </div>
-            <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Al recepcionar la mercadería en el centro de distribución pasa por un TUNEL RFID y se verifica automáticamente su contenido sin necesidad de abrir las cajas.</span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-1 col-sm-1 col-md-1">
-              <span class="text_white_bold">_</span>
-            </div>
-            <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Se controla el despacho utilizando un tunel RFID.</span>
+              <span class="text_white_detalle">Implementación de plataforma CARDBUREX con NFC.</span>
             </div>
           </div>
         </div>
-        <div class="col-md-4 black center" id="c" style="min-height: 530px;display:none">
+        <div class="col-md-4 black center" id="c" style="display:none;">
           <div class="">
             <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-1.png" alt="">
           </div>
@@ -150,7 +141,7 @@
               <span class="text_white_bold">_</span>
             </div>
             <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Precisión en el inventario.</span>
+              <span class="text_white_detalle">Control absoluto del usuario con el control de su efectivo visto desde su propio celular.</span>
             </div>
           </div>
           <div class="row">
@@ -158,7 +149,7 @@
               <span class="text_white_bold">_</span>
             </div>
             <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Reducción de quiebres de stock.</span>
+              <span class="text_white_detalle">Supervisión y fácil manejo en el total del ingreso en los servicios.</span>
             </div>
           </div>
           <div class="row">
@@ -166,100 +157,94 @@
               <span class="text_white_bold">_</span>
             </div>
             <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Mayor control de inventarios.</span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-1 col-sm-1 col-md-1">
-              <span class="text_white_bold">_</span>
-            </div>
-            <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Ahorro de tiempos y costos.</span>
+              <span class="text_white_detalle">Pago es posible de celular a celular.</span>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="fichero">
-      <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/retail/superior.png" alt="" id="top" style="opacity:0">
-      <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/retail/inferior.png" alt="" id="bot" style="opacity:0">
+      <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/pagos/superior.png" alt="" id="top" style="opacity:0">
+      <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/pagos/inferior.png" alt="" id="bot" style="opacity:0">
       <div class="primero" id="num_1" style="display:none">
-        <div class="row text_red_bold">
-          <div class="col-xs-1 col-sm-1 col-md-1">
+        <div class="row text_orange_bold">
+          <div class="col-md-1" style="color:#1BACE1">
             1.
           </div>
-          <div class="col-md-10">
-            ASOCIAR
-            <span style="color:#333; font-weight:normal;font-size:14px;"> los tags </span>
+          <div class="col-md-9" style="color:#1BACE1">
+            ELIMINE
           </div>
         </div>
         <div class="row">
           <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
-            RFID a los articulos.
+            comisiones cobradas por terceros.
           </div>
         </div>
       </div>
       <div class="segundo" id="num_2" style="display:none">
         <div class="row" style="margin-left: 10%;">
-          <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/1.png" alt="">
+          <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/pagos/icono-1.png" alt="">
         </div>
-        <div class="row text_red_bold">
-          <div class="col-xs-1 col-sm-1 col-md-1">
+        <div class="row text_orange_bold">
+          <div class="col-md-1" style="color:#1BACE1">
             2.
           </div>
-          <div class="col-md-9">
-            LECTURA
-            <span style="color:#333; font-weight:normal;font-size:14px;"> a </span>
+          <div class="col-md-9" style="color:#1BACE1">
+            AGILIZA
+            <span style="color:#333; font-weight:normal;font-size:14px;"> el</span>
           </div>
         </div>
         <div class="row">
           <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
-            tiempo real.
+            proceso de compra.
           </div>
         </div>
       </div>
-      <div class="tercero" id="num_3" style="display:none">
-        <div class="row text_red_bold">
-          <div class="col-xs-1 col-sm-1 col-md-1">
+      <div class="tercero" id="num_3" style="left: 52%;display:none">
+        <div class="row text_orange_bold">
+          <div class="col-md-1" style="color:#1BACE1">
             3.
           </div>
-          <div class="col-md-10">
-            CONTROLA
-            <span style="color:#333; font-weight:normal;font-size:14px;"> el </span>
+          <div class="col-md-9" style="color:#1BACE1">
+            SUPRIME
+            <span style="color:#333; font-weight:normal;font-size:14px;">el uso</span>
           </div>
         </div>
         <div class="row">
           <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
-            despacho con tunel RFID.
+            de bancos como intermediarios.
           </div>
         </div>
       </div>
-      <div class="cuarto" id="num_4" style="display:none">
+      <div class="cuarto" id="num_4" style="top: 65%;left: 65%;display:none">
         <div class="row" style="margin-left: 20%;">
-          <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/retail/icono.png" alt="">
+          <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/pagos/icono-2.png" alt="">
         </div>
-        <div class="row text_red_bold">
-          <div class="col-xs-1 col-sm-1 col-md-1">
+        <div class="row text_orange_bold">
+          <div class="col-md-1" style="color:#1BACE1">
             4.
           </div>
-          <div class="col-md-9">
+          <div class="col-md-9" style="color:#1BACE1">
             EVITA
-            <span style="color:#333; font-weight:normal;font-size:14px;">perdidas</span>
+            <span style="color:#333; font-weight:normal;font-size:14px;"> clonaciones</span>
           </div>
         </div>
         <div class="row">
           <div class="col-xs-1 col-sm-1 col-md-1">
           </div>
           <div class="col-md-9">
-            y robos.
+            de tarjetas.
           </div>
         </div>
+      </div>
+      <div class="quinto" id="num_5" style="display:none">
+        <img style="width: 35%;" class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/pagos/logo.png" alt="">
       </div>
     </div>
     <script src="<?php echo base_url(); ?>/application/helpers/js/jquery-1.11.1.js"></script>
