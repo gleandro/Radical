@@ -171,6 +171,15 @@
             <span>CONTROL DE PAGOS</span>
           </div>
         </div>
+        <div class="col-sm-4 col-md-3 col-lg-2" id="hide14" style="min-height: 0;padding-right: 0;padding-left: 0;opacity:0">
+          <a href="<?php echo base_url(); ?>Control_de_Eventos">
+            <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/13.jpg" alt="">
+          </a>
+          <div class="centro">
+            <span>SOLUCIÓN DE</span>
+            <span>EVENTOS RFID UHF</span>
+          </div>
+        </div>
         <div class="col-sm-4 col-md-3 col-lg-2" id="hide11" style="min-height: 0;padding-right: 0;padding-left: 0;opacity:0">
         <!--  <a href="<?php echo base_url(); ?>Seguridad_Publica">-->
         <a href="#"  data-toggle="modal" data-target=".bs-example-modal-sm">
@@ -252,6 +261,9 @@
               dato = $('#hide13');
               dato.animate({right: '800px', opacity: '0.0'}, "fast");
               dato.animate({right: '0px', opacity: '1'}, 4000);
+              dato = $('#hide14');
+              dato.animate({left: '800px', opacity: '0.0'}, "fast");
+              dato.animate({left: '0px', opacity: '1'}, 4000);
             }
             count++;
           }
