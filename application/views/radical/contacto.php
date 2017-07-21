@@ -61,7 +61,7 @@
               </div>
               <div class="row">
                 <div class="col-lg-12">
-                  <img src="<?php echo base_url();?>/application//helpers/images//enviar.png" alt="" style="width: 15%;">
+                  <img class="sobre" src="<?php echo base_url();?>/application//helpers/images/enviar.png" alt="">
                 </div>
               </div>
             </div>

@@ -88,7 +88,7 @@
           <a href="<?php echo base_url(); ?>Salud_y_Trazabilidad/medicamentos">
             <img src="<?php echo base_url(); ?>/application/helpers/images/salud/1.jpg" alt="">
           </a>
-          <div class="centro" style="text-align:left;padding-left:5%;">
+          <div class="centro center_v2">
             <span>Trazabilidad de</span>
             <span>Medicamentos</span>
           </div>
@@ -97,7 +97,7 @@
           <a href="<?php echo base_url(); ?>Salud_y_Trazabilidad/seguimiento">
             <img src="<?php echo base_url(); ?>/application/helpers/images/salud/2.jpg" alt="">
           </a>
-          <div class="centro" style="text-align:left;padding-left:5%;">
+          <div class="centro center_v2">
             <span>Seguimiento de</span>
             <span>pacientes y</span>
             <span>personal médico</span>

@@ -89,7 +89,7 @@
           <a href="<?php echo base_url(); ?>control_Activos/retornables">
             <img src="<?php echo base_url(); ?>/application/helpers/images/control/1.jpg" alt="">
           </a>
-          <div class="centro" style="text-align:left;padding-left:5%;">
+          <div class="centro center_v2">
             <span>Control de </span>
             <span>retornables</span>
           </div>
@@ -98,7 +98,7 @@
           <a href="<?php echo base_url(); ?>control_Activos/Activos">
             <img src="<?php echo base_url(); ?>/application/helpers/images/control/2.jpg" alt="">
           </a>
-          <div class="centro" style="text-align:left;padding-left:5%;">
+          <div class="centro center_v2">
             <span>Control de </span>
             <span>Activos Fijos</span>
           </div>
@@ -107,7 +107,7 @@
           <a href="<?php echo base_url(); ?>control_Activos/equipos">
             <img src="<?php echo base_url(); ?>/application/helpers/images/control/3.jpg" alt="">
           </a>
-          <div class="centro" style="text-align:left;padding-left:5%;">
+          <div class="centro center_v2">
             <span>Control de </span>
             <span>Equipos TI</span>
           </div>
@@ -116,7 +116,7 @@
           <a href="<?php echo base_url(); ?>control_Activos/neumaticos">
             <img src="<?php echo base_url(); ?>/application/helpers/images/control/4.jpg" alt="">
           </a>
-          <div class="centro" style="text-align:left;padding-left:5%;">
+          <div class="centro center_v2">
             <span>Control de </span>
             <span>Neumáticos</span>
           </div>
@@ -125,7 +125,7 @@
           <a href="<?php echo base_url(); ?>control_Activos/documental">
             <img src="<?php echo base_url(); ?>/application/helpers/images/control/5.jpg" alt="">
           </a>
-          <div class="centro" style="text-align:left;padding-left:5%;">
+          <div class="centro center_v2">
             <span>Control </span>
             <span>Documental</span>
           </div>

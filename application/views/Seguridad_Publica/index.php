@@ -87,7 +87,7 @@
           <a href="<?php echo base_url(); ?>Seguridad_Publica/clonacion">
             <img src="<?php echo base_url(); ?>/application/helpers/images/item.jpg" alt="">
           </a>
-          <div class="centro" style="text-align:left;padding-left:5%;">
+          <div class="centro center_v2">
             <span>Solución de</span>
             <span>clonación de</span>
             <span>celular</span>
@@ -97,7 +97,7 @@
           <a href="<?php echo base_url(); ?>Seguridad_Publica/bloqueo">
             <img src="<?php echo base_url(); ?>/application/helpers/images/item.jpg" alt="">
           </a>
-          <div class="centro" style="text-align:left;padding-left:5%;">
+          <div class="centro center_v2">
             <span>Bloqueo de</span>
             <span>celulares en las</span>
             <span>cárceles.</span>

@@ -89,7 +89,7 @@
           <a href="<?php echo base_url(); ?>Trazabilidad_de_Carga/contenedores">
             <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/2.jpg" alt="">
           </a>
-          <div class="centro" style="text-align:left;padding-left:5%;">
+          <div class="centro center_v2">
             <span>Control de </span>
             <span>contenedores</span>
           </div>
@@ -98,7 +98,7 @@
           <a href="<?php echo base_url(); ?>Trazabilidad_de_Carga/carga_suelta">
             <img src="<?php echo base_url(); ?>/application/helpers/images/trazabilidad/2.jpg" alt="">
           </a>
-          <div class="centro" style="text-align:left;padding-left:5%;">
+          <div class="centro center_v2">
             <span>Control de </span>
             <span>carga suelta</span>
           </div>

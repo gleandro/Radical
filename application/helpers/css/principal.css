@@ -3,6 +3,16 @@
   src:url(/application/helpers/fonts/CenturyGothic.ttf);
 }
 
+.sobre{
+  width: 7%;
+  padding-top: 2%;
+}
+
+.center_v2{
+  font-size: 185%;
+  text-align: center;
+}
+
 .logo_banner{
   width: 15%;
   height: 150px;
@@ -103,7 +113,7 @@ a.right{
 }
 
 div span.top{
-  font-size: 400%;
+  font-size: 250%;
   font-weight: bold;
 }
 
@@ -114,7 +124,9 @@ div span.back{
 
 
 .bloque{
-  font-size: 100%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 80%;
 }
 
 .aviso{
@@ -139,15 +151,17 @@ div span.back{
 }
 
 .barra{
-  width: 60px;
-  height: 15px;
+  width: 40px;
+  height: 10px;
   display: table-cell;
 }
 .bot{
-  margin-bottom: 100px;
+  margin-top: 20px;
+  margin-bottom: 80px;
 }
 .top{
-  margin-top: 100px;
+  margin-top: 80px;
+  margin-bottom: 20px;
 }
 
 .cuerpo{
@@ -155,6 +169,8 @@ div span.back{
   width: 100%;
   height: 100%;
   position: relative;
+  margin-top: 30px;
+  margin-top: 30px;
 }
 
 .cuerpodetalle{
@@ -469,6 +485,10 @@ div.row div.bot{
 }
 
 @media only screen and (max-width: 1300px){
+  .center_v2{
+    font-size: 170%;
+    text-align: center;
+  }
   .banner_res{
     font-size: 90%;
   }
@@ -485,8 +505,8 @@ div.row div.bot{
     font-size: 360%;
   }
   .barra{
-    width: 55px;
-    height: 14px;
+    width: 38px;
+    height: 9.5px;
   }
   .field_caja{
     padding-bottom:240px;
@@ -522,6 +542,10 @@ div.row div.bot{
 }
 
 @media only screen and (max-width: 1200px){
+  .center_v2{
+    font-size: 155%;
+    text-align: center;
+  }
   div.item img.logo{
     width: 200%;
   }
@@ -529,8 +553,8 @@ div.row div.bot{
     width: 340%;
   }
   .barra{
-    width: 50px;
-    height: 13px;
+    width: 36px;
+    height: 9px;
   }
 
   .field_caja{
@@ -558,10 +582,17 @@ div.row div.bot{
   .bloque{
     height: 240px;
   }
+  .sobre{
+    width: 13%;
+  }
 }
 
 
 @media only screen and (max-width: 1000px){
+  .center_v2{
+    font-size: 140%;
+    text-align: center;
+  }
   .banner_res{
     font-size: 80%;
   }
@@ -582,8 +613,8 @@ div.row div.bot{
     font-size: 320%;
   }
   .barra{
-    width: 45px;
-    height: 12px;
+    width: 34px;
+    height: 8px;
   }
 
   .field_caja{
@@ -610,9 +641,16 @@ div.row div.bot{
   .bloque{
     height: 220px;
   }
+  .sobre{
+    width: 13%;
+  }
 }
 
 @media only screen and (max-width: 800px){
+  .center_v2{
+    font-size: 130%;
+    text-align: center;
+  }
   .banner_res{
     font-size: 50%;
     top:25%
@@ -634,8 +672,8 @@ div.row div.bot{
     font-size: 300%;
   }
   .barra{
-    width: 40px;
-    height: 11px;
+    width: 32px;
+    height: 7px;
   }
   .field_caja{
     padding-bottom:125px;
@@ -661,9 +699,16 @@ div.row div.bot{
   .bloque{
     height: 210px;
   }
+  .sobre{
+    width: 13%;
+  }
 }
 
 @media only screen and (max-width: 767px){
+  .center_v2{
+    font-size: 200%;
+    text-align: center;
+  }
   div.item div.center{
     display: none;
   }
@@ -695,8 +740,8 @@ div.row div.bot{
     font-size: 270%;
   }
   .barra{
-    width: 35px;
-    height: 10px;
+    width: 20px;
+    height: 6px;
   }
   .field_caja{
     padding-bottom:100px;
@@ -722,6 +767,9 @@ div.row div.bot{
   .bloque{
     height: 200px;
   }
+  .sobre{
+    width: 13%;
+  }
 }
 
 @media only screen and (max-width: 700px){
@@ -734,5 +782,8 @@ div.row div.bot{
   }
   .cuerpodetalle{
     font-size: 90%
+  }
+  .sobre{
+    width: 15%;
   }
 }

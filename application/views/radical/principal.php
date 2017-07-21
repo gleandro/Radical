@@ -50,7 +50,7 @@
               </div>
             </div>
           </div>
-          <video style="width: 100%" src="<?php echo base_url(); ?>/application/helpers/images/header.webm" autoplay preload loop></video>
+          <video style="width: 100%" src="<?php echo base_url(); ?>/application/helpers/images/header.mp4" autoplay preload loop></video>
           <div class="carousel-caption banner_res" id="hide2" style="left: 5%;text-align-last: left;z-index: 10;padding-bottom: 23%;display:none">
             <span class="top" style="font-size: 350%;">Desarrollamos soluciones</span><br>
             <span class="top" style="font-size: 350%;">radicales integrando</span><br>
