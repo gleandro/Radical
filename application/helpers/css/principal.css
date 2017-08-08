@@ -24,24 +24,9 @@ body{
 }
 
 footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #1F252F;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  background-color: black;
 }
 
-footer div.container div.footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-div.footer div a img{
-  width: 35%;
-}
 
 .text_red{
   color: #E2231A;

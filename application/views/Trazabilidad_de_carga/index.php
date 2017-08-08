@@ -1,209 +1,186 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-      <link href="<?php echo base_url(); ?>/application/helpers/css/bootstrap.css" rel="stylesheet">
-      <link href="<?php echo base_url(); ?>/application/helpers/css/principal.css" rel="stylesheet">
-      <title>Trazabilidad de carga</title>
-  </head>
-  <body>
-    <header>
+<html lang="en-US" class="csstransforms csstransforms3d csstransitions gallery_fullscreen wf-dosis-n2-active wf-dosis-n3-active wf-dosis-n4-active wf-dosis-n5-active wf-dosis-n6-active wf-dosis-n7-active wf-dosis-n8-active wf-active">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="shortcut icon" href="<?php echo base_url(); ?>/application/helpers/iconos/icono.png" type="image/png">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js" type="text/javascript" async=""></script>
+  <script type="text/javascript">
+    var screen_width = Math.max( screen.width, screen.height );
 
-    </header>
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <div class="row center responsive_header">
-            <div class="col-sm-4 col-md-2 col-lg-2" style="text-align: left;left: 5%;">
-              <img class="logo" src="<?php echo base_url(); ?>/application/helpers/images/carousel/LOGO-BLANCO.png" alt="">
-            </div>
-            <div class="col-sm-2 col-sm-offset-2 col-md-2 col-md-offset-4 col-lg-1 col-lg-offset-5">
-              <a href="<?php echo base_url();?>" class="scroll" style="text-decoration:none;color:white"><span class="subray" id="best">SOLUCIONES</span></a>
-            </div>
-            <div class="col-sm-2-5 col-lg-2-5">
-              <a href="<?php echo base_url();?>Radical/exitos" style="text-decoration:none;color:white"><span class="subray">CASOS DE ÉXITO</span></a>
-            </div>
-            <div class="col-sm-2 col-lg-1">
-              <a href="<?php echo base_url();?>Radical/nosotros" style="text-decoration:none;color:white"><span class="subray">NOSOTROS</span></a>
-            </div>
-            <div class="col-sm-2 col-lg-1">
-              <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:white"><span class="subray">CONTACTO</span></a>
-            </div>
-          </div>
-          <div class="colapsive_header navbar navbar-inverse">
-            <div class="container-fluid" style="width: 100%;">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-              </div>
-              <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                  <li class="active"><a href="<?php echo base_url();?>">SOLUCIONES</a></li>
-                  <li class=""><a href="<?php echo base_url();?>Radical/exitos">CASOS DE ÉXITO</a></li>
-                  <li class=""><a href="<?php echo base_url();?>Radical/nosotros">NOSOTROS</a></li>
-                  <li class=""><a href="<?php echo base_url();?>Radical/contacto">CONTACTO</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <img src="<?php echo base_url(); ?>/application/helpers/images/carousel/img3.jpg" alt="...">
-          <div class="carousel-caption banner_res_2" id="hide1" style="display:none">
-            <span class="top">TRAZABILIDAD DE </span><span class="text_red top">CARGA</span><br>
-            <span class="back">CON TECNOLOGÍA RFID</span><br>
-          </div>
+    var devicePixelRatio = window.devicePixelRatio ? window.devicePixelRatio : 1;
+
+    document.cookie = 'resolution=' + screen_width + ',' + devicePixelRatio + '; path=/';
+  </script>
+  <link type="text/css" media="all" href="<?php echo base_url(); ?>application/helpers/css/home.css" rel="stylesheet">
+  <title>Trazabilidad de Carga</title>
+  <link rel="dns-prefetch" href="//s.w.org">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <meta property="og:site_name" content="Trazabilidad de Carga">
+  <meta property="og:url" content="<?php echo base_url(); ?>Trazabilidad_de_Carga">
+  <meta property="og:title" content="Trazabilidad de Carga">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="">
+  <script type="text/javascript">
+    window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/macphoto.evatheme.com\/demo\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+    !function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+  </script>
+  <script type="text/javascript" src="http://macphoto.evatheme.com/demo/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800">
+  <meta name="generator" content="RFID">
+</head>
+<body class="blog pagetitle_show portfolio_slider_ footer_">
+  <div id="page-wrap">
+    <header class="type3 clearfix" style="height: 122px;">
+      <div class="header_wrap desktop">
+        <div class="cstheme-logo">
+          <a class="logo" href="<?php echo base_url(); ?>">
+            <img class="logo-img" src="<?php echo base_url(); ?>application/helpers/images/carousel/LOGO-BLANCO.png" style="width:10%" alt="RFID">
+          </a>
         </div>
-
+        <div class="header_right_part text-right">
+          <div class="menu-primary-menu-container-wrap">
+            <ul id="menu-primary-menu" class="nav-menu clearfix">
+              <li id="menu-item-4002" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item menu-item-4002">
+                <a href="<?php echo base_url(); ?>">Soluciones</a>
+              </li>
+              <li id="menu-item-3718" class="menu-item menu-item-type-custom menu-item-object-custom menu-item menu-item-3718">
+                <a href="<?php echo base_url(); ?>Radical/exitos">Casos de exito</a>
+              </li>
+              <li id="menu-item-3717" class="menu-item menu-item-type-custom menu-item-object-custom menu-item menu-item-3717">
+                <a href="<?php echo base_url(); ?>Radical/nosotros">Nosotros</a>
+              </li>
+              <li id="menu-item-3718" class="menu-item menu-item-type-custom menu-item-object-custom menu-item menu-item-3718">
+                <a href="<?php echo base_url(); ?>Radical/contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+          <a class="menu_btn" href="javascript:void(0)">
+           <b>Menu</b>
+           <b class="menu_close">Close</b>
+           <span class="menu_line1"></span>
+           <span class="menu_line2"></span>
+           <span class="menu_line3"></span>
+         </a>
+       </div>
+     </div>
+     <div class="header_wrap mobile">
+      <div class="header_mobile_wrap">
+        <div class="cstheme-logo">
+          <a class="logo" href="http://macphoto.evatheme.com/demo/">
+            <img class="logo-img" src="<?php echo base_url(); ?>application/helpers/images/carousel/LOGO-BLANCO.png" style="width: 80%" alt="RFID">
+          </a>
+        </div>
+        <div class="header_right_part text-right">
+         <a class="mobile_menu_btn" href="javascript:void(0)">
+           <span class="menu_line1">
+           </span>
+           <span class="menu_line2">
+           </span>
+           <span class="menu_line3">
+           </span>
+         </a>
+       </div>
+     </div>
+     <div class="menu-primary-menu-container-wrap">
+      <div class="menu-primary-menu-container">
+        <ul id="menu-primary-menu-1" class="nav-menu">
+          <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item menu-item-4002">
+            <a href="<?php echo base_url(); ?>">Soluciones</a>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has menu-item-3718">
+            <a href="<?php echo base_url(); ?>Radical/exitos">Casos de exito</a>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item menu-item-3717">
+            <a href="<?php echo base_url(); ?>Radical/nosotros">Nosotros</a>
+          </li>
+          <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has menu-item-3718">
+            <a href="<?php echo base_url(); ?>Radical/contacto">Contacto</a>
+          </li>
+        </ul>
       </div>
     </div>
-    <div class="bloque" id="soluciones">
-      <div class="row">
-        <div class="top">
-          <span class="barra" style="background-color:#E2231A"></span>
-          <span class="barra" style="background-color:#E53131"></span>
-          <span class="barra" style="background-color:#EA5C2D"></span>
-          <span class="barra" style="background-color:#F29224"></span>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <span class="aviso">Soluciones a medida de cada&nbsp;</span><span class="text_red  aviso"> cliente</span>
-        </div>
-      </div>
-        <div class="row">
-          <div class="bot">
-            <span class="barra" style="background-color:#E2231A"></span>
-            <span class="barra" style="background-color:#E53131"></span>
-            <span class="barra" style="background-color:#EA5C2D"></span>
-            <span class="barra" style="background-color:#F29224"></span>
-          </div>
-        </div>
+  </div>
+</header>
+<div id="pagetitle" class=" breadcrumbs_hide text-center" style="margin-top: -122px; padding-top: 122px;background-image: url(<?php echo base_url(); ?>application/helpers/images/carousel/img3.jpg);">
+  <div class="pagetitle_content">
+    <div class="pagetitle_content_wrap clearfix">
+      <h2>TRAZABILIDAD DE CARGA</h2>
+      <span class="pagetitle_line" style="left: 355px; right: 707px;">
+      </span>
+      <p>CON TECNOLOGÍA RFID</p>
     </div>
-    <div class="cuerpo" style="min-height:200px;">
-      <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/adorno-superior.png" alt="">
-      <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/adorno-inferior.png" alt="">
-      <div class="row linea" style="display:inline">
-        <div class="col-sm-6 col-md-6 col-lg-offset-2 col-lg-4" id="hide3" style="display:none">
-          <a href="<?php echo base_url(); ?>Trazabilidad_de_Carga/contenedores">
-            <img src="<?php echo base_url(); ?>/application/helpers/images/cuerpo/2.jpg" alt="">
-          </a>
-          <div class="centro center_v2">
-            <span>Control de </span>
-            <span>contenedores</span>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-6 col-lg-pull-0 col-lg-4 " id="hide4" style="display:none">
-          <a href="<?php echo base_url(); ?>Trazabilidad_de_Carga/carga_suelta">
-            <img src="<?php echo base_url(); ?>/application/helpers/images/trazabilidad/2.jpg" alt="">
-          </a>
-          <div class="centro center_v2">
-            <span>Control de </span>
-            <span>carga suelta</span>
-          </div>
-        </div>
+  </div>
+</div>
+<div id="page-content" style="min-height: 97px;">
+  <div id="blog_list" class="default">
+    <div class="row">
+      <div class="cs-element  col-md-12" style="margin-bottom:20px;">
+        <h3 style="text-align: center;">
+        </h3>
       </div>
     </div>
-    <marquee width="100%">
-      <div >
-        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/lib.png" alt="">
-        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/kathrein.png" alt="">
-        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/escon.png" alt="">
-        <img class="logo_banner" src="<?php echo base_url();?>application/helpers/images/logos/mojix.png" alt="">
-      </div>
-    </marquee>
-    <script src="<?php echo base_url(); ?>/application/helpers/js/jquery-1.11.1.js"></script>
-    <script src="<?php echo base_url(); ?>/application/helpers/js/bootstrap.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function(){
-
-      $('#hide1').fadeIn(4000);
-
-      $(window).scroll(function() {
-      var bottom_of_object = $("#soluciones").offset().top;
-      var bottom_of_window_ini = $(window).scrollTop() + $(window).height();
-      var bottom_of_window = $(window).scrollTop();
-
-      if( bottom_of_window_ini >= bottom_of_object ){
-          $('#hide3').fadeIn(3500);
-          $('#hide4').fadeIn(3500);
-          $('#hide5').fadeIn(3500);
-          $('#hide6').fadeIn(3500);
-          $('#hide7').fadeIn(3500);
-          $('#hide8').fadeIn(3500);
-          $('#hide9').fadeIn(3500);
-          $('#hide10').fadeIn(3500);
-          $('#hide11').fadeIn(3500);
-          $('#hide12').fadeIn(3500);
-      }
-      if( bottom_of_window >= bottom_of_object+50 ){
-          $('#hide4').fadeIn(3500);
-      }
-      if( bottom_of_window >= bottom_of_object+750 ){
-          $('#hide5').fadeIn(3500);
-      }
-  });
-
-      $(".subray").mouseover(function() {
-        if ($(this)[0].id != "best") {
-          $("#best").css("border-bottom-style", "none");
-          $(this).css("border-bottom-style", "solid");
-          $(this).css("border-bottom-width", "thick");
-        }
-       });
-      $(".subray").mouseout(function() {
-        if ($(this)[0].id != "best") {
-          $(this).css("border-bottom-style", "none");
-          $("#best").css("border-bottom-style", "solid");
-          $("#best").css("border-bottom-width", "thick");
-        }
-       });
-
-    });
-    </script>
-  </body>
-  <footer>
-    <div class="container" >
-      <div class="row footer">
-        <div class="col-lg-3">
-          <div class="text_red">Dirección:</div>
-          <span class="text_white">Calle German Schreiber 276</span><br>
-          <span class="text_white">San Isidro - Lima - Perú</span>
-        </div>
-        <div class="col-lg-2">
-          <div class="text_red">Teléfono:</div>
-          <a href="tel:4697684">
-            <span class="text_white">+51 | 4697684</span>
-          </a>
-        </div>
-        <div class="col-lg-3">
-          <div class="text_red">Mail</div>
-          <a href="mailto:info@rfidperu.pe">
-            <a href="mailto:info@rfidperu.pe">
-              <span class="text_white">info@rfidperu.pe</span>
-            </a>
-          </a>
-        </div>
-      </div>
-      <br>
-      <div class="row footer">
-        <div class="col-xs-2 col-md-1 col-lg-1">
-          <a href="https://www.facebook.com">
-            <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/icono-de-face.png" alt="">
-          </a>
-        </div>
-        <div class="col-xs-2 col-md-1 col-lg-1">
-          <a href="https://twitter.com">
-            <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/twitter.png" alt="">
-          </a>
-        </div>
-        <div class="col-xs-2 col-md-1 col-lg-1">
-          <a href="https://www.youtube.com/channel/UC3r1_TGCB-fGUx3_q4pScNQ">
-            <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/yt.png" alt="">
-          </a>
-        </div>
+  </div>
+</div>
+<div id="page-content" style="min-height: 97px;">
+  <div id="blog_list" class="default">
+    <div class="row">
+      <div class="isotope_container_wrap">
+        <div class="isotope-container isotope" style="position: relative; overflow: hidden; height: 1160px;">
+     <article id="post-2712" class="col-md-3 mb40 post-2712 post type-post status-publish format-image has-post-thumbnail hentry category-news tag-dress tag-fashion tag-style post_format-post-format-image isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px);">
+      <div class="post-content-wrapper clearfix">
+        <div class="featured_img_bg" style="background-image:url(<?php echo base_url(); ?>application/helpers/images/cuerpo/2.jpg);"></div>
+        <div class="post_descr_wrap">
+          <h2 class="post-title">
+           <a href="<?php echo base_url(); ?>Trazabilidad_de_carga/contenedores" title="Control de Neumáticos" rel="bookmark">Control de Contenedores</a>
+         </h2>
+       </div>
+     </div>
+   </article>
+   <article id="post-2712" class="col-md-3 mb40 post-2712 post type-post status-publish format-image has-post-thumbnail hentry category-news tag-dress tag-fashion tag-style post_format-post-format-image isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px);">
+    <div class="post-content-wrapper clearfix">
+      <div class="featured_img_bg" style="background-image:url(<?php echo base_url(); ?>application/helpers/images/trazabilidad/2.jpg);"></div>
+      <div class="post_descr_wrap">
+        <h2 class="post-title">
+         <a href="<?php echo base_url(); ?>Trazabilidad_de_carga/carga_suelta" title="Control Documental" rel="bookmark">Control de Carga Suelta</a>
+       </h2>
+     </div>
+   </div>
+ </article>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer>
+  <div class="row text-center">
+    <div class="col-md-6 text-left">
+      <div class="copyright">© 2017 GLR - Giancarlo Leandro Romo</div>
+    </div>
+    <div class="col-md-6 text-right">
+      <div class="social_links">
+        <a href="https://www.facebook.com/Radical-Solutions-294951754277079/?ref=bookmarks" target="_blank">
+          <i class="fa fa-facebook"></i>
+          <span>facebook</span>
+        </a>
+        <a href="https://www.instagram.com/radicalsolutions/?hl=es" target="_blank">
+          <i class="fa fa-instagram"></i>
+          <span>instagram</span>
+        </a>
+        <a href="https://www.linkedin.com/in/radical-solutions-04bb54145/" target="_blank">
+          <i class="fa fa-linkedin"></i>
+          <span>linkedin</span>
+        </a>
+        <a href="https://www.youtube.com/channel/UC3r1_TGCB-fGUx3_q4pScNQ" target="_blank">
+          <i class="fa fa-google-plus"></i>
+          <span>google+</span>
+        </a>
       </div>
     </div>
-  </footer>
+  </div>
+</footer>
+</div>
+<script type="text/javascript" defer="" src="<?php echo base_url(); ?>application/helpers/js/home.js">
+</script>
+</body>
 </html>

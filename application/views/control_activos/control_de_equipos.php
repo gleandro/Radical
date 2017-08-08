@@ -1,365 +1,254 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-      <link href="<?php echo base_url(); ?>/application/helpers/css/bootstrap.css" rel="stylesheet">
-      <link href="<?php echo base_url(); ?>/application/helpers/css/principal.css" rel="stylesheet">
-      <title>Control de equipos TI</title>
-  </head>
-  <body>
-    <header>
+<html lang="en-US" class="csstransforms csstransforms3d csstransitions gallery_fullscreen wf-dosis-n2-active wf-dosis-n3-active wf-dosis-n4-active wf-dosis-n5-active wf-dosis-n6-active wf-dosis-n7-active wf-dosis-n8-active wf-active">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="shortcut icon" href="<?php echo base_url(); ?>/application/helpers/iconos/icono.png" type="image/png">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js" type="text/javascript" async=""></script>
+  <script type="text/javascript">
+    var screen_width = Math.max( screen.width, screen.height );
 
-    </header>
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <div class="row center responsive_header">
-            <div class="col-sm-4 col-md-2 col-lg-2" style="text-align: left;left: 5%;">
-              <img class="logo" src="<?php echo base_url(); ?>/application/helpers/images/carousel/LOGO-BLANCO.png" alt="">
-            </div>
-            <div class="col-sm-2 col-sm-offset-2 col-md-2 col-md-offset-4 col-lg-1 col-lg-offset-5">
-              <a href="<?php echo base_url();?>" class="scroll" style="text-decoration:none;color:white"><span class="subray" id="best">SOLUCIONES</span></a>
-            </div>
-            <div class="col-sm-2-5 col-lg-2-5">
-              <a href="<?php echo base_url();?>Radical/exitos" style="text-decoration:none;color:white"><span class="subray">CASOS DE ÉXITO</span></a>
-            </div>
-            <div class="col-sm-2 col-lg-1">
-              <a href="<?php echo base_url();?>Radical/nosotros" style="text-decoration:none;color:white"><span class="subray">NOSOTROS</span></a>
-            </div>
-            <div class="col-sm-2 col-lg-1">
-              <a href="<?php echo base_url();?>Radical/contacto" style="text-decoration:none;color:white"><span class="subray">CONTACTO</span></a>
-            </div>
-          </div>
-          <div class="colapsive_header navbar navbar-inverse">
-            <div class="container-fluid" style="width: 100%;">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-              </div>
-              <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                  <li class="active"><a href="<?php echo base_url();?>">SOLUCIONES</a></li>
-                  <li class=""><a href="<?php echo base_url();?>Radical/exitos">CASOS DE ÉXITO</a></li>
-                  <li class=""><a href="<?php echo base_url();?>Radical/nosotros">NOSOTROS</a></li>
-                  <li class=""><a href="<?php echo base_url();?>Radical/contacto">CONTACTO</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <img src="<?php echo base_url(); ?>/application/helpers/images/control/equipos/CONTROL-DE-EQUIPOS-TI-header.jpg" alt="...">
-          <div class="carousel-caption banner_res_2" id="hide1" style="display:none;">
-            <span class="top">CONTROL DE </span><span class="text_red top">EQUIPOS TI</span><br>
-            <span class="back">CON TECNOLOGÍA RFID</span><br>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="bloque" id="soluciones">
-      <div class="row titulo">
-        <div class="col-md-12">
-          <span class="">SISTEMA DE CONTROL DE EQUIPOS CON RFID</span>
-        </div>
-      </div>
-      <div class="row detalle">
-        <div class="col-md-12">
-          <span>Con la identificación de cada equipo portátil con un tag RFID es mas simple la</span><br>
-          <span>administración y control de los mismos.</span>
-        </div>
-      </div>
-    </div>
-    <div class="cuerpodetalle" id="bloques" >
-      <div class="row ">
-        <div class="col-md-4 black center" id="a" style="display:none;">
-          <div class="">
-            <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-3.png" alt="">
-          </div>
-          <div class="">
-            <span class="text_white_bold">PROBLEMA</span>
-          </div>
-          <div class="row">
-            <div class="col-xs-1 col-sm-1 col-md-1">
-              <span class="text_white_bold">_</span>
-            </div>
-            <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Desconocimiento de la ubicación en tiempo real de equipos de alto valor.</span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-1 col-sm-1 col-md-1">
-              <span class="text_white_bold">_</span>
-            </div>
-            <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Robos y pérdidas de equipos e información.</span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-1 col-sm-1 col-md-1">
-              <span class="text_white_bold">_</span>
-            </div>
-            <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Ineficiencia en el uso de equipos.</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 red center" id="b" style="display:none;">
-          <div class="">
-            <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-2.png" alt="">
-          </div>
-          <div class="">
-            <span class="text_white_bold">SOLUCIÓN</span>
-          </div>
-          <div class="row">
-            <div class="col-xs-1 col-sm-1 col-md-1">
-              <span class="text_white_bold">_</span>
-            </div>
-            <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Identificar cada notebook con un tag RFID y asociarla al ID de la empresa del usuario de la laptop.</span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-1 col-sm-1 col-md-1">
-              <span class="text_white_bold">_</span>
-            </div>
-            <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Validar al personal autorizado con cada equipo, así el sistema puede detectar fallas de seguridad o movimientos extraños.</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 black center" id="c" style="display:none;">
-          <div class="">
-            <img src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/ICONO-1.png" alt="">
-          </div>
-          <div class="">
-            <span class="text_white_bold">BENEFICIO</span>
-          </div>
-          <div class="row">
-            <div class="col-xs-1 col-sm-1 col-md-1">
-              <span class="text_white_bold">_</span>
-            </div>
-            <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Mayor seguridad de los equipos e información confidencial.</span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-1 col-sm-1 col-md-1">
-              <span class="text_white_bold">_</span>
-            </div>
-            <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Reducción de robos y pérdidas.</span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-1 col-sm-1 col-md-1">
-              <span class="text_white_bold">_</span>
-            </div>
-            <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Administración eficiente sobre movimiento de los equipos.</span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-1 col-sm-1 col-md-1">
-              <span class="text_white_bold">_</span>
-            </div>
-            <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Reducción de costos y tiempo relacionado a inventarios.</span>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-1 col-sm-1 col-md-1">
-              <span class="text_white_bold">_</span>
-            </div>
-            <div class="col-xs-10 col-sm-10 col-md-10  left">
-              <span class="text_white_detalle">Visibilidad completa y real sobre el movimiento de los equipos.</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="fichero">
-      <img class="fondotop" src="<?php echo base_url(); ?>/application/helpers/images/control/equipos/control-de-equipos-CUERPO-IMAGEN-SUPERIOR.png" alt="" id="top" style="opacity:0">
-      <img class="fondobot" align="right" src="<?php echo base_url(); ?>/application/helpers/images/control/equipos/control-de-equipos-CUERPO-IMAGEN-INFERIOR.png" alt="" id="bot" style="opacity:0">">
-      <div class="primero" id="num_1" style="display:none">
-        <div class="row text_red_bold">
-          <div class="col-xs-1 col-sm-1 col-md-1">
-            1.
-          </div>
-          <div class="col-md-10">
-            IDENTIFICA
-            <span style="color:#333; font-weight:normal;font-size:14px;"> con tags </span>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-1 col-sm-1 col-md-1">
-          </div>
-          <div class="col-md-9">
-            RFID cada equipo.
-          </div>
-        </div>
-      </div>
-      <div class="segundo" id="num_2" style="display:none">
-        <div class="row" style="margin-left: 10%;">
-          <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/1.png" alt="">
-        </div>
-        <div class="row text_red_bold">
-          <div class="col-xs-1 col-sm-1 col-md-1">
-            2.
-          </div>
-          <div class="col-md-9">
-            LECTURA
-            <span style="color:#333; font-weight:normal;font-size:14px;"> a </span>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-1 col-sm-1 col-md-1">
-          </div>
-          <div class="col-md-9">
-            tiempo real.
-          </div>
-        </div>
-      </div>
-      <div class="tercero" id="num_3" style="display:none">
-        <div class="row text_red_bold">
-          <div class="col-xs-1 col-sm-1 col-md-1">
-            3.
-          </div>
-          <div class="col-md-10">
-            CONTROL
-            <span style="color:#333; font-weight:normal;font-size:14px;"> total</span>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-1 col-sm-1 col-md-1">
-          </div>
-          <div class="col-md-9">
-            de inventario.
-          </div>
-        </div>
-      </div>
-      <div class="cuarto" id="num_4" style="display:none">
-        <div class="row" style="margin-left: 20%;">
-          <img class="imagen" src="<?php echo base_url(); ?>/application/helpers/iconos/control_activos/4.png" alt="">
-        </div>
-        <div class="row text_red_bold">
-          <div class="col-xs-1 col-sm-1 col-md-1">
-            4.
-          </div>
-          <div class="col-md-9">
-            SEGURIDAD
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-1 col-sm-1 col-md-1">
-          </div>
-          <div class="col-md-9">
-            de los equipos e información confidencial.
-          </div>
-        </div>
-      </div>
-    </div>
-    <script src="<?php echo base_url(); ?>/application/helpers/js/jquery-1.11.1.js"></script>
-    <script src="<?php echo base_url(); ?>/application/helpers/js/bootstrap.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function(){
+    var devicePixelRatio = window.devicePixelRatio ? window.devicePixelRatio : 1;
 
-      $('body').scrollspy({target: ".navbar", offset: 50});
-
-      $('#hide1').fadeIn(3000);
-
-
-      $(".subray").mouseover(function() {
-        if ($(this)[0].id != "best") {
-          $("#best").css("border-bottom-style", "none");
-          $(this).css("border-bottom-style", "solid");
-          $(this).css("border-bottom-width", "thick");
-        }
-       });
-      $(".subray").mouseout(function() {
-        if ($(this)[0].id != "best") {
-          $(this).css("border-bottom-style", "none");
-          $("#best").css("border-bottom-style", "solid");
-          $("#best").css("border-bottom-width", "thick");
-        }
-       });
-       var count = 0;
-       $(window).scroll(function() {
-           var bottom_of_object = $("#soluciones").offset().top;
-           var bottom_of_window_ini = $(window).scrollTop() + $(window).height();
-           var bottom_of_object_bloque = $("#bloques").offset().top;
-           var bottom_of_window = $(window).scrollTop();
-
-           if( bottom_of_window_ini >= bottom_of_object ){
-               $('#a').delay(0).fadeIn(2000);
-               $('#a').css("min-height","570px");
-               $('#b').delay(1200).fadeIn(2000);
-               $('#b').css("min-height","570px");
-               $('#c').delay(2400).fadeIn(2000);
-               $('#c').css("min-height","570px");
-           }
-           if( bottom_of_window >= bottom_of_object_bloque ){
-             if (count==0) {
-               var top = $("#top");
-               top.animate({right: '500px', opacity: '0.0'}, "fast");
-               top.animate({right: '0px', opacity: '1'}, 3000);
-
-               var bot = $("#bot");
-               bot.animate({left: '500px', opacity: '0.0'}, "fast");
-               bot.animate({left: '0px', opacity: '1'}, 3000);
-               $("#num_1").delay(3000).fadeIn(2000);
-               $("#num_2").delay(4000).fadeIn(2000);
-               $("#num_3").delay(5000).fadeIn(2000);
-               $("#num_4").delay(6000).fadeIn(2000);
-             }
-              count++;
-           }
-       });
-
-    });
-    </script>
-  </body>
-  <footer>
-    <div class="container" >
-      <div class="row footer">
-        <div class="col-lg-3">
-          <div class="text_red">Dirección:</div>
-          <span class="text_white">Calle German Schreiber 276</span><br>
-          <span class="text_white">San Isidro - Lima - Perú</span>
-        </div>
-        <div class="col-lg-2">
-          <div class="text_red">Teléfono:</div>
-          <a href="tel:4697684">
-            <span class="text_white">+51 | 4697684</span>
+    document.cookie = 'resolution=' + screen_width + ',' + devicePixelRatio + '; path=/';
+  </script>
+  <link type="text/css" media="all" href="<?php echo base_url(); ?>application/helpers/css/home.css" rel="stylesheet">
+  <title>Control de Equipos TI</title>
+  <link rel="dns-prefetch" href="//s.w.org">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <meta property="og:site_name" content="Control de Equipos TI">
+  <meta property="og:url" content="<?php echo base_url(); ?>Control_Activos/equipos">
+  <meta property="og:title" content="Control de Equipos TI">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="">
+  <script type="text/javascript">
+    window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/macphoto.evatheme.com\/demo\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+    !function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+  </script>
+  <script type="text/javascript" src="http://macphoto.evatheme.com/demo/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800">
+  <meta name="generator" content="RFID">
+</head>
+<body class="blog pagetitle_show portfolio_slider_ footer_">
+  <div id="page-wrap">
+    <header class="type3 clearfix" style="height: 122px;">
+      <div class="header_wrap desktop">
+        <div class="cstheme-logo">
+          <a class="logo" href="<?php echo base_url(); ?>">
+            <img class="logo-img" src="<?php echo base_url(); ?>application/helpers/images/carousel/LOGO-BLANCO.png" style="width:10%" alt="RFID">
           </a>
         </div>
-        <div class="col-lg-3">
-          <div class="text_red">Mail</div>
-          <a href="mailto:info@rfidperu.pe">
-            <a href="mailto:info@rfidperu.pe">
-              <span class="text_white">info@rfidperu.pe</span>
+        <div class="header_right_part text-right">
+          <div class="menu-primary-menu-container-wrap">
+            <ul id="menu-primary-menu" class="nav-menu clearfix">
+              <li id="menu-item-4002" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item menu-item-4002">
+                <a href="<?php echo base_url(); ?>">Soluciones</a>
+              </li>
+              <li id="menu-item-3718" class="menu-item menu-item-type-custom menu-item-object-custom menu-item menu-item-3718">
+                <a href="<?php echo base_url(); ?>Radical/exitos">Casos de exito</a>
+              </li>
+              <li id="menu-item-3717" class="menu-item menu-item-type-custom menu-item-object-custom menu-item menu-item-3717">
+                <a href="<?php echo base_url(); ?>Radical/nosotros">Nosotros</a>
+              </li>
+              <li id="menu-item-3718" class="menu-item menu-item-type-custom menu-item-object-custom menu-item menu-item-3718">
+                <a href="<?php echo base_url(); ?>Radical/contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+          <a class="menu_btn" href="javascript:void(0)">
+            <b>Menu</b>
+            <b class="menu_close">Close</b>
+            <span class="menu_line1"></span>
+            <span class="menu_line2"></span>
+            <span class="menu_line3"></span>
+          </a>
+        </div>
+      </div>
+      <div class="header_wrap mobile">
+        <div class="header_mobile_wrap">
+          <div class="cstheme-logo">
+            <a class="logo" href="http://macphoto.evatheme.com/demo/">
+              <img class="logo-img" src="<?php echo base_url(); ?>application/helpers/images/carousel/LOGO-BLANCO.png" style="width: 80%" alt="RFID">
             </a>
-          </a>
+          </div>
+          <div class="header_right_part text-right">
+            <a class="mobile_menu_btn" href="javascript:void(0)">
+              <span class="menu_line1">
+              </span>
+              <span class="menu_line2">
+              </span>
+              <span class="menu_line3">
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="menu-primary-menu-container-wrap">
+          <div class="menu-primary-menu-container">
+            <ul id="menu-primary-menu-1" class="nav-menu">
+              <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item menu-item-4002">
+                <a href="<?php echo base_url(); ?>">Soluciones</a>
+              </li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has menu-item-3718">
+                <a href="<?php echo base_url(); ?>Radical/exitos">Casos de exito</a>
+              </li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item menu-item-3717">
+                <a href="<?php echo base_url(); ?>Radical/nosotros">Nosotros</a>
+              </li>
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item menu-item-3717">
+                <a href="<?php echo base_url(); ?>Radical/contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-      <br>
-      <div class="row footer">
-        <div class="col-xs-2 col-md-1 col-lg-1">
-          <a href="https://www.facebook.com">
-            <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/icono-de-face.png" alt="">
-          </a>
-        </div>
-        <div class="col-xs-2 col-md-1 col-lg-1">
-          <a href="https://twitter.com">
-            <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/twitter.png" alt="">
-          </a>
-        </div>
-        <div class="col-xs-2 col-md-1 col-lg-1">
-          <a href="https://www.youtube.com/channel/UC3r1_TGCB-fGUx3_q4pScNQ">
-            <img src="<?php echo base_url(); ?>/application/helpers/iconos/footer/yt.png" alt="">
-          </a>
+    </header>
+    <div id="pagetitle" class=" breadcrumbs_hide text-center" style="margin-top: -122px; padding-top: 122px;background-image: url(<?php echo base_url(); ?>application/helpers/images/control/equipos/CONTROL-DE-EQUIPOS-TI-header.jpg);">
+      <div class="pagetitle_content">
+        <div class="pagetitle_content_wrap clearfix">
+          <h2>CONTROL DE EQUIPOS TI</h2>
+          <span class="pagetitle_line" style="left: 355px; right: 707px;">
+          </span>
+          <p>CON TECNOLOGÍA RFID</p>
         </div>
       </div>
     </div>
-  </footer>
+    <div id="page-content" style="min-height: 97px;">
+      <div id="blog_list" class="default">
+        <div class="container">
+          <div class="row">
+            <div class="cs-element  col-md-12" style="margin-bottom:20px;">
+              <p style="text-align: center;">&nbsp;</p>
+              <h3 style="text-align: center;">
+                <strong>SISTEMA DE CONTROL DE EQUIPOS CON RFID</strong>
+              </h3>
+              <p style="text-align: center;">Con la identificación de cada equipo portátil con un tag RFID es mas simple la administración y control de los mismos.</p>
+              <p style="text-align: center;">&nbsp;</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="cs-element cstheme-tab tabbable tabs-top col-md-12" style="margin-bottom:60px;">
+              <ul class="nav nav-tabs">
+                <li class="active">
+                  <a href="javascript:void(0);">PROBLEMA</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);">SOLUCIÓN</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0);">BENEFICIO</a>
+                </li>
+              </ul>
+              <div class="tab-content">
+                <div class="tab-pane active">
+                  <p>Desconocimiento de la ubicación en tiempo real de equipos de alto valor.</p>
+                  <p>Robos y pérdidas de equipos e información.</p>
+                  <p>Ineficiencia en el uso de equipos.</p>
+
+                </div>
+                <div class="tab-pane" style="display: none;">
+                  <p>Identificar cada notebook con un tag RFID y asociarla al ID de la empresa del usuario de la laptop.</p>
+                  <p>Validar al personal autorizado con cada equipo, así el sistema puede detectar fallas de seguridad o movimientos extraños.</p>
+                </div>
+                <div class="tab-pane" style="display: none;">
+                  <p>Mayor seguridad de los equipos e información confidencial.</p>
+                  <p>Reducción de robos y pérdidas.</p>
+                  <p>Administración eficiente sobre movimiento de los equipos.</p>
+                  <p>Reducción de costos y tiempo relacionado a inventarios.</p>
+                  <p>Visibilidad completa y real sobre el movimiento de los equipos.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="cs-element cstheme-heading text-left col-md-12" style="margin-bottom:40px;">
+            <h3 class="heading-title" style="font-weight:300;font-style:normal">Puntos<span class="title-seperator"></span></h3>
+          </div>
+        </div>
+        <div class="row" style="text-align: center;">
+          <div class="cs-element cstheme-team col-md-3" style="margin-bottom:60px;">
+            <div class="cstheme_member_wrapper">
+              <div class="member-image">
+                <img src="<?php echo base_url();?>application/helpers/images/control/equipos/1.png" alt="Anna Balashova">
+              </div>
+              <div class="cstheme_member_descr">
+                <div class="member-title" style ="width:100%">
+                  <h2>1. IDENTIFICA </h2>
+                  <div class="member-pos theme_color">con tags RFID cada equipo.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cs-element cstheme-team col-md-3" style="margin-bottom:60px;">
+            <div class="cstheme_member_wrapper">
+              <div class="member-image">
+                <img src="<?php echo base_url();?>application/helpers/images/control/equipos/2.png" alt="Anna Balashova">
+              </div>
+              <div class="cstheme_member_descr">
+                <div class="member-title" style ="width:100%">
+                  <h2>2. LECTURA</h2>
+                  <div class="member-pos theme_color">a tiempo real.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cs-element cstheme-team col-md-3" style="margin-bottom:60px;">
+            <div class="cstheme_member_wrapper">
+              <div class="member-image">
+                <img src="<?php echo base_url();?>application/helpers/images/control/equipos/3.png" alt="Anna Balashova">
+              </div>
+              <div class="cstheme_member_descr">
+                <div class="member-title" style ="width:100%">
+                  <h2>3. CONTROL</h2>
+                  <div class="member-pos theme_color">total de inventario.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cs-element cstheme-team col-md-3" style="margin-bottom:60px;">
+            <div class="cstheme_member_wrapper">
+              <div class="member-image">
+                <img src="<?php echo base_url();?>application/helpers/images/control/equipos/4.png" alt="Anna Balashova">
+              </div>
+              <div class="cstheme_member_descr">
+                <div class="member-title" style ="width:100%">
+                  <h2>4. SEGURIDAD</h2>
+                  <div class="member-pos theme_color">de los equipos e información confidencial.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="row text-center">
+        <div class="col-md-6 text-left">
+          <div class="copyright">© 2017 GLR - Giancarlo Leandro Romo</div>
+        </div>
+        <div class="col-md-6 text-right">
+          <div class="social_links">
+            <a href="https://www.facebook.com/Radical-Solutions-294951754277079/?ref=bookmarks" target="_blank">
+              <i class="fa fa-facebook"></i>
+              <span>facebook</span>
+            </a>
+            <a href="https://www.instagram.com/radicalsolutions/?hl=es" target="_blank">
+              <i class="fa fa-instagram"></i>
+              <span>instagram</span>
+            </a>
+            <a href="https://www.linkedin.com/in/radical-solutions-04bb54145/" target="_blank">
+              <i class="fa fa-linkedin"></i>
+              <span>linkedin</span>
+            </a>
+            <a href="https://www.youtube.com/channel/UC3r1_TGCB-fGUx3_q4pScNQ" target="_blank">
+              <i class="fa fa-google-plus"></i>
+              <span>google+</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script type="text/javascript" defer="" src="<?php echo base_url() ?>/application/helpers/js/home.js"></script>
+</body>
 </html>
