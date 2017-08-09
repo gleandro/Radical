@@ -283,7 +283,7 @@
 <footer>
   <div class="row text-center">
     <div class="col-md-6 text-left">
-      <div class="copyright">© 2017 GLR - Giancarlo Leandro Romo</div>
+      <div class="copyright">© RFID - Radical Solutions S.A.C.</div>
     </div>
     <div class="col-md-6 text-right">
       <div class="social_links">

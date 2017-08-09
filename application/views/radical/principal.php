@@ -134,7 +134,7 @@
                                 </span>
                                 <h2 class="portfolio-title">Control de activos</h2>
                             </div>
-                            <div class="portfolio_overlay_bgcolor" style="background-color:#444138;">
+                            <div class="portfolio_overlay_bgcolor" style="background-color:#484846;">
                             </div>
                         </div>
                     </article>
@@ -155,7 +155,7 @@
                                     <a href="#">Trazabilidad de carga</a>
                                 </h2>
                             </div>
-                            <div class="portfolio_overlay_bgcolor" style="background-color:#ae8973;">
+                            <div class="portfolio_overlay_bgcolor" style="background-color:#092A33;">
                             </div>
                         </div>
                     </article>
@@ -176,7 +176,7 @@
                                     <a href="#">Solución de retail e inventarios</a>
                                 </h2>
                             </div>
-                            <div class="portfolio_overlay_bgcolor" style="background-color:#a30039;">
+                            <div class="portfolio_overlay_bgcolor" style="background-color:#464644;">
                             </div>
                         </div>
                     </article>
@@ -197,7 +197,7 @@
                                     <a href="#">Salud y trazabilidad</a>
                                 </h2>
                             </div>
-                            <div class="portfolio_overlay_bgcolor" style="background-color:#e5e8ef;">
+                            <div class="portfolio_overlay_bgcolor" style="background-color:#3B444D;">
                             </div>
                         </div>
                     </article>
@@ -218,7 +218,7 @@
                                     <a href="#">Solución oil & gas</a>
                                 </h2>
                             </div>
-                            <div class="portfolio_overlay_bgcolor" style="background-color:#ae8973;">
+                            <div class="portfolio_overlay_bgcolor" style="background-color:#4B2824;">
                             </div>
                         </div>
                     </article>
@@ -239,7 +239,7 @@
                                     <a href="#">Solución de peaje</a>
                                 </h2>
                             </div>
-                            <div class="portfolio_overlay_bgcolor" style="background-color:#c58551;">
+                            <div class="portfolio_overlay_bgcolor" style="background-color:#474B4E;">
                             </div>
                         </div>
                     </article>
@@ -260,7 +260,7 @@
                                     <a href="#">Control de mascotas</a>
                                 </h2>
                             </div>
-                            <div class="portfolio_overlay_bgcolor" style="background-color:#444138;">
+                            <div class="portfolio_overlay_bgcolor" style="background-color:#181D09;">
                             </div>
                         </div>
                     </article>
@@ -281,7 +281,7 @@
                                     <a href="#">Solución de acceso RFID + CCTV</a>
                                 </h2>
                             </div>
-                            <div class="portfolio_overlay_bgcolor" style="background-color:#444138;">
+                            <div class="portfolio_overlay_bgcolor" style="background-color:#3E352C;">
                             </div>
                         </div>
                     </article>
@@ -302,7 +302,7 @@
                                     <a href="#">Solución de control de pagos</a>
                                 </h2>
                             </div>
-                            <div class="portfolio_overlay_bgcolor" style="background-color:#8a913b;">
+                            <div class="portfolio_overlay_bgcolor" style="background-color:#1D2A32;">
                             </div>
                         </div>
                     </article>
@@ -323,7 +323,28 @@
                                     <a href="#">Solución de eventos RFID UHF</a>
                                 </h2>
                             </div>
-                            <div class="portfolio_overlay_bgcolor" style="background-color:#e5e8ef;">
+                            <div class="portfolio_overlay_bgcolor" style="background-color:#201C01;">
+                            </div>
+                        </div>
+                    </article>
+                    <article id="portfolio-3923" class=" col-md-3 post-3920 portfolio type-portfolio status-publish format-standard has-post-thumbnail hentry portfolio_tag-forest portfolio_category-landspace" style="height: 209px;">
+                        <div class="portfolio_content_wrapper">
+                            <div class="featured_img_bg" style="background-position: 6%;background-image: url(<?php echo base_url() ?>application/helpers/images/frio/header.jpg);">
+                            </div>
+                            <h2 class="portfolio-title-small">
+                                <a href="#">SOLUCIÓN DE CADENA DE FRIO</a>
+                            </h2>
+                            <a class="hoverbgimage_plus" href="<?php echo base_url() ?>Control_Frio">
+                            </a>
+                            <div class="portfolio_descr">
+                                <span class="portfolio_categories_list">
+                                    <a href="#" rel="tag"></a>
+                                </span>
+                                <h2 class="portfolio-title">
+                                    <a href="#">Control de cadena de frio</a>
+                                </h2>
+                            </div>
+                            <div class="portfolio_overlay_bgcolor" style="background-color:#3C4144;">
                             </div>
                         </div>
                     </article>
@@ -344,7 +365,7 @@
                                     <a href="#">Seguridad pública</a>
                                 </h2>
                             </div>
-                            <div class="portfolio_overlay_bgcolor" style="background-color:#555b96;">
+                            <div class="portfolio_overlay_bgcolor" style="background-color:#2A3B45;">
                             </div>
                         </div>
                     </article>
@@ -365,7 +386,7 @@
                                     <a href="#">Manejo de desastres</a>
                                 </h2>
                             </div>
-                            <div class="portfolio_overlay_bgcolor" style="background-color:#760e12;">
+                            <div class="portfolio_overlay_bgcolor" style="background-color:#261F22;">
                             </div>
                         </div>
                     </article>
@@ -376,7 +397,7 @@
     <footer>
         <div class="row text-center">
             <div class="col-md-6 text-left">
-                <div class="copyright">© 2017 GLR - Giancarlo Leandro Romo</div>
+                <div class="copyright">© RFID - Radical Solutions S.A.C.</div>
             </div>
             <div class="col-md-6 text-right">
                 <div class="social_links">

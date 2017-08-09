@@ -13,12 +13,12 @@
     document.cookie = 'resolution=' + screen_width + ',' + devicePixelRatio + '; path=/';
   </script>
   <link type="text/css" media="all" href="<?php echo base_url(); ?>application/helpers/css/home.css" rel="stylesheet">
-  <title>Control de Carga Suelta</title>
+  <title>Control de Cadena de Frio</title>
   <link rel="dns-prefetch" href="//s.w.org">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <meta property="og:site_name" content="Control de Carga Suelta">
-  <meta property="og:url" content="<?php echo base_url(); ?>Trazabilidad_de_Carga/carga_suelta">
-  <meta property="og:title" content="Control de Carga Suelta">
+  <meta property="og:site_name" content="Control de Cadena de Frio">
+  <meta property="og:url" content="<?php echo base_url(); ?>Control_Frio">
+  <meta property="og:title" content="Control de Cadena de Frio">
   <meta property="og:type" content="website">
   <meta property="og:image" content="">
   <script type="text/javascript">
@@ -94,7 +94,7 @@
               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item menu-item-3717">
                 <a href="<?php echo base_url(); ?>Radical/nosotros">Nosotros</a>
               </li>
-              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has menu-item-3718">
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item menu-item-3717">
                 <a href="<?php echo base_url(); ?>Radical/contacto">Contacto</a>
               </li>
             </ul>
@@ -102,10 +102,10 @@
         </div>
       </div>
     </header>
-    <div id="pagetitle" class=" breadcrumbs_hide text-center" style="margin-top: -122px; padding-top: 122px;background-image: url(<?php echo base_url(); ?>application/helpers/images/trazabilidad/carga/vehiculos.jpg);">
+    <div id="pagetitle" class=" breadcrumbs_hide text-center" style="background-position: 6%; margin-top: -122px; padding-top: 122px;background-image: url(<?php echo base_url(); ?>application/helpers/images/frio/header.jpg);">
       <div class="pagetitle_content">
         <div class="pagetitle_content_wrap clearfix">
-          <h2>CONTROL DE CARGA SUELTA</h2>
+          <h2>CONTROL DE CADENA DE FRIO</h2>
           <span class="pagetitle_line" style="left: 355px; right: 707px;">
           </span>
           <p>CON TECNOLOGÍA RFID</p>
@@ -119,9 +119,9 @@
             <div class="cs-element  col-md-12" style="margin-bottom:20px;">
               <p style="text-align: center;">&nbsp;</p>
               <h3 style="text-align: center;">
-                <strong>OPTIMICE LA GESTIÓN DE VEHÍCULOS CON RFID</strong>
+                <strong>SOLUCIONES RFID PARA EL CONTROL DE TEMPERATURA EN LA CADENA DE FRÍO</strong>
               </h3>
-              <p style="text-align: center;">La utilización de tecnología de identificación por radio frecuencia (RFID) permite gestionar los vehículos dentro de una planta, optimizando tiempos y recursos, controlando en forma automática todos sus movimientos.</p>
+              <p style="text-align: center;">Gracias a las soluciones RFID para el control de temperatura en la cadena de frío de Trace ID podrá administrar la logística del frío con facilidad y precisión.</p>
               <p style="text-align: center;">&nbsp;</p>
             </div>
           </div>
@@ -140,22 +140,20 @@
               </ul>
               <div class="tab-content">
                 <div class="tab-pane active">
-                  <p>Manipulación de la carga suelta.</p>
-                  <p>Alto costo de inventarios.</p>
-                  <p>Pérdida o robo de la carga suelta.</p>
-                  <p>Poca visibilidad en tiempo real.</p>
+                  <p>Mal manejo de almacén y el registro de datos de temperatura.</p>
+                  <p>Gestión e inspección lenta.</p>
+                  <p>Falta de lectura a tiempo real.</p>
                 </div>
                 <div class="tab-pane" style="display: none;">
-                  <p>Se coloca un tag RDID en los bultos.</p>
-                  <p>Se colocan antenas en el vehículo y en el almacén.</p>
-                  <p>Validación de la carga y de la descarga.</p>
-                  <p>Detección de manipulaciones indebidas de la carga.</p>
+                  <p>Implementación del sistema cadena de frio RFID.</p>
                 </div>
                 <div class="tab-pane" style="display: none;">
-                  <p>Mayor velocidad en los procesos de control.</p>
-                  <p>Reducción de costos operativos.</p>
-                  <p>Notificación inmediata de vehículo disponibles.</p>
-                  <p>Mayor productividad del personal.</p>
+                  <p>Proporciona identificación en la trazabilidad alimentaria.</p>
+                  <p>Digitalización de la temperatura y el tiempo de seguimiento.</p>
+                  <p>Tecnología RFID económica y sencilla para productos e identificación de equipos.</p>
+                  <p>Seguimiento y notificaciones de cumplimiento de seguridad en tiempo real.</p>
+                  <p>Seguridad en tránsitos de alimentos perecederos.</p>
+                  <p>Temperatura farmacéutica para la gestión de medicamentos sensibles.</p>
                 </div>
               </div>
             </div>
@@ -170,12 +168,12 @@
           <div class="cs-element cstheme-team col-md-3" style="margin-bottom:60px;">
             <div class="cstheme_member_wrapper">
               <div class="member-image">
-                <img src="<?php echo base_url();?>application/helpers/images/trazabilidad/carga/1.png" alt="Anna Balashova">
+                <img src="<?php echo base_url();?>application/helpers/images/pagos/1.jpg" alt="Anna Balashova">
               </div>
               <div class="cstheme_member_descr">
                 <div class="member-title" style ="width:100%">
-                  <h2>1. ASOCIA</h2>
-                  <div class="member-pos theme_color">con tag RFID.</div>
+                  <h2>1. ASOCIAR</h2>
+                  <div class="member-pos theme_color">los tags RFID a los articulos.</div>
                 </div>
               </div>
             </div>
@@ -183,12 +181,12 @@
           <div class="cs-element cstheme-team col-md-3" style="margin-bottom:60px;">
             <div class="cstheme_member_wrapper">
               <div class="member-image">
-                <img src="<?php echo base_url();?>application/helpers/images/trazabilidad/carga/2.png" alt="Anna Balashova">
+                <img src="<?php echo base_url();?>application/helpers/images/pagos/2.jpg" alt="Anna Balashova">
               </div>
               <div class="cstheme_member_descr">
                 <div class="member-title" style ="width:100%">
-                  <h2>2. DETECTA</h2>
-                  <div class="member-pos theme_color">manipulaciones indebidas de la carga.</div>
+                  <h2>2. LECTURA</h2>
+                  <div class="member-pos theme_color">a tiempo real.</div>
                 </div>
               </div>
             </div>
@@ -196,12 +194,12 @@
           <div class="cs-element cstheme-team col-md-3" style="margin-bottom:60px;">
             <div class="cstheme_member_wrapper">
               <div class="member-image">
-                <img src="<?php echo base_url();?>application/helpers/images/trazabilidad/carga/3.png" alt="Anna Balashova">
+                <img src="<?php echo base_url();?>application/helpers/images/pagos/3.jpg" alt="Anna Balashova">
               </div>
               <div class="cstheme_member_descr">
                 <div class="member-title" style ="width:100%">
-                  <h2>3. REDUCE</h2>
-                  <div class="member-pos theme_color">costos operativos.</div>
+                  <h2>3. NOTIFICACIONES</h2>
+                  <div class="member-pos theme_color">del seguimiento de la temperatura.</div>
                 </div>
               </div>
             </div>
@@ -209,12 +207,12 @@
           <div class="cs-element cstheme-team col-md-3" style="margin-bottom:60px;">
             <div class="cstheme_member_wrapper">
               <div class="member-image">
-                <img src="<?php echo base_url();?>application/helpers/images/trazabilidad/carga/4.png" alt="Anna Balashova">
+                <img src="<?php echo base_url();?>application/helpers/images/pagos/4.jpg" alt="Anna Balashova">
               </div>
               <div class="cstheme_member_descr">
                 <div class="member-title" style ="width:100%">
-                  <h2>4. MAYOR</h2>
-                  <div class="member-pos theme_color">velocidad en los procesos de control.</div>
+                  <h2>4. DIGITALIZA</h2>
+                  <div class="member-pos theme_color">la temperatura y el tiempo de seguimiento.</div>
                 </div>
               </div>
             </div>
