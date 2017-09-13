@@ -1,4 +1,4 @@
-<html lang="en-US" class="csstransforms csstransforms3d csstransitions gallery_fullscreen wf-dosis-n2-active wf-dosis-n3-active wf-dosis-n4-active wf-dosis-n5-active wf-dosis-n6-active wf-dosis-n7-active wf-dosis-n8-active wf-active">
+﻿<html lang="en-US" class="csstransforms csstransforms3d csstransitions gallery_fullscreen wf-dosis-n2-active wf-dosis-n3-active wf-dosis-n4-active wf-dosis-n5-active wf-dosis-n6-active wf-dosis-n7-active wf-dosis-n8-active wf-active">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -13,12 +13,12 @@
     document.cookie = 'resolution=' + screen_width + ',' + devicePixelRatio + '; path=/';
   </script>
   <link type="text/css" media="all" href="<?php echo base_url(); ?>application/helpers/css/home.css" rel="stylesheet">
-  <title>Casos de Exito</title>
+  <title>Casos de Éxito</title>
   <link rel="dns-prefetch" href="//s.w.org">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <meta property="og:site_name" content="Casos de Exito">
+  <meta property="og:site_name" content="Casos de Éxito">
   <meta property="og:url" content="<?php echo base_url(); ?>Radical/exitos">
-  <meta property="og:title" content="Casos de Exito">
+  <meta property="og:title" content="Casos de Éxito">
   <meta property="og:type" content="website">
   <meta property="og:image" content="">
   <script type="text/javascript">
@@ -45,7 +45,7 @@
                 <a href="<?php echo base_url(); ?>">Soluciones</a>
               </li>
               <li id="menu-item-4002" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item menu-item-4002">
-                <a href="<?php echo base_url(); ?>Radical/exitos">Casos de exito</a>
+                <a href="<?php echo base_url(); ?>Radical/exitos">Casos de éxito</a>
               </li>
               <li id="menu-item-3717" class="menu-item menu-item-type-custom menu-item-object-custom menu-item menu-item-3717">
                 <a href="<?php echo base_url(); ?>Radical/nosotros">Nosotros</a>
@@ -67,7 +67,7 @@
      <div class="header_wrap mobile">
       <div class="header_mobile_wrap">
         <div class="cstheme-logo">
-          <a class="logo" href="http://macphoto.evatheme.com/demo/">
+          <a class="logo" href="<?php echo base_url(); ?>">
             <img class="logo-img" src="<?php echo base_url(); ?>application/helpers/images/carousel/LOGO-BLANCO.png" style="width: 80%" alt="RFID">
           </a>
         </div>
@@ -89,7 +89,7 @@
             <a href="<?php echo base_url(); ?>">Soluciones</a>
           </li>
           <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item menu-item-4002">
-            <a href="<?php echo base_url(); ?>Radical/exitos">Casos de exito</a>
+            <a href="<?php echo base_url(); ?>Radical/exitos">Casos de éxito</a>
           </li>
           <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item menu-item-3717">
             <a href="<?php echo base_url(); ?>Radical/nosotros">Nosotros</a>
@@ -191,7 +191,7 @@
               <div class="post_descr_wrap">
                 <div class="post_meta">
                   <span class="post_meta_author">
-                    Se colocaron portales ocultos y se instalaron pantallas que mostraban las fotos de las dos personas que se apoximaban a la entrada. <br>
+                    Se colocaron portales ocultos y se instalaron pantallas que mostraban las fotos de las dos personas que se aproximaban a la entrada. <br>
                     Validación con lectores rfid para verificar si el participante está inscrito para participar en la sala que se presenta.
                   </span>
                 </div>
@@ -248,7 +248,7 @@
                   <span class="post_meta_author">
                     Se colocó una red de sensores en un radio de 30kms en el parque nacional del manu. <br>
                     Se habilitaron sensores para medir 30 variables ambientales y tener los datos en una plataforma online. <br>
-                    Todo el equipamiento funciona con energia solar.
+                    Todo el equipamiento funciona con energía solar.
                   </span>
                 </div>
               </div>
@@ -266,9 +266,9 @@
                 <div class="post_meta">
                   <span class="post_meta_author">
                     Sistema de recaudo electrónico, pagos sin efectivo. Le permitirá realizar pagos de peaje de manera automática freeflow. <br>
-                    Implementación de cámara LPR con antenas RFID para desarrollar una plataforma de control de transito de vehículos. <br>
-                    Vincula la placa física con la tercera placa(tag RFID) para un control exacto de identificación del vehículo. <br>
-                    Se conoce el numero de vehículos que transitan al día.
+                    Implementación de cámara LPR con antenas RFID para desarrollar una plataforma de control de tránsito de vehículos. <br>
+                    Vincula la placa física con la tercera placa (tag RFID) para un control exacto de identificación del vehículo. <br>
+                    Se conoce el número de vehículos que transitan al día.
                   </span>
                 </div>
               </div>

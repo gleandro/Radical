@@ -45,7 +45,7 @@
                 <a href="<?php echo base_url(); ?>">Soluciones</a>
               </li>
               <li id="menu-item-3718" class="menu-item menu-item-type-custom menu-item-object-custom menu-item menu-item-3718">
-                <a href="<?php echo base_url(); ?>Radical/exitos">Casos de exito</a>
+                <a href="<?php echo base_url(); ?>Radical/exitos">Casos de éxito</a>
               </li>
               <li id="menu-item-3717" class="menu-item menu-item-type-custom menu-item-object-custom menu-item menu-item-3717">
                 <a href="<?php echo base_url(); ?>Radical/nosotros">Nosotros</a>
@@ -67,7 +67,7 @@
      <div class="header_wrap mobile">
       <div class="header_mobile_wrap">
         <div class="cstheme-logo">
-          <a class="logo" href="http://macphoto.evatheme.com/demo/">
+          <a class="logo" href="<?php echo base_url(); ?>">
             <img class="logo-img" src="<?php echo base_url(); ?>application/helpers/images/carousel/LOGO-BLANCO.png" style="width: 80%" alt="RFID">
           </a>
         </div>
@@ -89,7 +89,7 @@
             <a href="<?php echo base_url(); ?>">Soluciones</a>
           </li>
           <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has menu-item-3718">
-            <a href="<?php echo base_url(); ?>Radical/exitos">Casos de exito</a>
+            <a href="<?php echo base_url(); ?>Radical/exitos">Casos de éxito</a>
           </li>
           <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item menu-item-3717">
             <a href="<?php echo base_url(); ?>Radical/nosotros">Nosotros</a>

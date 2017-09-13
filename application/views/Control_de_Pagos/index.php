@@ -45,7 +45,7 @@
                 <a href="<?php echo base_url(); ?>">Soluciones</a>
               </li>
               <li id="menu-item-3718" class="menu-item menu-item-type-custom menu-item-object-custom menu-item menu-item-3718">
-                <a href="<?php echo base_url(); ?>Radical/exitos">Casos de exito</a>
+                <a href="<?php echo base_url(); ?>Radical/exitos">Casos de éxito</a>
               </li>
               <li id="menu-item-3717" class="menu-item menu-item-type-custom menu-item-object-custom menu-item menu-item-3717">
                 <a href="<?php echo base_url(); ?>Radical/nosotros">Nosotros</a>
@@ -67,7 +67,7 @@
       <div class="header_wrap mobile">
         <div class="header_mobile_wrap">
           <div class="cstheme-logo">
-            <a class="logo" href="http://macphoto.evatheme.com/demo/">
+            <a class="logo" href="<?php echo base_url(); ?>">
               <img class="logo-img" src="<?php echo base_url(); ?>application/helpers/images/carousel/LOGO-BLANCO.png" style="width: 80%" alt="RFID">
             </a>
           </div>
@@ -89,7 +89,7 @@
                 <a href="<?php echo base_url(); ?>">Soluciones</a>
               </li>
               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has menu-item-3718">
-                <a href="<?php echo base_url(); ?>Radical/exitos">Casos de exito</a>
+                <a href="<?php echo base_url(); ?>Radical/exitos">Casos de éxito</a>
               </li>
               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item menu-item-3717">
                 <a href="<?php echo base_url(); ?>Radical/nosotros">Nosotros</a>
@@ -166,7 +166,7 @@
           <div class="cs-element cstheme-team col-md-3" style="margin-bottom:60px;">
             <div class="cstheme_member_wrapper">
               <div class="member-image">
-                <img src="<?php echo base_url();?>application/helpers/images/pagos/1.jpg" alt="Anna Balashova">
+                <img src="<?php echo base_url(); ?>application/helpers/images/pagos/1.jpg" alt="Anna Balashova">
               </div>
               <div class="cstheme_member_descr">
                 <div class="member-title" style ="width:100%">
@@ -179,7 +179,7 @@
           <div class="cs-element cstheme-team col-md-3" style="margin-bottom:60px;">
             <div class="cstheme_member_wrapper">
               <div class="member-image">
-                <img src="<?php echo base_url();?>application/helpers/images/pagos/2.jpg" alt="Anna Balashova">
+                <img src="<?php echo base_url(); ?>application/helpers/images/pagos/2.jpg" alt="Anna Balashova">
               </div>
               <div class="cstheme_member_descr">
                 <div class="member-title" style ="width:100%">
@@ -192,7 +192,7 @@
           <div class="cs-element cstheme-team col-md-3" style="margin-bottom:60px;">
             <div class="cstheme_member_wrapper">
               <div class="member-image">
-                <img src="<?php echo base_url();?>application/helpers/images/pagos/3.jpg" alt="Anna Balashova">
+                <img src="<?php echo base_url(); ?>application/helpers/images/pagos/3.jpg" alt="Anna Balashova">
               </div>
               <div class="cstheme_member_descr">
                 <div class="member-title" style ="width:100%">
@@ -205,7 +205,7 @@
           <div class="cs-element cstheme-team col-md-3" style="margin-bottom:60px;">
             <div class="cstheme_member_wrapper">
               <div class="member-image">
-                <img src="<?php echo base_url();?>application/helpers/images/pagos/4.jpg" alt="Anna Balashova">
+                <img src="<?php echo base_url(); ?>application/helpers/images/pagos/4.jpg" alt="Anna Balashova">
               </div>
               <div class="cstheme_member_descr">
                 <div class="member-title" style ="width:100%">
